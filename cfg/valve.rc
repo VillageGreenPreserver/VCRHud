@@ -1,0 +1,28 @@
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level
+startupmenu
+
+sv_unlockedchapters 99
+
+exec credits.cfg
+
+alias scope_fix "voice_menu_1; slot10"
+
+//removes annoying console spam
+alias dimmer_clicked ""
+alias cancel ""
+alias back ""

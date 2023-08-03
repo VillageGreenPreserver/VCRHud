@@ -1,0 +1,135 @@
+"Resource/UI/HudObjectiveKothTimePanel.res"
+{	
+	"HudKothTimeStatus"
+	{
+	}
+
+	"BlueTimer"
+	{
+		"ControlName"		"CTFHudTimeStatus"
+		"fieldName"			"BlueTimer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"6"
+		"wide"				"o1"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"70"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"VCR18"
+		"proportionaltoparent"		"1"
+		"bgcolor_override"	"0 255 0 0"
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"VCR13-NA"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"3"
+			"wide"			"f0"
+			"tall"			"p0.25"
+			"visible"		"1"
+			"enabled"		"0"
+			"textAlignment"		"center"
+			"proportionaltoparent"		"1"
+			"labelText"		"0:00"
+			"bgcolor_override"	"0 0 0 0"
+			"disabledfgcolor2_override"	"VCR_Blue"
+		}
+	}
+
+	"RedTimer"
+	{
+		"ControlName"		"CTFHudTimeStatus"
+		"fieldName"			"RedTimer"
+		"xpos"				"rs1"
+		"ypos"				"rs1"
+		"zpos"				"6"
+		"wide"				"o1"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"0"
+		"delta_item_end_y"		"0"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"VCR18"
+		"proportionaltoparent"		"1"
+		"bgcolor_override"	"255 0 255 0"
+		
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"VCR13-NA"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"3"
+			"wide"			"f0"
+			"tall"			"p0.25"
+			"visible"		"1"
+			"enabled"		"0"
+			"textAlignment"		"center"
+			"proportionaltoparent"		"1"
+			"labelText"		"0:00"
+			"bgcolor_override"	"100 0 0 0"
+			"disabledfgcolor2_override"	"VCR_Blue"
+		}
+	}
+	
+	"ActiveTimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ActiveTimerBG"
+		"xpos"				"0"
+		"ypos"				"rs1"
+		"zpos"				"3"
+		"wide"				"o4"
+		"tall"				"p0.25"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				""	
+		"scaleImage"		"1"
+		"proportionaltoparent"		"1"
+		"border"			"noborder"		
+		"fillcolor"			"200 200 220 255"		
+	}
+	
+	"RedBG"
+	{
+		"ControlName"		"Panel"
+		"xpos"				"rs1"
+		"ypos"				"rs1"
+		"zpos"				"2"
+		"wide"				"o4"
+		"tall"				"p0.25"
+		"visible"			"1"
+		"enabled"			"1"
+		"proportionaltoparent"		"1"
+		"bgcolor_override"			"220 0 0 255"		
+	}
+	
+	"BlueBG"
+	{
+		"ControlName"		"Panel"
+		"xpos"				"0"
+		"ypos"				"rs1"
+		"zpos"				"2"
+		"wide"				"o4"
+		"tall"				"p0.25"
+		"visible"			"1"
+		"enabled"			"1"
+		"proportionaltoparent"		"1"
+		"bgcolor_override"			"0 220 220 255"		
+	}
+}

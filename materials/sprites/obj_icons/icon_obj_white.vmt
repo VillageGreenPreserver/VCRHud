@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails\hud/null"
+	"$translucent" "1"
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails\obj_icons/cp/capture_icon"
+	"$translucent" "1"
+}
