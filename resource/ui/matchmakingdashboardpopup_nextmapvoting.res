@@ -8,14 +8,14 @@
 		"ypos"			"0"
 		"zpos"			"9999"
 		"wide"			"260"
-		"tall"			"80"
+		"tall"			"84"
 		"visible"		"1"
 		"proportionaltoparent"	"0"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"80"
+		"expanded_height"	"84"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"

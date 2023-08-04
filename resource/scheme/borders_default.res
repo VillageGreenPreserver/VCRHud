@@ -334,13 +334,12 @@ Scheme
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"image"					"replay/thumbnails/econ/item_popup"
 			
-			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"2"				// pixels inside the image
+			"src_corner_width"		"2"
+			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"1"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -602,13 +601,12 @@ Scheme
 		BackpackItemSelectedBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"image"					"replay/thumbnails/econ/item_hover"
 			
-			"image"					"backpack_rect_selected"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"src_corner_height"		"2"				// pixels inside the image
+			"src_corner_width"		"2"
+			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"1"	
 		}
 		BackpackItemGreyedOutBorder
 		{
@@ -1915,14 +1913,42 @@ Scheme
 		
 		NotificationDefault
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "200 200 220 255"
+					"offset" "0 1"
+				}
+			}
 
-			"image"					"alert_rect"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			Right
+			{
+				"1"
+				{
+					"color" "200 200 220 255"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "200 200 220 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "200 200 220 255"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		NotificationHighPriority

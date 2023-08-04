@@ -452,7 +452,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"ocra"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -580,8 +580,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"VCR OSD Mono"
-				"tall"		"11"
+				"name"		"ocra"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

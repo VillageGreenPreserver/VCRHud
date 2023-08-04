@@ -13,7 +13,7 @@ Scheme
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"TFOrange"			"0 0 160 255"
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
@@ -57,7 +57,7 @@ Scheme
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
+		"HudOffWhite"		"200 200 220 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
@@ -88,7 +88,7 @@ Scheme
 		
 		"TanDark"				"100 100 110 255"
 		"TanLight"				"200 200 220 255"
-		"TanDarker"				"46 43 42 255"
+		"TanDarker"				"100 100 110 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
