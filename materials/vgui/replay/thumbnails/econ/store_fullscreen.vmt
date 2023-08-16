@@ -1,0 +1,8 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/econ/store_fullscreen"
+	"$translucent" 1
+	"$vertexalpha"	"1"
+	"$vertexcolor"	"1"
+}
+

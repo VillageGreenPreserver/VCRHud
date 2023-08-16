@@ -69,9 +69,9 @@
 		"wide"	"o2"
 		"tall"	"p0.1"
 		
-		"blue_active_xpos"			"0"
+		"blue_active_xpos"			"48"
 	
-		"red_active_xpos"			"48"
+		"red_active_xpos"			"0"
 	}	
 
 	HudItemEffectMeter
@@ -523,7 +523,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"VCR10-NA"
+		"TextFont"		"ocra10-NA"
 		
 		"TeamBlue"		"0 220 220 255"
 		"TeamRed"		"220 0 0 255"

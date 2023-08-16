@@ -51,6 +51,46 @@
 		
 		
 	}
+	
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"c-300"
+		"ypos"			"rs1-20"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"150"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_model"	"0"
+		"show_type"		"1"
+		"show_name"		"0"
+	}
+	
+	"RankPanel6v6"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel6v6"
+		"xpos"			"c10"
+		"ypos"			"rs1-20"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"150"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Ladder_6v6"
+
+		"show_model"	"0"
+		"show_type"		"1"
+		"show_name"		"0"
+	}
 
 	"PlayListDropShadow"
 	{

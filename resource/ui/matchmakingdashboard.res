@@ -442,7 +442,7 @@
 				"paintbackground"				"1"
 				"roundedcorners"				"0"
 				"border_default"				"VCR_WhiteLineBorder"
-				"defaultFgColor_override"		"VCR_White"
+				"defaultFgColor_override"		"200 200 220 255"
 				"armedFgColor_override"			"VCR_Blue"
 				"depressedFgColor_override"		"VCR_Blue"
 				"defaultbgColor_override"		"VCR_Blue"

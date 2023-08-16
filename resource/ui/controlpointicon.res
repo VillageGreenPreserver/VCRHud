@@ -48,7 +48,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"VCR10-NA"
+		"font"			"ocra12-NA"
 		"xpos"			"c0"
 		"ypos"			"0"
 		"zpos"			"4"

@@ -23,7 +23,7 @@
 		"zpos"					"2"
 		"wide"					"o1"
 		"tall"					"20"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"drawcolor"				"200 200 220 255"
 		"image"					"replay/thumbnails/hud/xhairc"
