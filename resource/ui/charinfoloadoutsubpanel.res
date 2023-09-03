@@ -523,7 +523,7 @@
 			"textAlignment"	"west"
 			"Command"		"paintkit_preview"
 			"proportionaltoparent"	"1"
-			"labeltext"		"&W.Warpaints"
+			"labeltext"		"&W.War_paints"
 			"textinsety"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
@@ -1203,10 +1203,10 @@
 		"ypos"			"0"
 		"zpos"			"2000"
 		"wide"			"f0"
-		"tall"			"f100"
+		"tall"			"480"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 

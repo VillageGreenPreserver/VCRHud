@@ -291,7 +291,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"VCR18"
+		"delta_item_font"		"Ocra18"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"	"0 255 0 0"
 		
@@ -299,7 +299,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"VCR18"
+			"font"			"ocra18"
 			"fgcolor"		"200 200 200 255"
 			"xpos"			"0"
 			"ypos"			"rs1"
@@ -416,7 +416,6 @@
 				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "80 80 80 255"
@@ -436,7 +435,6 @@
 				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"

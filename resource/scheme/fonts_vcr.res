@@ -266,6 +266,17 @@
 				"additive"		"1"
 			}
 		}
+		"VCR26-S"
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"26"
+				"weight"		"501"
+				"additive"		"1"
+				"scanlines"		"1"
+			}
+		}
 		"VCR28"
 		{
 			"1"

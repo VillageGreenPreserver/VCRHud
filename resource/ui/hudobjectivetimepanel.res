@@ -51,10 +51,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
 		"zpos"			"1"
-		"wide"			"f0"
+		"wide"			"f4"
 		"tall"			"p0.5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -66,7 +66,7 @@
 		"wrap"			"0"
 		"fgcolor_override"			"VCR_White"
 		"bgcolor_override"			"VCR_Blue"
-		"font"			"VCR8"
+		"font"			"ocra8"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -90,10 +90,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
 		"zpos"			"1"
-		"wide"			"f0"
+		"wide"			"f4"
 		"tall"			"p0.5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -105,7 +105,7 @@
 		"wrap"			"0"
 		"fgcolor_override"			"VCR_White"
 		"bgcolor_override"			"VCR_Blue"
-		"font"			"VCR8"
+		"font"			"ocra8"
 	}			
 	"OvertimeBG"
 	{
@@ -129,10 +129,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
 		"zpos"			"1"
-		"wide"			"f0"
+		"wide"			"f4"
 		"tall"			"p0.5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -144,7 +144,7 @@
 		"wrap"			"0"
 		"fgcolor_override"			"VCR_White"
 		"bgcolor_override"			"VCR_Blue"
-		"font"			"VCR8"
+		"font"			"ocra8"
 	}					
 	"SuddenDeathBG"
 	{
@@ -168,10 +168,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
 		"zpos"			"1"
-		"wide"			"f0"
+		"wide"			"f4"
 		"tall"			"p0.5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -183,7 +183,7 @@
 		"wrap"			"0"
 		"fgcolor_override"			"VCR_White"
 		"bgcolor_override"			"VCR_Blue"
-		"font"			"VCR8"
+		"font"			"ocra8"
 	}
 	"SetupBG"
 	{
@@ -221,7 +221,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"fgcolor_override"			"VCR_White"
-		"font"			"VCR8"
+		"font"			"ocra8"
 	}
 	"ServerTimeLimitLabelBG"
 	{

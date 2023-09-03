@@ -17,8 +17,8 @@
 		"settitlebarvisible"				"0"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"0 0 0 255"
-		"infocus_bgcolor_override"			"46 43 42 255"
-		"outoffocus_bgcolor_override"		"46 43 42 255"
+		"infocus_bgcolor_override"			"0 0 0 255"
+		"outoffocus_bgcolor_override"		"0 0 0 255"
 		"modelpanels_spacing"				"9999"
 		"modelpanels_width"					"600"
 		"modelpanels_height"				"260"
@@ -45,6 +45,16 @@
 				"inventory_image_type"		"1"
 			}
 		}
+	}
+	"VCR_BG2"
+	{
+		"ControlName"			"Panel"
+		"xpos"					"cs-0.5"
+		"wide"					"640"
+		"tall"					"480"
+		"zpos"					"-200"
+		"bgcolor_override"		"0 0 0 255"
+		"visible"				"1"
 	}
 	"VCR_BG"
 	{

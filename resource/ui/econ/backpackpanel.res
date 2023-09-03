@@ -77,24 +77,25 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
-				"textAlignment"	"east"
+				"font"			"ocra10-NA"
+				"textAlignment"	"center"
 				"ypos"			"0"
 				"xpos"			"0"
 				"zpos"			"0"
 				"wide"			"f1"
 				"tall"			"f-3"
-				"textinsetx"	"8"
+				"textinsetx"	"0"
 				"autoResize"	"1"
 				"pinCorner"		"0"	
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
 				"mouseinputenabled" "0"
-				"paintbackground"	"0"
+				"paintbackground"	"1"
 				"proportionaltoparent"	"1"
-				"border"		"StoreNewBorder"
+				"border"		"noborder"
 				"fgcolor"		"10 10 10 255"
+				"bgcolor_override"		"255 217 0 255"
 			}
 		}
 			
@@ -133,14 +134,14 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
-				"textAlignment"	"east"
+				"font"			"ocra10-NA"
+				"textAlignment"	"center"
 				"xpos"			"rs1"
 				"ypos"			"0"
 				"zpos"			"15"
-				"wide"			"25"
+				"wide"			"30"
 				"tall"			"12"
-				"textinsetx"	"8"
+				"textinsetx"	"0"
 				"autoResize"	"0"
 				"skip_autoresize"	"1"
 				"pinCorner"		"0"	
@@ -148,10 +149,11 @@
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
 				"mouseinputenabled" "0"
-				"paintbackground"	"0"
+				"paintbackground"	"1"
 				"proportionaltoparent"	"1"
-				"border"		"StoreNewBorder"
+				"border"		"noborder"
 				"fgcolor"		"10 10 10 255"
+				"bgcolor_override"		"255 217 0 255"
 			}
 			
 			"use_item_sounds"	"1"
@@ -251,7 +253,7 @@
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
-		"font"			"VCR28"
+		"font"			"VCR28-NA"
 		"labelText"		"Backpack"
 		"textAlignment"	"west"
 		"xpos"			"0"
@@ -270,7 +272,7 @@
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
 
-		"FgColor_override"	"200 200 200 255"
+		"FgColor_override"	"200 200 220 255"
 		"bgColor_override"	"0 100 0 0"
 	}
 	

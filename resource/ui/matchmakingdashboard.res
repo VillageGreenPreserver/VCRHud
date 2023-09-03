@@ -9,10 +9,10 @@
 		"ypos"						"0"
 		"zpos"						"-3"
 		"wide"						"f0"
-		"tall"						"380"
+		"tall"						"404"
 		"keyboardinputenabled"		"0"
 		"collapsed_height"			"0"
-		"expanded_height"			"380"
+		"expanded_height"			"404"
 		"resize_time"				"0.0"
 	}
 	"TopBar"
@@ -20,7 +20,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"TopBar"
 		"xpos"						"cs-0.5"
-		"ypos"						"250"
+		"ypos"						"rs1"
 		"zpos"						"1"
 		"wide"						"f0"
 		"tall"						"50"
@@ -349,15 +349,15 @@
 				{
 					"0"
 					{
-						"font"		"VCR12"	// TF2 Build 11
+						"font"		"ocra12"	// TF2 Build 11
 					}
 					"1"
 					{
-						"font"		"VCR10"	// TF2 Build 10
+						"font"		"ocra10"	// TF2 Build 10
 					}
 					"2"
 					{
-						"font"		"VCR8"	// TF2 Build 9
+						"font"		"ocra8"	// TF2 Build 9
 					}
 				}
 			}
@@ -428,8 +428,10 @@
 				"enabled"						"1"
 				"tabPosition"					"0"
 				"labeltext"						"X"
-				"font"							"VCR14-NA"
-				"textinsetx"					"10"
+				"font"							"ocra14-NA"
+				"textinsetx"					"6"
+				"textinsety"					"-1"
+				"use_proportional_insets"		"1"
 				"textAlignment"					"center"
 				"dulltext"						"0"
 				"brighttext"					"0"
@@ -516,7 +518,7 @@
 				"tall"						"20"
 				"visible"					"1"
 				"enabled"					"1"
-				"font"						"VCR12"
+				"font"						"ocra12"
 				"fgcolor_override"			"VCR_White"
 				"textAlignment"				"center"
 				"labelText"					"#TF_MM_JoinPartyLobby_Prompt"
@@ -540,7 +542,7 @@
 				"visible"						"1"
 				"enabled"						"1"
 				"tabPosition"					"0"
-				"font"							"VCR12-NA"
+				"font"							"ocra12-NA"
 				"textAlignment"					"center"
 				"dulltext"						"0"
 				"brighttext"					"0"
