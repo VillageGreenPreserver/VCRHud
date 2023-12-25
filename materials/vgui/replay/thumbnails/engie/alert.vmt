@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui/replay/thumbnails/engie/alert"
+	"$vertexcolor" 1
+	"$detail"		"vgui/replay/thumbnails/engie/alertmask"
+	"$detailblendmode"	"9"
+	"$detailscale"	"1"
+	"$separatedetailuvs"	"1"
+}
+

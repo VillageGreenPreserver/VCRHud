@@ -1723,20 +1723,20 @@
 
 		"obj_status_alert_background"
 		{
-			"file"		"HUD/eng_status_area_tele_alrt"
+			"file"		"vgui/replay/thumbnails/engie/alert"
 			"x"			"0"
 			"y"			"0"
-			"width"		"80"
-			"height"	"64"
+			"width"		"126"
+			"height"	"128"
 		}
 		
 		"obj_status_alert_background_tall"
 		{
-			"file"		"HUD/eng_status_area_sentry_alrt"
+			"file"		"vgui/replay/thumbnails/engie/alert"
 			"x"			"0"
 			"y"			"0"
-			"width"		"80"
-			"height"	"110"
+			"width"		"126"
+			"height"	"128"
 		}
 		
 		"obj_status_alert_background_tall_nocolor"

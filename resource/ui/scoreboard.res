@@ -990,7 +990,7 @@
 		"xpos_lodef"	"12"
 		"ypos"			"350"
 		"zpos"			"3"
-		"wide"			"92"
+		"wide"			"0"
 		"tall"			"92"
 		"visible"		"0"
 		"enabled"		"1"
