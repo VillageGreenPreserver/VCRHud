@@ -67,7 +67,6 @@
 		"fgcolor"		"0 0 200 255"
 		"proportionaltoparent" "1"
 	}
-	
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"

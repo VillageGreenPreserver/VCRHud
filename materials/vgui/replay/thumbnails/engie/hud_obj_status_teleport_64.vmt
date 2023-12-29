@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/engie\hud_obj_status_teleport_64"
+	"$vertexcolor" 1
+	"$translucent" 1
+}
+

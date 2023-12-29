@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/engie\hud_obj_status_sentry_1"
+	"$vertexcolor" 1
+	"$translucent" 1
+	"$additive" 1
+}
+

@@ -126,6 +126,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"100"
 		
+		
 		"border"		"VCR_WhiteLineBorder"
 	
 

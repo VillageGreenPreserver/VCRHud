@@ -164,12 +164,13 @@
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
-		"ypos"			"10"
+		"xpos"			"cs-1+300"
+		"ypos"			"41"
 		"zpos"			"10000"
 		"wide"			"190"
-		"tall"			"50"
+		"tall"			"22"
 		"visible"		"0"
 		"enabled"		"1"
+		"bgcolor_override"	"255 0 0 0"
 	}
 }
