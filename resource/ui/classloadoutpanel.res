@@ -63,6 +63,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"force_use_model"		"0"
 				"allow_rot"				"0"
 			}
 		}
@@ -352,7 +353,7 @@
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"spotlight" "0"
 		
 			"modelname"		""
 		}

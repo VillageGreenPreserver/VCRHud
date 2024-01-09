@@ -210,3 +210,19 @@ event MapVoted
     Animate    VotesLabel    fgcolor    "0 200 0 255"        Linear    0       0.2
     Animate    VotesLabel    fgcolor    "200 200 200 255"    Linear    0.2    0.2
 }
+
+
+//--------------------------------------------------------------------------
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+//--------------------------------------------------------------------------

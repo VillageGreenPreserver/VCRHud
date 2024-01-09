@@ -520,7 +520,7 @@
 		"LineHeight"	  "16"
 		"LineSpacing"	  "-1"
 		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"RightJustify"	  "0"	// If 1, draw notices from the right
 		
 		"TextFont"		"ocra10-NA"
 		

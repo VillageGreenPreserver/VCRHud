@@ -1026,6 +1026,24 @@
 		}
 	}
 
+	"Testing"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"c-170"
+		"ypos"			"115"
+	}
+	"TESTTESTTESTTESTTESTTEST"
+	{
+		"ControlName"		"CMapOverview"
+		"xpos"		"c0"
+		"ypos"		"c0"
+		"zpos"		"9999"
+		"wide"		"200"
+		"tall"		"200"
+		"visible"	"1"
+		"border"	"VCR_WhiteLineBorder"
+	}
+	
 	"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2172,6 +2190,16 @@
 	}
 
 	// command comes from GameMenu.res
+
+	"TEST"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"100"
+		"tall"			"100"
+		"scaleImage"	"1"
+		"image"			"tester5"
+	}
+
 
 	"ReportPlayerButton"
 	{

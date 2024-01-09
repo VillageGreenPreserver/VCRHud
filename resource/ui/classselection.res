@@ -51,7 +51,7 @@
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"select 12"
-		"Default"			"1"
+		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -1159,14 +1159,6 @@
 		"scaleImage"	"1"	
 	}
 	
-	"TEST"
-	{
-		"ControlName"	"CTFTextToolTip"
-		"tall"			"100"
-		"wide"			"100"
-		"bgcolor_override"	"0 0 0 200"
-	}
-	
 	
 	"CountLabel" [$WIN32]
 	{
@@ -1755,7 +1747,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"default"		"1"
+			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"

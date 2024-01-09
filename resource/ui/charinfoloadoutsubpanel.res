@@ -117,6 +117,7 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
+
 	
 	"VCR_List"
 	{
