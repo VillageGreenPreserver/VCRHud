@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/engie\zap"
+	"$vertexcolor" 1
+	"$translucent" 1
+
+	"$basetexturetransform"	"center .5 .5 scale 1 1 rotate -20 translate 0 0"
+
+	"Proxies"
+	{
+		"AnimatedOffsetTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "16"
+		}
+	}
+}

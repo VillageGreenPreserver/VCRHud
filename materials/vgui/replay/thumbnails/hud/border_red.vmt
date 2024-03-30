@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/econ/item_border_color"
+	"$vertexalpha" 1
+	"$translucent" 1
+	"$additive" 0
+	"$color"	"{200 0 0}"
+}

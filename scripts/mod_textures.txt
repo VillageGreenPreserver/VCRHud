@@ -1726,9 +1726,10 @@
 			"file"		"vgui/replay/thumbnails/engie/alert"
 			"x"			"0"
 			"y"			"0"
-			"width"		"128"
+			"width"		"256"
 			"height"	"64"
 		}
+
 		
 		"obj_status_alert_background_tall"
 		{
@@ -1759,11 +1760,20 @@
 			
 		"obj_status_icon_sapper"
 		{
-			"file"		"HUD/hud_obj_status_sapper"
+			"file"		"vgui/replay/thumbnails/engie/zap"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"256"
+			"height"	"256"
+		}
+			
+		"obj_status_icon_sapper2"
+		{
+			"file"		"vgui/replay/thumbnails/engie/zap2"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"256"
 		}
 		"progress_bar_blu"
 		{
@@ -1811,20 +1821,20 @@
 		
 		"leaderboard_streak"
 		{
-			"file"		"hud/leaderboard_streak"
-			"negfile"	"HUD/dneg_leaderboard_streak"
+			"file"		"vgui/replay/thumbnails/hud/leaderboard_streak"
+			"negfile"	"vgui/replay/thumbnails/hud/leaderboard_streak"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
+			"width"		"128"
 			"height"	"64"
 		}	
 		
 		"leaderboard_streak_dneg"
 		{
-			"file"		"hud/dneg_leaderboard_streak"
+			"file"		"vgui/replay/thumbnails/hud/leaderboard_streak"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
+			"width"		"128"
 			"height"	"64"
 		}	
 		

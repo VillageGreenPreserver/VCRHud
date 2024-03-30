@@ -10,7 +10,7 @@
 		"proportionaltoparent"	"1"
 
 		"collapsed_height"	"18"
-		"resize_time"	"0.0"
+		"resize_time"	"0.25"
 	
 	}
 

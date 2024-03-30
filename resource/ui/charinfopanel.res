@@ -78,6 +78,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
+		"zpos"			"1005"
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
@@ -104,7 +105,7 @@
 		{
 			"textinsetx"		"0"
 			"font"				"VCR28-NA"
-			"tall"				"0"
+			"tall"				"10"
 			"roundedcorners"	"0"
 			"selectedcolor"		"200 200 220 255"
 			"unselectedcolor"	"200 200 220 255"	
@@ -136,7 +137,7 @@
 		"fieldName"		"BackButton"
 		"xpos"			"r0"
 		"ypos"			"41"
-		"zpos"			"0"
+		"zpos"			"1006"
 		"wide"			"100"
 		"tall"			"22"
 		"auto_wide_tocontents"	"1"

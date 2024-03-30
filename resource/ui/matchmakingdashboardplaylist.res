@@ -7,11 +7,14 @@
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
 		"ypos"			"0"
-		"zpos"			"1001"
+		"zpos"			"2000"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"	"pinner"
+		"pin_corner_to_sibling"	"1"
 	}
 
 	"Title"

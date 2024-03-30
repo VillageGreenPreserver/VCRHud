@@ -275,8 +275,15 @@
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
-	}	
+	}
 	
+	"pinner"
+	{
+	"ControlName"  "Panel"
+	"xpos"  "0"
+	"ypos"  "0"
+	}
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -296,6 +303,8 @@
 		"paintbackground"			"1"
 		"paintborder"			"1"
 		"scaleImage"	"1"	
+
+		"pin_to_sibling"	"pinner"
 	}
 	
 }

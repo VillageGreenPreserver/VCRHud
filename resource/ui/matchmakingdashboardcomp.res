@@ -7,7 +7,7 @@
 		"fieldName"		"CompStats"
 		"xpos"			"r0"
 		"ypos"			"0"
-		"zpos"			"1002"
+		"zpos"			"2002"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"

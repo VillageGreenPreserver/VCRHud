@@ -55,7 +55,7 @@
 		
 		"if_red_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"p-0.025"
 		}
 	}
 }

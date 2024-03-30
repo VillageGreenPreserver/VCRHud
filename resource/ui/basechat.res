@@ -13,11 +13,11 @@
 		"PaintBackgroundType"	"1"
 		"paintbackground"	"0"
 		"paintborder"	"0"
-		"Texture1"		"vgui/tester4"
-		"Texture2"		"vgui/tester4"
-		"Texture3"		"vgui/tester4"
-		"Texture4"		"vgui/tester4"
-		"border"		"FrameBorder"
+		"Texture1"		"vgui/replay/thumbnails/blank"
+		"Texture2"		"vgui/replay/thumbnails/blank"
+		"Texture3"		"vgui/replay/thumbnails/blank"
+		"Texture4"		"vgui/replay/thumbnails/blank"
+		"border"		"VCRBorder"
 		"bgcolor_override"	"0 0 0 255"
 	}
 	

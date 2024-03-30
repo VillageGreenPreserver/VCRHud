@@ -45,7 +45,6 @@
 
 event LevelInit
 {
-	
 	Animate	HudScope		xpos		"-21"			Linear 0.125 0.075
 	Animate	HudScope		wide		"832"			Linear 0.125 0.075
 	

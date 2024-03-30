@@ -28,6 +28,27 @@
 		"fillcolor"		"255 222 208 255"
 		"visible"		"0"
 	}
+
+	"Title"
+	{
+		"ControlName"		"CExLabel"
+		"font"			"ocra6-NA"
+		"labelText"		"DESTROY_PDA"
+		"textAlignment"		"west"
+		"fgcolor_override"		"220 200 200 255"
+		"bgcolor_override"		"VCR_White_R"
+		"xpos"			"rs1-p0.05"
+		"ypos"			"r138"
+		"zpos"			"1"
+		"wide"			"92"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"proportionaltoparent" "1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
+	}	
 	
 	"DestroyIcon"	
 	{
@@ -117,9 +138,10 @@
 		"tall"			"p0.075"
 		"visible"		"1"
 		"bgcolor_override"	"255 0 0 0"
-		
-		"pin_To_sibling"	"active_item_2"
-		"pin_corner_to_sibling"	"2"
+
+
+		"pin_to_sibling"	"Title"
+		"pin_to_sibling_corner"	"2"
 	}	
 	
 	"active_item_2"
@@ -132,9 +154,8 @@
 		"wide"			"92"
 		"tall"			"p0.05"
 		"visible"		"1"
-		
-		"pin_To_sibling"	"active_item_3"
-		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling"	"active_item_1"
+		"pin_to_sibling_corner"	"2"
 	}	
 	
 	"active_item_3"
@@ -147,22 +168,24 @@
 		"wide"			"92"
 		"tall"			"p0.05"
 		"visible"		"1"
-		
-		"pin_To_sibling"	"active_item_4"
-		"pin_corner_to_sibling"	"2"
+
+		"pin_to_sibling"	"active_item_2"
+		"pin_to_sibling_corner"	"2"
 	}	
 	
 	"active_item_4"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_4"
-		"xpos"			"rs1-p0.05"
-		"ypos"			"rs1-p0.05"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"92"
 		"tall"			"p0.05"
 		"visible"		"1"
 		"bgcolor_override"	"255 0 0 0"
+		"pin_to_sibling"	"active_item_3"
+		"pin_to_sibling_corner"	"2"
 	}
 	
 	"inactive_item_1"

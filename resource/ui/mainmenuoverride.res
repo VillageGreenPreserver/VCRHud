@@ -122,7 +122,6 @@
 			}
 		}
 	}	
-
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -163,6 +162,12 @@
 			"centerwrap"	"1"
 		}
 	}
+
+	"pinner"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"r0"
+	}
 	
 	"VCR_BG"
 	{
@@ -170,7 +175,7 @@
 		"xpos"			"cs-0.5"
 		"wide"			"640"
 		"tall"			"480"
-		"zpos"			"-199"
+		"zpos"			"1002"
 		"bgcolor_override"		"VCR_Blue"
 		"visible"		"1"
 	}
@@ -180,7 +185,7 @@
 		"ControlName"	"Panel"
 		"wide"			"f0"
 		"tall"			"480"
-		"zpos"			"-200"
+		"zpos"			"1001"
 		"bgcolor_override"		"0 0 0 255"
 		"visible"		"1"
 	}
@@ -204,7 +209,7 @@
 		"ControlName"			"CExButton"
 		"xpos"					"0"
 		"ypos"					"1"
-		"zpos"					"2"
+		"zpos"					"1005"
 		"wide"					"450"
 		"tall"					"41"
 		"textalignment"			"center"
@@ -240,7 +245,7 @@
 		"ControlName"			"Label"
 		"xpos"					"cs-0.5"
 		"ypos"					"32"
-		"zpos"					"1"
+		"zpos"					"1003"
 		"wide"					"f0"
 		"tall"					"40"
 		"textalignment"			"center"
@@ -257,7 +262,7 @@
 		"ControlName"			"Label"
 		"xpos"					"1"
 		"ypos"					"1"
-		"zpos"					"0"
+		"zpos"					"1003"
 		"wide"					"f0"
 		"tall"					"40"
 		"textalignment"			"center"
@@ -276,7 +281,7 @@
 		"ControlName"			"Label"
 		"xpos"					"-1"
 		"ypos"					"1"
-		"zpos"					"0"
+		"zpos"					"1003"
 		"wide"					"f0"
 		"tall"					"40"
 		"textalignment"			"center"
@@ -295,7 +300,7 @@
 		"ControlName"			"CExLabel"
 		"xpos"					"cs-0.5"
 		"ypos"					"100"
-		"zpos"					"-199"
+		"zpos"					"1003"
 		"wide"					"600"
 		"tall"					"22"
 		"visible"				"1"
@@ -320,7 +325,7 @@
 		"ControlName"	"CExButton"
 		"xpos"			"0"
 		"ypos"			"10"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"600"
 		"tall"			"22"
 		"visible"		"1"
@@ -354,7 +359,7 @@
 		"ControlName"	"CExButton"
 		"xpos"			"0"
 		"ypos"			"10"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"600"
 		"tall"			"22"
 		"visible"		"1"
@@ -386,9 +391,9 @@
 	"VCR_MoreButton"
 	{
 		"ControlName"	"CExButton"
-		"xpos"			"0"
+		"xpos"			"r0"
 		"ypos"			"10"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"600"
 		"tall"			"22"
 		"visible"		"1"
@@ -417,18 +422,99 @@
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}
+
+	"VCR_MoreButton2"
+	{
+		"ControlName"	"CMatchHistoryEntryPanel"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"1005"
+		"wide"			"600"
+		"tall"			"180"
+		"visible"		"1"
+		"proportionaltoparent"    "1"
+
+		"collapsed_height"    "22"
+		"expanded_height"    "180"
+		"resize_time"		"0.2"
+
+		"autoResize"	"3"
+
+		"ignorescheme"    "1"
+		
+		"pin_to_sibling"	"VCR_LoadoutButton"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
+
+		"container"
+		{
+			"visible"    "0"
+			"tall"        "0"
+			"xpos"        "r0"
+		}
+		"BottomStats"
+		{
+			"visible"    "0"
+			"tall"        "0"
+			"xpos"        "r0"
+		}
+
+		"toggle"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1005"
+			"wide"			"600"
+			"tall"			"22"
+			"visible"		"1"
+			"font"			"VCR28-NA"
+			"textAlignment"	"west"
+			"Command"		"toggle_collapse"
+			"proportionaltoparent"	"1"
+			"labeltext"		"MORE"
+			"textinsety"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets"	"1"
+			"paintbackgroundtype"	"0"
+			"roundedcorners"	"0"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	""
+			"sound_armed"		"UI/buttonrollover.wav"
+
+			"armedBgColor_override"		"200 200 220 255"
+			"defaultBgColor_override"	"blank"
+
+			"defaultFgColor_override" "200 200 220 255"
+			"armedFgColor_override" "VCR_Blue"
+		}
+
+		"Contents"
+		{
+			"ControlName"	"EditablePanel"
+			"xpos"			"0"
+			"ypos"			"32"
+			"wide"			"f0"
+			"tall"			"f32"
+			"proportionaltoparent"	"1"
+			"autoResize"	"2"
+			"border"		"VCR_WhiteLineBorder"
+		}
+	}
+
 	"VCR_QuitButton"
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"10"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"600"
 		"tall"			"22"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		
-		"pin_to_sibling"	"VCR_MoreButton"
+		"pin_to_sibling"	"VCR_MoreButton2"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 		
@@ -469,13 +555,13 @@
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"10"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"600"
 		"tall"			"22"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		
-		"pin_to_sibling"	"VCR_MoreButton"
+		"pin_to_sibling"	"VCR_MoreButton2"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 		
@@ -512,12 +598,20 @@
 		}
 	}
 
+
+
+	"TEST"
+	{
+		"ControlName"	"CRotationSlider"
+		"zpos"			"0"
+	}
+
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"10"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"600"
 		"tall"			"22"
 		"visible"		"1"
@@ -564,7 +658,7 @@
 		"ControlName"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"10"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"600"
 		"tall"			"22"
 		"visible"		"1"
@@ -922,7 +1016,7 @@
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"cs-1+300"
 		"ypos"			"32"
-		"zpos"			"10"
+		"zpos"			"1005"
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"1"
@@ -1026,23 +1120,6 @@
 		}
 	}
 
-	"Testing"
-	{
-		"ControlName"	"Panel"
-		"xpos"			"c-170"
-		"ypos"			"115"
-	}
-	"TESTTESTTESTTESTTESTTEST"
-	{
-		"ControlName"		"CMapOverview"
-		"xpos"		"c0"
-		"ypos"		"c0"
-		"zpos"		"9999"
-		"wide"		"200"
-		"tall"		"200"
-		"visible"	"1"
-		"border"	"VCR_WhiteLineBorder"
-	}
 	
 	"WatchStreamButton"
 	{
@@ -1262,43 +1339,39 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
-		"zpos"			"10"
+		"xpos"			"cs-1+300"
+		"ypos"			"100"
+		"zpos"			"1006"
 		"wide"			"210"
 		"tall"			"80"
-		"visible"		"0"
+		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"Notifications_ShowButtonPanel"
-		"navRight"		"MOTD_ShowButtonPanel"
-		"navToRelay"	"Notifications_CloseButton"
+		"paintbackground"	"1"
+		"bgcolor_override"	"VCR_Blue"
+		"border"		"VCR_WhiteLineBorder"
 		
 		"Notifications_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
-			"xpos"			"186"
-			"ypos"			"8"
+			"xpos"			"rs1"
+			"ypos"			"0"
 			"zpos"			"10"
-			"wide"			"14"
+			"wide"			"o1"
 			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"ocra14-NA"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
 			"Command"		"noti_hide"
 			"navActivate"	"<QuickplayButton"
@@ -1306,11 +1379,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"paintbackground"	"1"
+
+			"border_default"				"VCR_WhiteLineBorder"
+			"defaultFgColor_override"		"200 200 220 255"
+			"armedFgColor_override"			"VCR_Blue"
+			"depressedFgColor_override"		"VCR_Blue"
+			"defaultbgColor_override"		"VCR_Blue"
+			"armedbgColor_override"			"200 200 220 255"
+			"depressedbgColor_override"		"VCR_White"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1323,7 +1400,7 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
@@ -1334,40 +1411,50 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"ocra14"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
-			"xpos"			"12"
-			"ypos"			"8"
-			"wide"			"250"
-			"tall"			"20"
+			"xpos"			"2"
+			"ypos"			"0"
+			"wide"			"210"
+			"tall"			"66"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"proportionaltoparent"	"1"
+			"fgcolor"		"200 200 200 255"
 			"wrap"			"1"
+			"mouseinputenabled"	"0"
 		}
 		
 		"Notifications_Scroller"
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"Notifications_Scroller"
-			"xpos"			"8"
-			"ypos"			"25"
-			"wide"			"210"
-			"tall"			"135"
+			"xpos"			"0"
+			"ypos"			"14"
+			"wide"			"f0"
+			"tall"			"f14"
+			"proportionaltoparent"	"1"
+			"visible"	"1"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"117 107 94 0"
 			
+			"ScrollBar"
+			{
+				"wide"	"14"
+			}
+
 			"Notifications_Control"
 			{
 				"ControlName"	"CMainMenuNotificationsControl"
 				"fieldName"		"Notifications_Control"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"220"
-				"tall"			"135"
+				"wide"			"196"
+				"tall"			"f0"
+				"proportionaltoparent"	"1"
 				"visible"		"1"
 			}
 		}
@@ -1600,7 +1687,7 @@
 		"zpos"			"-50"
 		"wide"			"270"
 		"tall"			"96"
-		"visible"		"1"
+		"visible"		"0"
 
 		"Background"
 		{
@@ -1638,23 +1725,23 @@
 				"fgcolor_override"	"235 227 203 255"
 			}
 
-//			"ViewDetailsGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewDetailsGlow"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
+			// "ViewDetailsGlow"
+			// {
+			// 	"ControlName"	"Panel"
+			// 	"fieldName"		"ViewDetailsGlow"
+			// 	"xpos"			"p0.02"
+			// 	"ypos"			"27"
+			// 	"zpos"			"100"
+			// 	"wide"			"p0.48"
+			// 	"tall"			"26"
+			// 	"visible"		"1"
+			// 	"proportionaltoparent"	"1"
+
+			// 	"paintborder"	"0"
+			// 	"border"	"MainMenuButtonGlow"
+			// 	"paintbackground"		"3"
+			// 	"bgcolor_override"	"238 103 17 255"
+			// }
 //
 //			"ViewDetailsButton"
 //			{
@@ -2191,15 +2278,6 @@
 
 	// command comes from GameMenu.res
 
-	"TEST"
-	{
-		"ControlName"	"ImagePanel"
-		"wide"			"100"
-		"tall"			"100"
-		"scaleImage"	"1"
-		"image"			"tester5"
-	}
-
 
 	"ReportPlayerButton"
 	{
@@ -2350,7 +2428,8 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}			
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"

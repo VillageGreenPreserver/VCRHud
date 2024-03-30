@@ -6,7 +6,7 @@
 		"fieldName"		"Shade"
 		"xpos"			"3"
 		"ypos"			"0"
-		"zpos"			"1000"
+		"zpos"			"1002"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
@@ -133,12 +133,12 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
+		"xpos"			"r0"
 		"labelText"		"<"
 
 		if_left
 		{
-			"xpos"	"rs1-3"
+			"xpos"	"r0"
 			"labelText"		">"
 		}
 
@@ -172,21 +172,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"VCR_Blue"
-
-		"border"		"noborder"
-	}
-	
-	"BGPanelBlack"
-	{
-		"ControlName"	"EditablePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-11"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 255"
 
 		"border"		"noborder"
 	}

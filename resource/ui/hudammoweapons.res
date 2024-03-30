@@ -191,6 +191,23 @@
 		"proportionaltoparent"	"1"
 		"alpha"	"0"
 	}
+	"XHAIR_VALUE"
+	{
+		"ControlName"			"Label"
+		"xpos"					"c0-p0.025+20"
+		"ypos"					"c0-p0.025+10"
+		"zpos"					"2"
+		"wide"					"o1"
+		"tall"					"26"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor_override"				"200 200 220 255"
+		"labeltext"					"%ammo%"
+		"font"					"ocra12"
+		"textalignment"			"west"
+		"proportionaltoparent"	"1"
+		"alpha"	"100"
+	}
 	"XHAIR_RG"
 	{
 		"ControlName"			"CExLabel"
@@ -244,7 +261,7 @@
 	
 	"AmmoLabelR"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CAutoFittingLabel"
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -255,14 +272,20 @@
 		"labelText"		"AMMO"
 		"textAlignment"	"Center"	
 		"font"			"VCR14"
-		"fgcolor"		"200 0 0 255"
+		"fgcolor_override"		"200 0 0 255"
 		"bgcolor_override"		"blank"
 		"proportionaltoparent" "1"
+		
+		"fonts"
+		{
+			"0"		"VCR10"
+			"1"		"VCR8"
+		}
 	}
 	
 	"AmmoLabelG"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CAutoFittingLabel"
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"5"
@@ -273,15 +296,21 @@
 		"labelText"		"AMMO"
 		"textAlignment"	"Center"	
 		"font"			"VCR14"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor_override"		"0 200 0 255"
 		"proportionaltoparent" "1"
 		
 		"pin_to_sibling"	"AmmoLabelR"
+		
+		"fonts"
+		{
+			"0"		"VCR10"
+			"1"		"VCR8"
+		}
 	}
 	
 	"AmmoLabelB"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CAutoFittingLabel"
 		"xpos"			"-1"
 		"ypos"			"1"
 		"zpos"			"5"
@@ -292,10 +321,16 @@
 		"labelText"		"AMMO"
 		"textAlignment"	"Center"	
 		"font"			"VCR14"
-		"fgcolor"		"0 0 200 255"
+		"fgcolor_override"		"0 0 200 255"
 		"proportionaltoparent" "1"
 		
 		"pin_to_sibling"	"AmmoLabelR"
+		
+		"fonts"
+		{
+			"0"		"VCR10"
+			"1"		"VCR8"
+		}
 	}
 	
 	"AmmoBG"

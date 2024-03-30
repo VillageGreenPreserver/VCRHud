@@ -1,7 +1,19 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/engie\cross"
+	"$baseTexture" "vgui/replay/thumbnails/engie\crosss"
 	"$vertexcolor" 1
 	"$translucent" 1
+
+	"$basetexturetransform"	"center .5 .5 scale 1 1 rotate 0 translate 0 0"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"textureScrollVar" "$basetexturetransform"
+			"textureScrollRate" 0.05
+			"textureScrollAngle" -90
+		}
+	}
 }
 

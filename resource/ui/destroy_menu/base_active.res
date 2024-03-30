@@ -105,14 +105,27 @@
 		"brighttext"	"0"
 	}
 	
-	"Cross"
+	"CrossParent"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"scaleImage"	"1"
-		"image"			"replay/thumbnails/engie/cross"
-		"drawcolor"		"255 255 255 255"
+		
+		"Cross"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"o1"
+			"proportionaltoparent"	"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/engie/cross"
+			"drawcolor"		"VCR_White_R"
+			"rotation"		"0"
+		}
 	}
 }

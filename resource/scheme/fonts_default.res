@@ -511,7 +511,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"ocra"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -557,10 +557,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"ocra"
 				"tall"		"11"
 				"weight"	"500"
-				"additive"	"0"
+				"additive"	"1"
 				"antialias" 	"1"
 			}
 		}
@@ -1126,7 +1126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"ocra"
 				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
@@ -1137,7 +1137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"ocra"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"

@@ -10,6 +10,15 @@ event MenuOpen
     Animate      HudMenu      TextScan          1            Linear    0.0    0.1
     // Undo any blur
     Animate      HudMenu      Blur              1            Linear    0.0    0.01
+
+    Animate      HudScope     xpos              -21          Linear    0.0    1.0
+    Animate      HudScope     wide              832          Linear    0.0    1.0
+    Animate      HudScope     ypos              -12          Linear    0.0    1.0
+    Animate      HudScope     tall              468          Linear    0.0    1.0
+}
+
+event LevelInit
+{
     Animate      HudScope     xpos              -21          Linear    0.0    0.0
     Animate      HudScope     wide              832          Linear    0.0    0.0
     Animate      HudScope     ypos              -12          Linear    0.0    0.0
@@ -85,25 +94,30 @@ event HudHealthDyingPulse
     Animate     XHAIR_L                     alpha      0                Linear    0.45    0.1
     Animate     XHAIR_L                     alpha      255              Linear    0.6     0.1
     Animate     HealthBG                    bgcolor    "100 0 0 255"    Linear    0.0     0.2
-    Animate     PlayerStatusHealthValue     ypos       2                Linear    0.0     0.2
-    Animate     PlayerStatusHealthValue     xpos       2                Linear    0.0     0.2
-    Animate     PlayerStatusHealthValue2    ypos       0                Linear    0.0     0.2
-    Animate     PlayerStatusHealthValue2    xpos       -4               Linear    0.0     0.2
-    Animate     PlayerStatusHealthValue3    ypos       -2               Linear    0.0     0.2
-    Animate     PlayerStatusHealthValue3    xpos       -2               Linear    0.0     0.2
-    Animate     PlayerStatusHealthValue     ypos       2                Linear    0.2     0.2
-    Animate     PlayerStatusHealthValue     xpos       -2               Linear    0.2     0.2
-    Animate     PlayerStatusHealthValue2    ypos       -2               Linear    0.2     0.2
-    Animate     PlayerStatusHealthValue2    xpos       2                Linear    0.2     0.2
-    Animate     PlayerStatusHealthValue3    ypos       0                Linear    0.2     0.2
-    Animate     PlayerStatusHealthValue3    xpos       4                Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueR     ypos       2                Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueR     xpos       2                Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueG    ypos       0                Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueG    xpos       -4               Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueB    ypos       -2               Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueB    xpos       -2               Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueR     ypos       2                Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueR     xpos       -2               Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueG    ypos       -2               Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueG    xpos       2                Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueB    ypos       0                Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueB    xpos       4                Linear    0.2     0.2
     Animate     HealthBG                    bgcolor    "0 0 100 255"    Linear    0.4     0.2
-    Animate     PlayerStatusHealthValue     ypos       0                Linear    0.4     0.2
-    Animate     PlayerStatusHealthValue     xpos       0                Linear    0.4     0.2
-    Animate     PlayerStatusHealthValue2    ypos       2                Linear    0.4     0.2
-    Animate     PlayerStatusHealthValue2    xpos       2                Linear    0.4     0.2
-    Animate     PlayerStatusHealthValue3    ypos       2                Linear    0.4     0.2
-    Animate     PlayerStatusHealthValue3    xpos       -2               Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueR     ypos       0                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueR     xpos       0                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueG    ypos       2                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueG    xpos       2                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueB    ypos       2                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueB    xpos       -2               Linear    0.4     0.2
+
+    
+    Animate     PlayerStatusHealthValueTarget   fgcolor    "200 0 0 255"    Linear    0.0     0.3
+    Animate     PlayerStatusHealthValueTarget   fgcolor    "200 200 220 255"    Linear    0.3     0.3
+
     RunEvent    HudHealthDyingPulseLoop     0.6
 }
 
@@ -116,13 +130,14 @@ event HudHealthDyingPulseLoop
 event HudHealthDyingPulseStop
 {
     Animate      HealthBG                    bgcolor    "0 0 100 255"    Linear    0.0    0.2
+    Animate     PlayerStatusHealthValueTarget   fgcolor    "200 200 220 255"    Linear    0.0     0.3
     Animate      XHAIR_L                     alpha      0                Linear    0.0    0.1
-    Animate      PlayerStatusHealthValue     ypos       0                Linear    0.0    0.2
-    Animate      PlayerStatusHealthValue     xpos       0                Linear    0.0    0.2
-    Animate      PlayerStatusHealthValue2    ypos       1                Linear    0.0    0.2
-    Animate      PlayerStatusHealthValue2    xpos       1                Linear    0.0    0.2
-    Animate      PlayerStatusHealthValue3    ypos       1                Linear    0.0    0.2
-    Animate      PlayerStatusHealthValue3    xpos       -1               Linear    0.0    0.2
+    // Animate      PlayerStatusHealthValueR     ypos       0                Linear    0.0    0.2
+    // Animate      PlayerStatusHealthValueR     xpos       0                Linear    0.0    0.2
+    // Animate      PlayerStatusHealthValueG    ypos       1                Linear    0.0    0.2
+    // Animate      PlayerStatusHealthValueG    xpos       1                Linear    0.0    0.2
+    // Animate      PlayerStatusHealthValueB    ypos       1                Linear    0.0    0.2
+    // Animate      PlayerStatusHealthValueB    xpos       -1               Linear    0.0    0.2
     StopEvent    HudHealthDyingPulse         0.0
     StopEvent    HudHealthDyingPulseLoop     0.0
 }
@@ -131,26 +146,29 @@ event HudHealthDyingPulseStop
 // Health Bonus Pulse
 event HudHealthBonusPulse
 {
-    Animate     HealthBG                    bgcolor    "0 0 200 255"    Linear    0.0    0.2
-    Animate     PlayerStatusHealthValue     ypos       2                Linear    0.0    0.2
-    Animate     PlayerStatusHealthValue     xpos       2                Linear    0.0    0.2
-    Animate     PlayerStatusHealthValue2    ypos       0                Linear    0.0    0.2
-    Animate     PlayerStatusHealthValue2    xpos       -4               Linear    0.0    0.2
-    Animate     PlayerStatusHealthValue3    ypos       -2               Linear    0.0    0.2
-    Animate     PlayerStatusHealthValue3    xpos       -2               Linear    0.0    0.2
-    Animate     HealthBG                    bgcolor    "0 0 100 255"    Linear    0.2    0.2
-    Animate     PlayerStatusHealthValue     ypos       2                Linear    0.2    0.2
-    Animate     PlayerStatusHealthValue     xpos       -2               Linear    0.2    0.2
-    Animate     PlayerStatusHealthValue2    ypos       -2               Linear    0.2    0.2
-    Animate     PlayerStatusHealthValue2    xpos       2                Linear    0.2    0.2
-    Animate     PlayerStatusHealthValue3    ypos       0                Linear    0.2    0.2
-    Animate     PlayerStatusHealthValue3    xpos       4                Linear    0.2    0.2
-    Animate     PlayerStatusHealthValue     ypos       0                Linear    0.4    0.2
-    Animate     PlayerStatusHealthValue     xpos       0                Linear    0.4    0.2
-    Animate     PlayerStatusHealthValue2    ypos       2                Linear    0.4    0.2
-    Animate     PlayerStatusHealthValue2    xpos       2                Linear    0.4    0.2
-    Animate     PlayerStatusHealthValue3    ypos       2                Linear    0.4    0.2
-    Animate     PlayerStatusHealthValue3    xpos       -2               Linear    0.4    0.2
+    Animate     HealthBG                    bgcolor    "0 0 200 255"    Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueR    ypos       2                Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueR    xpos       2                Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueG    ypos       0                Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueG    xpos       -4               Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueB    ypos       -2               Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueB    xpos       -2               Linear    0.0     0.2
+    Animate     PlayerStatusHealthValueR    ypos       2                Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueR    xpos       -2               Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueG    ypos       -2               Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueG    xpos       2                Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueB    ypos       0                Linear    0.2     0.2
+    Animate     PlayerStatusHealthValueB    xpos       4                Linear    0.2     0.2
+    Animate     HealthBG                    bgcolor    "0 0 100 255"    Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueR     ypos       0                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueR     xpos       0                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueG    ypos       2                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueG    xpos       2                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueB    ypos       2                Linear    0.4     0.2
+    Animate     PlayerStatusHealthValueB    xpos       -2               Linear    0.4     0.2
+
+    Animate     PlayerStatusHealthValueTarget   fgcolor    "0 200 220 255"    Linear    0.0     0.3
+
     RunEvent    HudHealthBonusPulseLoop     0.6
 }
 
@@ -164,6 +182,13 @@ event HudHealthBonusPulseStop
 {
     StopEvent    HudHealthBonusPulse        0.0
     StopEvent    HudHealthBonusPulseLoop    0.0
+    Animate      PlayerStatusHealthValueR     ypos       0                Linear    0.0    0.2
+    Animate      PlayerStatusHealthValueR     xpos       0                Linear    0.0    0.2
+    Animate      PlayerStatusHealthValueG    ypos       1                Linear    0.0    0.2
+    Animate      PlayerStatusHealthValueG    xpos       1                Linear    0.0    0.2
+    Animate      PlayerStatusHealthValueB    ypos       1                Linear    0.0    0.2
+    Animate      PlayerStatusHealthValueB    xpos       -1               Linear    0.0    0.2
+    Animate     PlayerStatusHealthValueTarget   fgcolor    "200 200 220 255"    Linear    0.0     0.3
 }
 
 // ===========================================

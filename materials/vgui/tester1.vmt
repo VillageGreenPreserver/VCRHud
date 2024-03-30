@@ -1,7 +1,8 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\test1"
+	"$basetexture" "vgui\replay\thumbnails\crosshair"
 	"$translucent" 1
 	"$vertexalpha" 1
 	"$vertexcolor" 1
+	"$frame" 0
 }

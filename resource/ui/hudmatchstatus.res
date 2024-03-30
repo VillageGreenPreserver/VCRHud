@@ -497,7 +497,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"VCR8-NA"
+				"font"			"OCRA8-NA"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -509,7 +509,7 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
-				"fgcolor_override"	"VCR_Blue"
+				"fgcolor_override"	"200 200 200 255"
 			}
 			"chargeamount"
 			{

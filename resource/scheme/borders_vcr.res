@@ -201,5 +201,17 @@ Scheme
 				}
 			}
 		}
+		VCR_TeamBlue
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"replay/thumbnails/hud/team_blue"	
+		}
+		VCR_TeamRed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"replay/thumbnails/hud/team_red"	
+		}
 	}
 }

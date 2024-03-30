@@ -1,5 +1,30 @@
 "Resource/UI/Scoreboard.res"
 {
+	BottomBar
+	{
+		"ControlName"	"Panel"
+		"visible" "1"
+		"enabled" "1"
+		"zpos" "-99"
+		"xpos"	"0"
+		"ypos"	"rs1"
+		"wide"	"f0"
+		"tall"	"p0.05"
+		"bgcolor_override"	"0 0 100 255"
+	}
+	
+	RightBar
+	{
+		"ControlName"	"Panel"
+		"visible" "1"
+		"enabled" "1"
+		"zpos"	"-99"
+		"xpos"	"rs1"
+		"ypos"	"0"
+		"wide"	"p0.05"
+		"tall"	"480"
+		"bgcolor_override"	"0 0 100 255"
+	}
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
@@ -187,7 +212,7 @@
 		"font"			"ScoreboardTeamNameNew"
 		"labelText"		"TEST"
 		"textAlignment"		"west"
-		"xpos"			"0"
+		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"160"
@@ -504,14 +529,107 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"proportionaltoparent" "1"
-		"use_proportional_insets"	"1"
 		"textinsetx"	"3"
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}							
+	}	
+
+	"SpectatorsInQueue"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"SpectatorsInQueue"
+		"font"			"ocra6-NA"
+		"labelText"		"%waitingtoplay%"
+		//"labelText"		"HELLO"
+		"textAlignment"		"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"p0.95"
+		"tall"			"6"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"3"
+		"fgcolor_override"		"0 0 100 255"
+		"pin_to_sibling"	"BlueTeamPlayerCount"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}				
+	Border
+	{
+		"ControlName"	"Panel"
+		"xpos"			"rs1-p0.05"
+		"ypos"			"54"
+		"wide"			"1"
+		"zpos"			"99"
+		"tall"			"201"
+		"bgcolor_override"	"200 0 0 255"
+		"border"		"noborder"
+	}
+	Border5
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"54"
+		"wide"			"1"
+		"zpos"			"99"
+		"tall"			"201"
+		"bgcolor_override"	"200 0 0 255"
+		"border"		"noborder"
+	}
+	Border2
+	{
+		"ControlName"	"Panel"
+		"xpos"			"rs1-p0.05"
+		"ypos"			"255"
+		"wide"			"1"
+		"zpos"			"99"
+		"tall"			"201"
+		"bgcolor_override"	"0 200 200 255"
+		"border"		"noborder"
+	}
+	Border6
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"255"
+		"wide"			"1"
+		"zpos"			"99"
+		"tall"			"201"
+		"bgcolor_override"	"0 200 200 255"
+		"border"		"noborder"
+	}
+	Border3
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"rs1-p0.05"
+		"wide"			"p0.95"
+		"zpos"			"99"
+		"tall"			"1"
+		"bgcolor_override"	"0 200 200 255"
+		"border"		"noborder"
+	}
+	Border4
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"254"
+		"wide"			"p0.95"
+		"zpos"			"99"
+		"tall"			"1"
+		"bgcolor_override"	"200 0 0 255"
+		"border"		"noborder"
+	}
 	"RedTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -519,7 +637,7 @@
 		"font"			"ScoreboardTeamNameNew"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"401"
+		"xpos"			"r0"
 		"ypos"			"21"
 		"zpos"			"20"
 		"wide"			"160"
@@ -631,6 +749,35 @@
 			"visible"		"0"
 		}
 	}
+
+	"Spectators"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"Spectators"
+		"font"			"ocra6-NA"
+		"labelText"		"%spectators%"
+		//"labelText"		"HELLO"
+		"textAlignment"		"east"
+		"xpos"			"4"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"p0.95"
+		"tall"			"6"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"		"200 200 200 255"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"0"
+
+		"pin_to_sibling"	"RedTeamPlayerCount"
+		
+		if_mvm
+		{
+			"ypos"		"428"
+		}
+	}	
 	"ServerLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -916,51 +1063,7 @@
 		{
 			"visible"		"0"
 		}
-	}
-	"Spectators"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Spectators"
-		"font"			"ocra8"
-		"labelText"		"%spectators%"
-		"textAlignment"		"east"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"4"
-		"wide"			"p0.95"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"		"428"
-		}
-	}	
-	"SpectatorsInQueue"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SpectatorsInQueue"
-		"font"			"ocra8"
-		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"east"
-		"xpos"			"0"
-		"ypos"			"rs2"
-		"zpos"			"4"
-		"wide"			"p0.95"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}							
+	}						
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
@@ -1188,7 +1291,7 @@
 		"fieldName"		"PlayerNameLabel"
 		"font"			"VCR26-S"
 		"labelText"		"%playername%"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"xpos"			"0"
 		"ypos"			"rs1"
 		"zpos"			"3"
@@ -1211,7 +1314,7 @@
 		"ControlName"		"CExLabel"
 		"font"			"VCR26-S"
 		"labelText"		"%playername%"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"3"
@@ -1236,7 +1339,7 @@
 		"ControlName"		"CExLabel"
 		"font"			"VCR26-S"
 		"labelText"		"%playername%"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"xpos"			"-1"
 		"ypos"			"1"
 		"zpos"			"3"
@@ -1272,6 +1375,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"200 200 200 255"
 		
 		if_mvm
 		{
@@ -1295,6 +1399,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"200 200 200 255"
+		"auto_wide_tocontents"	"1"
 
 		if_mvm
 		{
@@ -1556,6 +1661,7 @@
 			}
 		}
 	}
+
 
 	"LocalPlayerStatsPanel"
 	{

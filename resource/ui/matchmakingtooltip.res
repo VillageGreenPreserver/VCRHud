@@ -23,17 +23,17 @@
 
 			if_small
 			{
-				"font"	"VCR8"
+				"font"	"ocra12"
 			}
 
 			if_medium
 			{
-				"font"	"VCR12"
+				"font"	"ocra14"
 			}
 
 			if_large
 			{
-				"font"	"VC14"
+				"font"	"ocra16"
 			}
 
 			"labelText"		"%tiptext%"

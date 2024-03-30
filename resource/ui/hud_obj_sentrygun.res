@@ -7,12 +7,40 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"92"
-		"tall"			"p0.075"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"p0.0875"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+	}		
+
+	"Title"
+	{
+		"ControlName"		"CExLabel"
+		"font"			"ocra6-NA"
+		"labelText"		"BUILDING_STATUS"
+		"textAlignment"		"west"
+		"fgcolor_override"		"VCR_Blue"
+		"bgcolor_override"		"200 200 220 255"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"proportionaltoparent" "1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
+	}	
+
+	"border"
+	{
+		"ControlName"	"Panel"
+		"tall"			"f0"
+		"wide"			"1"
+		"zpos"			"-1"
+		"bgcolor_override"	"200 200 220 255"
+		"proportionaltoparent"	"1"
 	}
 	
 	"Background"
@@ -35,7 +63,7 @@
 		"ControlName"	"Panel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"f0"
 		"bgcolor_override"	"VCR_Blue"
@@ -47,7 +75,8 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon_Sentry_1"
 		"xpos"			"s-0.5+24"
-		"ypos"			"cs-0.5-3"
+		"ypos"			"cs-0.5+3"
+		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"22"
 		"proportionaltoparent"	"1"
@@ -55,7 +84,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"220 220 255 255"
 	}
 	
 	"Icon_Sentry_2"
@@ -63,7 +92,8 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon_Sentry_2"
 		"xpos"			"s-0.5+24"
-		"ypos"			"cs-0.5-2"
+		"ypos"			"cs-0.5+4"
+		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"22"
 		"proportionaltoparent"	"1"
@@ -71,7 +101,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_2"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"220 220 255 255"
 	}
 	
 	"Icon_Sentry_3"
@@ -79,7 +109,8 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon_Sentry_3"
 		"xpos"			"s-0.5+24"
-		"ypos"			"cs-0.5"
+		"ypos"			"cs-0.5+6"
+		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"24"
 		"proportionaltoparent"	"1"
@@ -87,7 +118,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"220 220 255 255"
 	}
 	
 	"NotBuiltPanel"
@@ -95,9 +126,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"6"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"f6"
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 
@@ -127,9 +158,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"6"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"f6"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
 
@@ -146,7 +177,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"200 200 220 255"
 		}
 
 		"Icon_Upgrade_2"
@@ -162,7 +193,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"200 200 220 255"
 		}
 
 		"Icon_Upgrade_3"
@@ -178,7 +209,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"200 200 220 255"
 		}
 
 		"AlertTray"
@@ -187,13 +218,27 @@
 			"fieldName"		"AlertTray"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
-			"proportionaltoparent" "1"
-			"tall"			"f0"
+			"zpos"			"-2"
+			"wide"			"93"
+			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 			"iconcolor"		"0 255 0 255"
+		}
+
+		"AlertTrayOverlay"
+		{
+			"ControlName"	"Panel"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"-1"
+			"wide"			"f2"
+			"tall"			"f2"
+			"proportionaltoparent"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"VCR_Blue"
 		}
 		
 		"WrenchIcon"
@@ -216,8 +261,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"12"
+			"xpos"			"s-0.5+24"
+			"ypos"			"cs-0.5-3"
 			"zpos"			"1"
 			"wide"			"35"
 			"tall"			"35"
@@ -225,7 +270,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"0 255 255 255"
+			"proportionaltoparent"	"1"
 		}
 		
 		"Health"

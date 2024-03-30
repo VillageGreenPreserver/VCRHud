@@ -1,3 +1,5 @@
+//#base "../resource/ui/winpanel.res"
+
 "Resource/HudLayout.res"
 {
 	BottomBar
@@ -24,6 +26,33 @@
 		"wide"	"p0.05"
 		"tall"	"480"
 		"bgcolor_override"	"0 0 100 255"
+	}
+
+	Border
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"1"
+		"zpos"			"99"
+		"tall"			"p0.95"
+		"bgcolor_override"	"200 200 220 255"
+		"border"		"noborder"
+		"pin_to_sibling"	"RightBar"
+		"pin_corner_to_sibling"	"1"
+	}
+	Border2
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"p0.95"
+		"zpos"			"99"
+		"tall"			"1"
+		"bgcolor_override"	"200 200 220 255"
+		"border"		"noborder"
+		"pin_to_sibling"	"BottomBar"
+		"pin_corner_to_sibling"	"2"
 	}
 
 	HudPlayerStatus
@@ -211,13 +240,14 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"rs1"
+		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"p0.05"
+		"wide"					"f0"
 		"tall"  				"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"blank"
 	}
 	
 	CHealthAccountPanel
@@ -261,6 +291,13 @@
 		"TextFont"	"Default"	[$X360]
 	}
 
+	"target_pinner"
+	{
+		"ControlName"	"panel"
+		"xpos"			"s-1-p0.025"
+		"ypos"			"s-1"
+	}
+
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
@@ -269,10 +306,12 @@
 		"xpos"		"c-126"
 		"ypos"		"285"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"30"
 		"priority"	"40"
 		"priority_lodef"	"5"
+
+		"pin_to_sibling"	"target_pinner"
+		"pin_to_sibling_corner"	"3"
 
 		if_vr
 		{
@@ -332,18 +371,40 @@
 		
 		"PaintBackgroundType"	"2"
 	}
+
+	"MMDashBoardPopupContainer"
+	{
+		"ypos"						"-390"
+	}
+
+	"Engineer_pinner"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"s-1+rp0.05-1-92"
+		"ypos"			"s-1+rp0.05-1-p0.2375-9"
+	}
 	
 	BuildingStatus_Engineer
 	{
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"rs1-p0.05"
-		"ypos"		"rs1"
+		"zpos"		"100"
+		"xpos"		"p-0.0140625"
+		"ypos"		"0"
 		"wide"		"104"
-		"tall"		"140"
+		"tall"		"148"
+
+		"pin_to_sibling"	"Engineer_pinner"
+		"pin_to_sibling_corner"	"3"
 		
 		"PaintBackgroundType"	"2"
+
+		"TEST"
+		{
+			"ControlName"	"Panel"
+			"visible"		"1"
+		}
 	}
 	
 	HudMannVsMachineStatus
@@ -520,7 +581,7 @@
 		"LineHeight"	  "16"
 		"LineSpacing"	  "-1"
 		"CornerRadius"	  "0"
-		"RightJustify"	  "0"	// If 1, draw notices from the right
+		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"ocra10-NA"
 		
@@ -531,6 +592,7 @@
 
 		"BaseBackgroundColor"	"0 0 50 255"
 		"LocalBackgroundColor"	"VCR_Blue"
+		"KillStreakBackgroundColor"	"0 255 0 255"
 	}
 
 	HudVehicle
@@ -738,8 +800,8 @@
 		"fieldName" "HudScopeCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "c64"
-		"ypos"	 "c-64"
+		"xpos"	 "c64-p0.025"
+		"ypos"	 "c-64-p0.025"
 		"wide"	 "64"
 		"tall"	 "128"
 	}
@@ -883,11 +945,11 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
-		"zpos"					"4"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"zpos"					"100"
 		"proportionaltoparent"	"1"
 	}
 
@@ -994,8 +1056,7 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"10"
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -1006,8 +1067,8 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"wide"			"f0"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"
@@ -1018,8 +1079,8 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"wide"			"f0"
 		"tall"			"480"
 		"PaintBackgroundType"	"0"
@@ -1485,8 +1546,9 @@
 
 	MatchSummary
 	{
+		"ControlName"	"CTFMatchSummary"
 		"fieldName" "MatchSummary"
-		"visible" "0"
+		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"

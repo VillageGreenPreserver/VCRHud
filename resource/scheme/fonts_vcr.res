@@ -266,6 +266,16 @@
 				"additive"		"1"
 			}
 		}
+		"VCR26-NA"
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"26"
+				"weight"		"500"
+				"additive"		"0"
+			}
+		}
 		"VCR26-S"
 		{
 			"1"
@@ -335,6 +345,27 @@
 				"tall"			"42"
 				"weight"		"500"
 				"additive"		"1"
+			}
+		}
+		"VCR42-NA"
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"42"
+				"weight"		"500"
+				"additive"		"0"
+			}
+		}
+		"VCR42-NAS"
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"42"
+				"weight"		"501"
+				"additive"		"0"
+				"scanlines"		"1"
 			}
 		}
 		"VCR42-S"

@@ -22,6 +22,9 @@ exec credits.cfg
 
 alias scope_fix "voice_menu_1; slot10"
 
+mat_viewportscale 0.95
+mat_viewportupscale 0
+
 //removes annoying console spam
 alias dimmer_clicked ""
 alias cancel ""

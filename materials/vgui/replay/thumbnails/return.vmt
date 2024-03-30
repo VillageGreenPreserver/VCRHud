@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/return"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	
+	"$frame"	1
+
+	"Proxies"
+	{
+		"TeamTexture"
+		{
+			resultVar	$frame
+		}
+	}
+} 
+

@@ -13,6 +13,7 @@
 		"MeterBG"		"Gray"
 		"x_offset"		"0"
 	}
+
 	
 	"ItemEffectMeterBG"
 	{

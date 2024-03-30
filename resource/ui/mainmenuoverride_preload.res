@@ -212,6 +212,16 @@
 			"ControlName"	"ImagePanel"
 			"image"		"../sprites/obj_icons/icon_obj_5_neutral_locked"
 		}
+		"cp_cap_blu"
+		{
+			"ControlName"	"CBitmapImagePanel"
+			"image"		"../sprites/obj_icons/icon_obj_cap_blu"
+		}
+		"cp_cap_red"
+		{
+			"ControlName"	"CBitmapImagePanel"
+			"image"		"../sprites/obj_icons/icon_obj_cap_red"
+		}
 		
 		"cp_point_a"
 		{

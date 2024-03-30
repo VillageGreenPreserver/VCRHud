@@ -16,6 +16,27 @@
 		"iconColor"		"255 255 255 255"
 	}
 
+	"Title"
+	{
+		"ControlName"		"CExLabel"
+		"font"			"ocra6-NA"
+		"labelText"		"BUILDING_PDA"
+		"textAlignment"		"west"
+		"fgcolor_override"		"VCR_Blue"
+		"bgcolor_override"		"VCR_White_G"
+		"xpos"			"rs1-p0.05"
+		"ypos"			"r138"
+		"zpos"			"1"
+		"wide"			"92"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"proportionaltoparent" "1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
+	}	
+
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"

@@ -56,7 +56,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_exit"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"220 220 255 255"
 	}
 	
 	"NotBuiltPanel"
@@ -114,7 +114,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"200 200 220 255"
 		}
 
 		"Icon_Upgrade_2"
@@ -130,7 +130,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"200 200 220 255"
 		}
 
 		"Icon_Upgrade_3"
@@ -146,7 +146,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"200 200 220 255"
 		}
 
 		"AlertTray"
@@ -155,7 +155,8 @@
 			"fieldName"		"AlertTray"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
+			"zpos"			"-2"
+			"wide"			"f-1"
 			"proportionaltoparent" "1"
 			"tall"			"f0"
 			"visible"		"1"
@@ -163,6 +164,21 @@
 			"icon"			"obj_status_alert_background"
 			"iconcolor"		"0 255 0 255"
 		}
+
+		"AlertTrayOverlay"
+		{
+			"ControlName"	"Panel"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"-1"
+			"wide"			"f2"
+			"tall"			"f2"
+			"proportionaltoparent"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"VCR_Blue"
+		}
+		
 
 		"WrenchIcon"
 		{
@@ -185,16 +201,17 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"3"
+			"xpos"			"s-0.5+24"
+			"ypos"			"cs-0.5-3"
 			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"35"
+			"tall"			"35"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
-			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"icon"			"obj_status_icon_sapper2"
+			"iconColor"		"0 255 255 255"
+			"proportionaltoparent"	"1"
 		}
 		
 		"Health"

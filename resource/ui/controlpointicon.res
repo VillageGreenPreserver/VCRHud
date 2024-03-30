@@ -79,6 +79,13 @@
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
+
+	"CapImage"
+	{
+		"tall"	"p2.0"
+		"wide"	"f0"
+		"proportionaltoparent"	"1"
+	}
 	
 	"CPTimerLabel"
 	{
