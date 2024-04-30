@@ -146,6 +146,8 @@
 			"Slider"
 			{
 				"fgcolor_override"	"200 200 220 255"
+				"ButtonBorder"		"NoBorder"
+				"ignorescheme"		"1"
 			}
 			"UpButton"
 			{

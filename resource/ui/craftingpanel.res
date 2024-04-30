@@ -99,6 +99,7 @@
 			"zpos"			"1"
 			"wide"			"280"
 			"tall"			"13"
+			"auto_tall_tocontents"	"1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -106,11 +107,11 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "117 107 94 255"
+			"defaultFgColor_override" "100 100 100 255"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "200 200 200 255"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "178 82 22 255"
+			"depressedFgColor_override" "255 255 255 255"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
@@ -562,28 +563,46 @@
 		"border"		"VCR_WhiteLineBorder"
 		"mouseinputenabled" "0"
 	}
+	"RecipeBorder2"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"c-300"
+		"ypos"			"100"
+		"zpos"			"6"
+		"wide"			"282"
+		"tall"			"360"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"VCR_WhiteLineBorder"
+		"mouseinputenabled" "0"
+	}
 	
 	"recipecontainerscroller"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ScrollableEditablePanel"
 		"fieldName"		"recipecontainerscroller"
-		"xpos"			"c-300"
-		"ypos"			"100"
+		"xpos"			"c-298"
+		"ypos"			"102"
 		"zpos"			"5"
-		"wide"			"282"
-		"tall"			"360"
+		"wide"			"280"
+		"tall"			"357"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"200 200 220 255"
 		"bgcolor_override"	"200 187 161 0"
-		"border"		"VCR_WhiteLineBorder"
+		"border"		"noborder"
 		"autohide_buttons" "1"
 
 		"VerticalScrollbar"
 		{
-			"wide"	"10"
-			"xpos"	"rs1"
+			"wide"	"9"
+			"xpos"	"rs1-1"
 			"proportionaltoparent"	"1"
 			"nobuttons"		"1"
+
+			"Slider"
+			{
+				"ButtonBorder" "noborder"
+			}
 
 			"upbutton"
 			{
@@ -596,6 +615,7 @@
 			}
 		}
 	}
+
 	"recipecontainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -603,7 +623,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"283"
+		"wide"			"282"
 		"tall"			"260"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
