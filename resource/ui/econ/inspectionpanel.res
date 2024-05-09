@@ -278,11 +278,11 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs-1+306"
-		"ypos"				"rs1-20"
+		"xpos"				"cs-1+300"
+		"ypos"				"rs1-27"
 		"zpos"				"100"
-		"wide"				"60"
-		"tall"				"25"
+		"wide"				"89"
+		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -292,37 +292,42 @@
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
-		"auto_layout_vertical_buffer"	"-4"
+		"auto_layout_vertical_buffer"	"0"
+		"auto_layout_horizontal_buffer"	"1"
 		"display_vertically"	"0"
 		"align"				"west"
 		
 		"ButtonSettings"
 		{
-			"wide"				"19"
-			"tall"				"19"
+			"wide"				"44"
+			"tall"				"16"
 			"autoResize"		"0"
 			"pinCorner"			"2"
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			""
-			"textAlignment"		"south-west"
+			"textAlignment"		"west"
 			"scaleImage"		"1"
+
+			"font"				"ocra12-NA"
 			
 			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
+			"defaultFgColor_override" "200 200 220 255"
+			"armedFgColor_override" "VCR_Blue"
 			"depressedFgColor_override" "TanDark"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
 			
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"0 0 0 255"
+			"defaultBgColor_Override"	"0 0 0 0"
+			"armedBgColor_Override"	"200 200 220 255"
 			
-			"paintborder"		"0"
+			"paintborder"		"1"
+			"border_default"	"VCR_WhiteLineBorder"
 			
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
@@ -340,7 +345,7 @@
 				"zpos"			"7"
 				"wide"			"19"
 				"tall"			"19"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
@@ -372,6 +377,17 @@
 					"image"			"store/store_blueteam"
 				}				
 			}
+		}
+
+		"all"
+		{
+			"labeltext"	"RED"
+			"font"				"ocra12-NA"
+		}
+		"scout"
+		{
+			"labeltext"	"BLU"
+			"font"				"ocra12-NA"
 		}
 	}
 
@@ -975,7 +991,7 @@
 				"ypos"		"30"
 			}
 			"zpos"		"100"
-			"wide"		"88"
+			"wide"		"89"
 			"tall"		"16"
 			"labelText"			"Market"
 			"font"			"ocra12-NA"

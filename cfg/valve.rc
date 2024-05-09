@@ -22,6 +22,7 @@ exec credits.cfg
 
 alias scope_fix "voice_menu_1; slot10"
 
+tf_dashboard_slide_time 0
 mat_viewportscale 0.95
 mat_viewportupscale 0
 
