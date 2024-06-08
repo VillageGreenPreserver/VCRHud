@@ -75,7 +75,7 @@
 		"fieldName"		"CostLabel"
 		"font"			"VCR18-NA"
 		"fgcolor"		"255 0 0 255"
-		"xpos"			"rs1-2"
+		"xpos"			"rs1-6"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f50"

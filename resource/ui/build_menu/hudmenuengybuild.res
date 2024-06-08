@@ -37,6 +37,16 @@
 		"textinsetx"	"2"
 	}	
 
+	"line"
+	{
+		"ControlName"			"Panel"
+		"wide"					"1"
+		"tall"					"p0.2375"
+		"bgcolor_override"		"VCR_White_G"
+		"pin_to_sibling"		"Title"
+		"pin_to_sibling_corner"	"0"
+	}
+
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"

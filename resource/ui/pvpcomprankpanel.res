@@ -22,35 +22,33 @@
 
 	"BGPanel"
 	{
-		if_mini
+		
+		"if_mini"
 		{
-			"wide"			"270"
-			"tall"			"60"
+			"paintborder"		"0"
 		}
-
-		"PlacementLabel"
+		"NameLabel"
 		{
-			if_mini
+			"if_mini"
 			{
-				"ypos"			"17"
+				"xpos"	"0"
+				"ypos"	"0"
+				"wide"	"f0"
+				"tall"	"f0"
+				"font"	"ocra6-na"
+				"fgcolor_override"	"VCR_Blue"
+				
+				"use_proportional_insets"	"1"
+				"textinsetx"			"1"
 			}
 		}
 
 		"DescLine1"
 		{
-			if_mini
+			"if_mini"
 			{
-				"xpos"			"cs-0.5"
-				"ypos"			"35"
-
-				"textAlignment"	"center"
-
-				"fonts"
-				{
-					"0"		"HudFontSmallBold"
-					"1"		"StorePromotionsTitle"
-					"2"		"FontStorePrice"
-				}
+				"tall"		"0"
+				"visible"	"0"
 			}
 		}
 
@@ -58,10 +56,10 @@
 		{
 			"visible"		"1"
 
-			if_mini
+			"if_mini"
 			{
-				"xpos"	"cs-0.5"
-				"ypos"	"25"
+				"tall"		"0"
+				"visible"	"0"
 			}
 
 			"XPBar"
@@ -70,12 +68,6 @@
 				"CurrentXPLabel"
 				{
 					"visible"		"1"
-
-					if_mini
-					{
-						"xpos"			"cs-0.5"
-						"textAlignment"	"center"
-					}
 				}
 
 				"NextLevelXPLabel"

@@ -1,6 +1,6 @@
-hudanimations_manifest
+"hudanimations_manifest"
 {
-	"file"		"scripts/hudanimations_vcr.txt"
 	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_vcr.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }

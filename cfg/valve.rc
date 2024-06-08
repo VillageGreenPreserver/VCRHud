@@ -23,8 +23,10 @@ exec credits.cfg
 alias scope_fix "voice_menu_1; slot10"
 
 tf_dashboard_slide_time 0
+tf_mm_dashboard_slide_panel_step 0
 mat_viewportscale 0.95
 mat_viewportupscale 0
+tf_hud_target_id_alpha 255
 
 //removes annoying console spam
 alias dimmer_clicked ""

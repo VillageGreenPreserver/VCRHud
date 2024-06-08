@@ -14,6 +14,32 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	"Static"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"1"
+		"ypos"					"0"
+		"wide"					"f1"
+		"tall"					"f0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"		"0 255 0 0"
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"-4-p0.95+1+92+1"
+			"ypos"					"p-0.95+1+p0.05"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+		}
+	}
 	
 	"Background"
 	{
@@ -43,6 +69,14 @@
 		"proportionaltoparent" "1"
 	}
 	
+	"border"
+	{
+		"ControlName"	"Panel"
+		"tall"			"f0"
+		"wide"			"1"
+		"bgcolor_override"	"200 200 220 255"
+		"proportionaltoparent"	"1"
+	}
 	"Icon_Teleport_Exit"
 	{
 		"ControlName"	"CIconPanel"

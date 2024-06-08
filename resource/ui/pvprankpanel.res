@@ -195,14 +195,6 @@
 		"proportionaltoparent"	"1"
 		"border"	"VCR_WhiteLineBorder"
 
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
-
 		"NameLabel"
 		{
 			"ControlName"	"Label"

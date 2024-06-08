@@ -10,7 +10,35 @@
 		"tall"			"p0.0875"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
+
+	
+	"Static"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"1"
+		"ypos"					"6"
+		"wide"					"f1"
+		"tall"					"f6"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"		"0 255 0 0"
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"-4-p0.95+1+92+1"
+			"ypos"					"p-0.95+1+p0.05+p0.05+p0.05+p0.0875"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+		}
+	}
 
 	"Title"
 	{
@@ -147,7 +175,7 @@
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sentry_not_built"
 			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -315,7 +343,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -352,7 +380,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"border"		"VCR_WhiteLineBorder"
@@ -437,7 +465,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"border"		"VCR_WhiteLineBorder"
@@ -474,7 +502,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"border"		"VCR_WhiteLineBorder"
@@ -514,7 +542,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"border"		"VCR_WhiteLineBorder"

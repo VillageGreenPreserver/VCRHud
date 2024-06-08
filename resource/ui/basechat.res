@@ -9,7 +9,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"	 		"280"
-		"tall"	 		"380"
+		"tall"	 		"360"
 		"PaintBackgroundType"	"1"
 		"paintbackground"	"0"
 		"paintborder"	"0"

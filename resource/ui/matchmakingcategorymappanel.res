@@ -43,7 +43,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%title_token%"
 		"textAlignment"	"west"
-		"font"			"VCR14"
+		"font"			"ocra14"
 		"textinsetx"	"0"
 		"use_proportional_insets"	"1"
 		

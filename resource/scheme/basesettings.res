@@ -38,10 +38,10 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.TextColor				"200 200 220 255"
+		Button.BgColor					"VCR_BLUE"
+		Button.ArmedTextColor			"vcr_blue"
+		Button.ArmedBgColor				"200 200 220 255"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
@@ -146,12 +146,12 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"Orange"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
-		SectionedListPanel.BgColor			"TransparentLightBlack"
+		SectionedListPanel.HeaderTextColor	"255 0 0 0"
+		SectionedListPanel.HeaderBgColor	"0 255 0 0"
+		SectionedListPanel.DividerColor		"0 0 255 0"
+		SectionedListPanel.TextColor		"255 255 0 0"
+		SectionedListPanel.BrightTextColor	"0 255 255 0"
+		SectionedListPanel.BgColor			"255 0 255 0"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"

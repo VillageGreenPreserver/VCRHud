@@ -2,16 +2,15 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"0"
-		"delta_item_end_x"			"50"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"48"
+		"delta_item_end_x"			"0"
+		"delta_item_start_y"	"322"
+		"delta_item_end_y"		"322"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_lifetime"		"2.0"
+		"delta_item_font"		"vcr18"
 		"bg_texture"			"replay/thumbnails/return"
-		"negative_flip_dir"		"1"
 		"bg_image_x"			"0"
 		"bg_image_wide"			"20"
 	}
@@ -121,7 +120,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"rs1"
+		"xpos"			"92+1"
 		"ypos"			"rs1"
 		"zpos"			"2"
 		"wide"			"p0.05"

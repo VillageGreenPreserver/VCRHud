@@ -125,21 +125,21 @@ Scheme
 
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
+			"inset" "0 0 1 1"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
+			"inset" "0 0 1 1"
 		}
 
 		ButtonDepressedBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
+			"inset" "0 0 1 1"
 		}
 
 		ComboBoxBorder
@@ -466,17 +466,7 @@ Scheme
 			}
 		}
 		
-		GrayDialogBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"loadout_rect"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
+		GrayDialogBorder "TFFatLineBorder"
 		
 		StoreFreeTrialBorder
 		{

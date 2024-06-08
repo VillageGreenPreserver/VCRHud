@@ -509,7 +509,25 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
-				"fgcolor_override"	"200 200 200 255"
+				"fgcolor_override"	"255 255 255 255"
+			}
+			"respawntime2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntime2"
+				"font"			"OCRA8-NA"
+				"xpos"			"1"
+				"ypos"			"1"
+				"zpos"			"4"
+				"wide"			"f0"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"center"
+				"proportionaltoparent"	"1"
+				"fgcolor_override"	"0 0 0 255"
 			}
 			"chargeamount"
 			{

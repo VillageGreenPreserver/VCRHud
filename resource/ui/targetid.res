@@ -45,20 +45,20 @@
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"6"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
+		"image"		"replay/thumbnails/hud/winpanel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"8"				// pixels inside the image
+		"src_corner_width"		"8"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -66,20 +66,20 @@
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"6"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"image"		"replay/thumbnails/hud/winpanel_red"
+
+		"src_corner_height"		"8"				// pixels inside the image
+		"src_corner_width"		"8"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"	
 	}
 	
 	"TargetNameLabel"
@@ -201,10 +201,12 @@
 	"move_pinner"
 	{
 		"ControlName"	"Panel"
-		"xpos"			"s-1+4"
-		"ypos"			"s-1"
+		"xpos"			"p0.006250"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 	}
 	
 	"MoveableSubPanel"
@@ -222,6 +224,19 @@
 
 		"pin_to_sibling"	"move_pinner"
 		"pin_to_sibling_corner"	"3"
+
+		"BG"
+		{
+			"ControlName"	"Panel"
+			"zpos"			"-1"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"f2"
+			"autoResize"	"1"
+			"proportionaltoparent"	"1"
+			"bgcolor_override"	"VCR_BLUE"
+			"paintborder"		"0"
+		}
 		
 		"MoveableIconBG"
 		{
@@ -261,7 +276,7 @@
 			"xpos"			"16"
 			"ypos"			"-2"
 			"zpos"			"12"
-			"wide"			"16"
+			"wide"			"0"
 			"tall"			"8"
 			"visible"		"1"
 			"enabled"		"1"
@@ -274,23 +289,60 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
+			"font"			"ocra12"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"0"
-			"tall"			"24"
-			"autoResize"		"0"
-			"pinCorner"		"0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%movekey%"
-			"textAlignment"		"North"
-			"dulltext"		"0"
-			"brighttext"		"0"
+			"textAlignment"		"center"
 			"auto_wide_tocontents"	"0"
-			"fgcolor_override"	"BrightYellow"
+			"fgcolor_override"	"200 200 220 0"
+		}	
+
+		"MoveableKeyLabel2"
+		{	
+			"ControlName"		"Label"
+			"font"			"ocra12"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%movekey%"
+			"autoResize"	"3"
+			"textAlignment"		"center"
+			"auto_wide_tocontents"	"0"
+			"proportionaltoparent"	"1"
+			"fgcolor_override"	"200 200 220 255"
+			"use_proportional_insets"	"1"
+			"textinsety"		"-10"
+		}	
+
+		"MoveableKeyLabel3"
+		{	
+			"ControlName"		"Label"
+			"font"			"ocra12"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"MOVE"
+			"autoResize"	"3"
+			"textAlignment"		"center"
+			"auto_wide_tocontents"	"0"
+			"proportionaltoparent"	"1"
+			"fgcolor_override"	"200 200 220 255"
+			"use_proportional_insets"	"1"
+			"textinsety"		"10"
 		}	
 	}
 	"AvatarImage"

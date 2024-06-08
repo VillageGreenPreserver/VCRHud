@@ -100,10 +100,10 @@
 			"enabled"		"1"
 			"proportionaltoparent" "1"
 		}
-		
+
 		"ItemEffectMeterLabelR"
 		{
-			"ControlName"			"CExLabel"
+			"ControlName"			"CAutoFittingLabel"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"2"
@@ -111,20 +111,27 @@
 			"tall"					"16"
 			"visible"				"1"
 			"enabled"				"0"
-			"disabledfgcolor2_override"				"VCR_White_R"
+			"disabledfgcolor2_override"		"VCR_White_R"
 			"labelText"				"BOMBS"
+			"font"					"VCR12"
 			"textAlignment"			"center"
 			"proportionaltoparent"	"1"
-			"font"					"VCR12"
 			
 			"pin_to_sibling"	"LabelPin"
 			"pin_corner_to_sibling"	"6"
 			"pin_to_sibling_corner"	"0"
+
+			"fonts"
+			{
+				"0"		"VCR12"
+				"1"		"VCR10"
+				"2"		"VCR8"
+			}
 		}
 		
 		"ItemEffectMeterLabelG"
 		{
-			"ControlName"			"CExLabel"
+			"ControlName"			"CAutoFittingLabel"
 			"xpos"					"1"
 			"ypos"					"1"
 			"zpos"					"2"
@@ -139,11 +146,18 @@
 			"font"					"VCR12"
 			
 			"pin_to_sibling"	"ItemEffectMeterLabelR"
+			
+			"fonts"
+			{
+				"0"		"VCR12"
+				"1"		"VCR10"
+				"2"		"VCR8"
+			}
 		}
 		
 		"ItemEffectMeterLabelB"
 		{
-			"ControlName"			"CExLabel"
+			"ControlName"			"CAutoFittingLabel"
 			"xpos"					"-1"
 			"ypos"					"1"
 			"zpos"					"2"
@@ -158,6 +172,13 @@
 			"font"					"VCR12"
 			
 			"pin_to_sibling"	"ItemEffectMeterLabelR"
+		
+			"fonts"
+			{
+				"0"		"VCR12"
+				"1"		"VCR10"
+				"2"		"VCR8"
+			}
 		}
 
 		"NumPipesLabel"

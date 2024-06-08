@@ -12,6 +12,31 @@
 		"tall"	"p0.05"
 		"bgcolor_override"	"0 0 100 255"
 	}
+	"BottomBarStatic"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"0"
+		"ypos"					"rs1"
+		"wide"					"p0.95"
+		"tall"					"p0.05"
+		"bgcolor_override"		"0 0 100 0"
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"-4"
+			"ypos"					"p-0.95"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+		}
+	}
 	
 	RightBar
 	{
@@ -25,10 +50,60 @@
 		"tall"	"480"
 		"bgcolor_override"	"0 0 100 255"
 	}
+	"RightBarStatic"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"rs1"
+		"ypos"					"0"
+		"wide"					"p0.05"
+		"tall"					"480"
+		"bgcolor_override"		"0 0 100 0"
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"-4-p0.95"
+			"ypos"					"0"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+		}
+	}
+	"TopBarStatic"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"p0.95"
+		"tall"					"54"
+		"bgcolor_override"		"0 0 100 0"
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"-4"
+			"ypos"					"0"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+		}
+	}
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
+		"fieldName"		"scores"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -510,7 +585,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}						
+	}				
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -563,7 +638,7 @@
 		{
 			"visible"		"0"
 		}
-	}				
+	}
 	Border
 	{
 		"ControlName"	"Panel"
@@ -635,7 +710,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
 		"font"			"ScoreboardTeamNameNew"
-		"labelText"		"%redteamname%"
+		"labelText"		"%redteamname%"	
 		"textAlignment"		"east"
 		"xpos"			"r0"
 		"ypos"			"21"
@@ -1010,7 +1085,7 @@
 		"linespacing"	"18"
 		"sectiongap"	"100"
 		"linegap"		"0"
-		"fgcolor"		"blue"
+		"fgcolor_override"		"vcr_red"
 		"show_columns"	"0"
 		
 		if_mvm
@@ -1111,11 +1186,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"
-		"ypos"			"rs1-p0.05"
-		"zpos"			"0"		
-		"wide"			"100"
-		"tall"			"200"
+		
+		"wide"					"100"
+		"tall"					"100"
+		"xpos"					"r0"
+		"ypos"					"rs1-p0.05-1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1152,116 +1227,93 @@
 			}
 			"Scout"
 			{
-				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
-				"angles_y"		"145"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"105"
+				"origin_x"		"40"
 				"origin_y"		"4"
-				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
+				"origin_z"		"-53"
 			}
 			"Sniper"
 			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_x_minmode"	"0"
-				"angles_y"		"172"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"130"
-				"origin_y"		"-3"
-				"origin_z"		"-97"
-				"origin_z_minmode"	"-57"
+				"origin_x"		"40"
+				"origin_y"		"0"
+				"origin_z"		"-60"
 			}
 			"Soldier"
 			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_x_minmode"	"-3"
-				"angles_y"		"170"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"-5"
-				"origin_y_minmode"	"-8"
-				"origin_z"		"-90"
-				"origin_z_minmode"	"-50"
+				"origin_x"		"46"
+				"origin_y"		"-2"
+				"origin_z"		"-56"
 			}
 			"Demoman"
 			{
-				"fov"			"25"
-				"angles_x"		"-13"
-				"angles_x_minmode"	"-3"
-				"angles_y"		"200"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"-4"
-				"origin_z"		"-93"
-				"origin_z_minmode"	"-53"
+				"origin_x"		"44"
+				"origin_y"		"-3"
+				"origin_z"		"-56"
 			}
 			"Medic"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"3"
-				"angles_y"		"178"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"-5"
-				"origin_z"		"-96"
-				"origin_z_minmode"	"-60"
+				"origin_x"		"36"
+				"origin_y"		"-4"
+				"origin_z"		"-62"
 			}
 			"Heavy"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"0"
-				"angles_y"		"200"
-				"angles_y_minmode"	"210"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"200"
+				"origin_x"		"52"
 				"origin_y"		"0"
-				"origin_z"		"-102"
-				"origin_z_minmode"	"-60"
+				"origin_z"		"-64"
 			}
 			"Pyro"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"0"
-				"angles_y"		"172"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"-5"
-				"origin_z"		"-90"
-				"origin_z_minmode"	"-50"
+				"origin_x"		"40"
+				"origin_y"		"-1"
+				"origin_z"		"-53"
 			}
 			"Spy"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_x_minmode"	"3"
-				"angles_y"		"160"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"38"
 				"origin_y"		"0"
-				"origin_y_minmode"	"-3"
-				"origin_z"		"-95"
-				"origin_z_minmode"	"-60"
+				"origin_z"		"-58"
 			}
 			"Engineer"
 			{
-				"fov"			"20"
-				"angles_x"		"-10"
-				"angles_x_minmode"	"0"
-				"angles_y"		"168"
+				"fov"			"100"
+				"angles_x"		"0"
+				"angles_y"		"180"
 				"angles_z"		"0"
-				"origin_x"		"140"
-				"origin_x_minmode"	"160"
-				"origin_y"		"-2"
-				"origin_y_minmode"	"-7"
-				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
+				"origin_x"		"38"
+				"origin_y"		"-1"
+				"origin_z"		"-53"
 			}
 		}
 	}

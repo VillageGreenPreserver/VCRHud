@@ -8,9 +8,11 @@
 
 	"Proxies"
 	{
-		"TeamTexture"
+		"AnimatedTexture"
 		{
-			resultVar	$frame
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "12" 
 		}
 	}
 } 

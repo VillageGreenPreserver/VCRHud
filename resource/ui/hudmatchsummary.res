@@ -10,20 +10,19 @@
 		"paintbackground"	"0"
 		"visible"		"0"
 
-		"AnimBluePlayerListParent"		"p.47"
-		"AnimBlueTeamScore"				"p.46"
+		"AnimBluePlayerListParent"		"p0.95"
+		"AnimBlueTeamScore"				"p0.95"
 		"AnimBlueTeamScoreDropshadow"	"p.46"
 		"AnimBlueTeamScoreBG"			"p.483"
 		"AnimBluePlayerListBG"			"p.47"
-
 		"AnimRedTeamScoreBGWide"			"p.483"
 		"AnimRedTeamScoreBGXPos"			"r5-p.483"
-		"AnimRedTeamScoreWide"				"p.46"
-		"AnimRedTeamScoreXPos"				"r5-p.46"
+		"AnimRedTeamScoreWide"				"p0.95"
+		"AnimRedTeamScoreXPos"				"0"
 		"AnimRedTeamScoreDropshadowWide"	"p.46"
 		"AnimRedTeamScoreDropshadowXPos"	"r4-p.46"
-		"AnimRedPlayerListParentWide"		"p.47"
-		"AnimRedPlayerListParentXPos"		"r7-p.47"
+		"AnimRedPlayerListParentWide"		"p0.95"
+		"AnimRedPlayerListParentXPos"		"0"
 		"AnimRedPlayerListBGWide"			"p.47"
 		"AnimRedPlayerListBGXPos"			"r9-p.47"
 		"AnimBlueMedalsYPos"				"75"
@@ -34,7 +33,7 @@
 		"AnimStatsLabelPanel12v12YPos"		"20"
 		"AnimBlueTeamLabel12v12YPos"		"47"
 		"AnimRedTeamLabel12v12YPos"			"47"
-		"AnimStatsContainer12v12YPos"		"-20"
+		"AnimStatsContainer12v12YPos"		"0"
 
 		if_large
 		{
@@ -43,12 +42,51 @@
 		}
 	}
 
+	BottomBar
+	{
+		"ControlName"	"Panel"
+		"visible" "1"
+		"enabled" "1"
+		"zpos" "-99"
+		"xpos"	"0"
+		"ypos"	"rs1"
+		"wide"	"f0"
+		"tall"	"p0.05"
+		"bgcolor_override"	"0 0 100 255"
+	}
+	
+	RightBar
+	{
+		"ControlName"	"Panel"
+		"visible" "1"
+		"enabled" "1"
+		"zpos"	"-99"
+		"xpos"	"rs1"
+		"ypos"	"0"
+		"wide"	"p0.05"
+		"tall"	"480"
+		"bgcolor_override"	"0 0 100 255"
+	}
+	
+	TopBar
+	{
+		"ControlName"	"Panel"
+		"visible" "1"
+		"enabled" "1"
+		"zpos"	"-99"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"p0.95"
+		"tall"	"54"
+		"bgcolor_override"	"0 0 100 255"
+	}
+
 	"RankBorder"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
-		"xpos"			"cs-0.5"
-		"ypos"			"r0"
+		"xpos"			"r0"
+		"ypos"			"r65"
 		"zpos"			"9000"
 		"wide"			"510"
 		"tall"			"43"
@@ -56,23 +94,18 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
-
-		if_uses_xp
-		{
-			"visible"		"1"
-		}
 	}
 
 	"RankPanel"
 	{
 		"ControlName"	"CMiniPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"r0"
+		"xpos"			"r0"
+		"ypos"			"r285"
 		"zpos"			"9001"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -92,13 +125,13 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"r1"
+		"xpos"			"r0"
+		"ypos"			"r1095"
 
 		"zpos"			"9002"
 		"wide"			"2000"
 		"tall"			"2000"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -117,7 +150,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsBgPanel"
-		"xpos"			"0"
+		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
@@ -157,6 +190,60 @@
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 
+			
+		"Divider2R"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"rs0.5-p0.025"
+			"ypos"			"256"
+			"zpos"			"5"
+			"wide"			"p0.0375"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"		
+			"drawcolor"		"VCR_White_R"
+			"proportionaltoparent" "1"
+			
+			"image"	"replay/thumbnails/hud/white"
+			"scaleimage"	"1"
+		}	
+		"Divider2G"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"5"
+			"wide"			"p0.0375"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"		
+			"drawcolor"		"VCR_White_G"
+			"proportionaltoparent" "1"
+			
+			"image"	"replay/thumbnails/hud/white"
+			"scaleimage"	"1"
+			
+			"pin_to_sibling"	"Divider2R"
+		}	
+		"Divider2B"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"-1"
+			"ypos"			"1"
+			"zpos"			"5"
+			"wide"			"p0.0375"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"		
+			"drawcolor"		"VCR_White_B"
+			"proportionaltoparent" "1"
+			
+			"image"	"replay/thumbnails/hud/white"
+			"scaleimage"	"1"
+			
+			"pin_to_sibling"	"Divider2R"
+		}
+
 		"ParticlePanel"
 		{
 			"ControlName"	"CTFParticlePanel"
@@ -178,7 +265,7 @@
 			"zpos"			"70"
 			"wide"			"200"
 			"tall"			"15"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"0"
 
@@ -236,7 +323,7 @@
 			{
 	 			"ControlName"		"EditablePanel"
 				"fieldName"		"BlueTeamPanel"
-				"xpos"			"-320"
+				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
 				"wide"			"f0"
@@ -244,208 +331,212 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				"BlueTeamScoreBG"
+				Border1
 				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"BlueTeamScoreBG"
-					"xpos"			"5"
-					"ypos"			"99"
-					"zpos"			"2"
-					"wide"			"p.213"
-					"tall"			"36"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"border"		"TFFatLineBorderBlueBGOpaque"
-
-					if_large
-					{
-						"ypos"			"39"
-					}
+					"ControlName"	"Panel"
+					"xpos"			"rs1-p0.05"
+					"ypos"			"255"
+					"wide"			"1"
+					"zpos"			"99"
+					"tall"			"201"
+					"bgcolor_override"	"0 200 200 255"
+					"border"		"noborder"
 				}
-				"BlueTeamScore"
+				Border2
 				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"BlueTeamScore"
-					"font"			"MatchSummaryTeamScores"
-					"labelText"		"%blueteamscore%"
-					"textAlignment"		"east"
-					"xpos"			"5"
-					"ypos"			"103"
-					"zpos"			"4"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"43"
-					}
-
+					"ControlName"	"Panel"
+					"xpos"			"0"
+					"ypos"			"255"
+					"wide"			"1"
+					"zpos"			"99"
+					"tall"			"201"
+					"bgcolor_override"	"0 200 200 255"
+					"border"		"noborder"
 				}
-				"BlueTeamScoreDropshadow"
+				Border3
 				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"Black"
-					"labelText"		"%blueteamscore%"
-					"textAlignment"		"east"
-					"xpos"			"6"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"44"
-					}
+					"ControlName"	"Panel"
+					"xpos"			"0"
+					"ypos"			"rs1-p0.05"
+					"wide"			"p0.95"
+					"zpos"			"99"
+					"tall"			"1"
+					"bgcolor_override"	"0 200 200 255"
+					"border"		"noborder"
 				}
-				"BlueTeamWinner"
+				Border4
 				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"BlueTeamWinner"
-					"font"			"MatchSummaryWinner"
-					"labelText"		"%blueteamwinner%"
-					"textAlignment"		"east"
-					"xpos"			"5"
-					"ypos"			"103"
-					"zpos"			"4"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"43"
-					}
+					"ControlName"	"Panel"
+					"xpos"			"0"
+					"ypos"			"255"
+					"wide"			"p0.95"
+					"tall"			"6"
+					"zpos"			"99"
+					"bgcolor_override"	"0 200 200 255"
+					"border"		"noborder"
 				}
-				"BlueTeamWinnerDropshadow"
-				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
-					"fgcolor"		"Black"
-					"labelText"		"%blueteamwinner%"
-					"textAlignment"		"east"
-					"xpos"			"6"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
 
-					if_large
-					{
-						"ypos"			"44"
-					}
-				}
-				"BlueTeamImage"
+							
+				"BlueTeamLabelPin"
 				{
-					"ControlName"		"ImagePanel"
-					"fieldName"		"BlueTeamImage"
-					"xpos"			"14"
-					"ypos"			"89"
-					"zpos"			"5"
-					"wide"			"56"
-					"tall"			"56"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"../hud/team_blue"
-					"scaleImage"		"1"
-
-					if_large
-					{
-						"ypos"			"29"
-					}
-				}
-				"BlueTeamLabel"
-				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"BlueTeamLabel"
-					"font"			"CompMatchStartTeamNames"
-					"labelText"		"%blueteamname%"
-					"textAlignment"		"west"
-					"xpos"			"60"
-					"ypos"			"-25"
+					"ControlName"		"Panel"
+					"xpos"			"rs1"
+					"ypos"			"rs1-p0.05"
 					"zpos"			"20"
-					"wide"			"195"
-					"tall"			"20"
-					"autoResize"		"0"
+					"wide"			"p0.05"
+					"tall"			"201"
+					"visible"		"1"
+					"enabled"		"1"
+				}		
+
+				"VCR_ScoreR"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%blueteamscore%"
+					"textAlignment"		"east"
+					"xpos"			"0"
+					"ypos"			"38" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-				}
-				"BlueLeaderAvatar"
-				{
-					"ControlName"		"CAvatarImagePanel"
-					"fieldName"		"BlueLeaderAvatar"
-					"xpos"			"18"
-					"ypos"			"100"
-					"zpos"			"5"
-					"wide"			"34"
-					"tall"			"34"
-					"visible"		"0"
-					"enabled"		"1"
-					"image"			""
-					"scaleImage"	"1"	
-					"color_outline"	"52 48 45 255"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_R"
 
-					if_large
-					{
-						"ypos"			"40"
-					}
+					"pin_to_sibling"	"BlueTeamLabelPin"
+					"pin_corner_to_sibling"	"4"
+					"pin_to_sibling_corner"	"4"
 				}
-				"BlueLeaderAvatarBG"
+				"VCR_ScoreG"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"BlueLeaderAvatarBG"
-					"xpos"			"16"
-					"ypos"			"98"
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%blueteamscore%"
+					"textAlignment"		"east"
+					"xpos"			"1"
+					"ypos"			"1" 
 					"zpos"			"4"
-					"wide"			"38"
-					"tall"			"38"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
 					"visible"		"1"
-					"PaintBackgroundType"	"2"
-					"bgcolor_override"	"117 107 94 255"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_G"
 
-					if_large
-					{
-						"ypos"			"38"
-					}
+					"pin_to_sibling"	"VCR_ScoreR"
+				}
+				"VCR_ScoreB"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%blueteamscore%"
+					"textAlignment"		"east"
+					"xpos"			"-1"
+					"ypos"			"1" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_B"
+
+					"pin_to_sibling"	"VCR_ScoreR"
+				}
+
+				"VCR_WinnerR"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%blueteamwinner%"
+					"textAlignment"		"east"
+					"xpos"			"0"
+					"ypos"			"38" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_R"
+
+					"pin_to_sibling"	"BlueTeamLabelPin"
+					"pin_corner_to_sibling"	"4"
+					"pin_to_sibling_corner"	"4"
+				}
+				"VCR_WinnerG"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%blueteamwinner%"
+					"textAlignment"		"east"
+					"xpos"			"1"
+					"ypos"			"1" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_G"
+
+					"pin_to_sibling"	"VCR_WinnerR"
+				}
+				"VCR_WinnerB"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%blueteamwinner%"
+					"textAlignment"		"east"
+					"xpos"			"-1"
+					"ypos"			"1" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_B"
+
+					"pin_to_sibling"	"VCR_WinnerR"
 				}
 				"BluePlayerListParent"
 				{
 					"ControlName"		"EditablePanel"
 					"fieldName"		"BluePlayerListParent"
-					"xpos"			"12"
-					"ypos"			"137"
+					"xpos"			"0"
+					"ypos"			"rs1-p0.05"
 					"zpos"			"1"
-					"wide"			"p.193"
-					"tall"			"215"
+					"wide"			"p0.95"
+					"tall"			"195"
 					"visible"		"1"
 					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"77"
-						"tall"			"340"
-					}
 
 					"BluePlayerList"
 					{
@@ -454,59 +545,45 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"1"
-						"wide"			"p.465"
-						"tall"			"205"
+						"wide"			"f0"
+						"tall"			"f0"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
-						"linespacing"	"26"
-						"linegap"		"4"
-						//"show_columns"	"1"
+						"linespacing"	"18"
+						"linegap"		"-3"
+						"proportionaltoparent"	"1"
+						"show_columns"	"0"
+						"paintBackground"	"0"
 
-						"medal_width"	"s.08"
-						"avatar_width"	"s.08"
-						"spacer"		"s.01"
-						"name_width"	"s.19"
-						"class_width"	"s.04"
+						"medal_width"	"20"
+						"avatar_width"	"32"
+						"spacer"		"5"
+						"name_width"	"118"
+						"class_width"	"25"
 						"award_width"	"s.04"
-						"stats_width"	"s.08"
+						"stats_width"	"30"
 						"horiz_inset"	"5"
-
-						if_large
-						{
-							"tall"			"340"
-							"linegap"		"1"
-						}
 					}
 				}
-				"BluePlayerListBG"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"BluePlayerListBG"
-					"xpos"			"9"
-					"ypos"			"117"
-					"zpos"			"0"
-					"wide"			"p.2"
-					"tall"			"225"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"border"		"TFFatLineBorderClearBG"
-
-					if_large
-					{
-						"ypos"			"57"
-						"tall"			"360"
-					}
-				}
+				
+				"BlueTeamScore"				{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueTeamScoreDropshadow"	{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueTeamWinner"			{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueTeamWinnerDropshadow"	{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueTeamImage"				{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueTeamLabel"				{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueLeaderAvatar"			{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueLeaderAvatarBG"		{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BluePlayerListBG"			{"visible" "0" "xpos" "r0" "wide" "0"}
+				"BlueTeamScoreBG"			{"visible" "0" "xpos" "r0" "wide" "0"}
 			}
 			"RedTeamPanel"
 			{
 	 			"ControlName"		"EditablePanel"
 				"fieldName"		"RedTeamPanel"
-				"xpos"			"320"
+				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
 				"wide"			"f0"
@@ -514,207 +591,212 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				"RedTeamScoreBG"
+				Border1
 				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"RedTeamScoreBG"
-					"xpos"			"r5-p.213"
-					"ypos"			"99"
-					"zpos"			"2"
-					"wide"			"p.213"
-					"tall"			"36"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"border"		"TFFatLineBorderRedBGOpaque"
-
-					if_large
-					{
-						"ypos"			"39"
-					}
-				}						
-				"RedTeamScore"
-				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"RedTeamScore"
-					"font"			"MatchSummaryTeamScores"
-					"labelText"		"%redteamscore%"
-					"textAlignment"		"west"
-					"xpos"			"r5-p.19"
-					"ypos"			"103"
-					"zpos"			"4"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"43"
-					}
+					"ControlName"	"Panel"
+					"xpos"			"rs1-p0.05"
+					"ypos"			"54"
+					"wide"			"1"
+					"zpos"			"99"
+					"tall"			"201"
+					"bgcolor_override"	"VCR_White_R"
+					"border"		"noborder"
 				}
-				"RedTeamScoreDropshadow"
+				Border2
 				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"Black"
-					"labelText"		"%redteamscore%"
-					"textAlignment"		"west"
-					"xpos"			"r4-p.19"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"44"
-					}
+					"ControlName"	"Panel"
+					"xpos"			"0"
+					"ypos"			"54"
+					"wide"			"1"
+					"zpos"			"99"
+					"tall"			"201"
+					"bgcolor_override"	"VCR_White_R"
+					"border"		"noborder"
 				}
-				"RedTeamWinner"
-				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"RedTeamWinner"
-					"font"			"MatchSummaryWinner"
-					"labelText"		"%redteamwinner%"
-					"textAlignment"		"west"
-					"xpos"			"r5-p.19"
-					"ypos"			"103"
-					"zpos"			"4"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
 
-					if_large
-					{
-						"ypos"			"43"
-					}
-				}
-				"RedTeamWinnerDropshadow"
+				Border3
 				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
-					"fgcolor"		"Black"
-					"labelText"		"%redteamwinner%"
-					"textAlignment"		"west"
-					"xpos"			"r4-p.19"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"44"
-					}
+					"ControlName"	"Panel"
+					"xpos"			"0"
+					"ypos"			"254"
+					"wide"			"p0.95"
+					"zpos"			"99"
+					"tall"			"1"
+					"bgcolor_override"	"VCR_White_R"
+					"border"		"noborder"
 				}
-				"RedTeamImage"
+				Border4
 				{
-					"ControlName"		"ImagePanel"
-					"fieldName"		"RedTeamImage"
-					"xpos"			"r68"
-					"ypos"			"80"
-					"zpos"			"5"
-					"wide"			"70"
-					"tall"			"70"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"../hud/team_red"
-					"scaleImage"		"1"
-
-					if_large
-					{
-						"ypos"			"20"
-					}
+					"ControlName"	"Panel"
+					"xpos"			"0"
+					"ypos"			"54"
+					"wide"			"p0.95"
+					"zpos"			"99"
+					"tall"			"6"
+					"bgcolor_override"	"VCR_White_R"
+					"border"		"noborder"
 				}
-				"RedTeamLabel"
+				"RedTeamLabelPin"
 				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"RedTeamLabel"
-					"font"			"CompMatchStartTeamNames"
-					"labelText"		"%redteamname%"
-					"textAlignment"		"east"
-					"xpos"			"r255"
-					"ypos"			"-25"
+					"ControlName"		"Panel"
+					"xpos"			"rs1"
+					"ypos"			"rs1-p0.05"
 					"zpos"			"20"
-					"wide"			"195"
-					"tall"			"20"
+					"wide"			"p0.05"
+					"tall"			"201"
 					"autoResize"		"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-				}
-				"RedLeaderAvatar"
+				}		
+				"VCR_ScoreR"
 				{
-					"ControlName"		"CAvatarImagePanel"
-					"fieldName"		"RedLeaderAvatar"
-					"xpos"			"r52"
-					"ypos"			"100"
-					"zpos"			"5"
-					"wide"			"34"
-					"tall"			"34"
-					"visible"		"0"
-					"enabled"		"1"
-					"image"			""
-					"scaleImage"	"1"	
-					"color_outline"	"52 48 45 255"
-
-					if_large
-					{
-						"ypos"			"40"
-					}
-				}
-				"RedLeaderAvatarBG"
-				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"RedLeaderAvatarBG"
-					"xpos"			"r54"
-					"ypos"			"98"
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%redteamscore%"
+					"textAlignment"		"east"
+					"xpos"			"0"
+					"ypos"			"0" 
 					"zpos"			"4"
-					"wide"			"38"
-					"tall"			"38"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
 					"visible"		"1"
-					"PaintBackgroundType"	"2"
-					"bgcolor_override"	"117 107 94 255"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_R"
 
-					if_large
-					{
-						"ypos"			"38"
-					}
+					"pin_to_sibling"	"RedTeamLabelPin"
+					"pin_corner_to_sibling"	"6"
+					"pin_to_sibling_corner"	"4"
 				}
+				"VCR_ScoreG"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%redteamscore%"
+					"textAlignment"		"east"
+					"xpos"			"1"
+					"ypos"			"1" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_G"
+
+					"pin_to_sibling"	"VCR_ScoreR"
+				}
+				"VCR_ScoreB"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%redteamscore%"
+					"textAlignment"		"east"
+					"xpos"			"-1"
+					"ypos"			"1" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_B"
+
+					"pin_to_sibling"	"VCR_ScoreR"
+				}	
+				"VCR_WinnerR"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%redteamwinner%"
+					"textAlignment"		"east"
+					"xpos"			"0"
+					"ypos"			"0" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_R"
+
+					"pin_to_sibling"	"RedTeamLabelPin"
+					"pin_corner_to_sibling"	"6"
+					"pin_to_sibling_corner"	"4"
+				}
+				"VCR_WinnerG"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%redteamwinner%"
+					"textAlignment"		"east"
+					"xpos"			"1"
+					"ypos"			"1" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_G"
+
+					"pin_to_sibling"	"VCR_WinnerR"
+				}
+				"VCR_WinnerB"
+				{
+					"ControlName"		"CExLabel"
+					"font"			"VCR42-S"
+					"labelText"		"%redteamwinner%"
+					"textAlignment"		"east"
+					"xpos"			"-1"
+					"ypos"			"1" 
+					"zpos"			"4"
+					"wide"			"24"
+					"tall"			"60"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"1"
+					"auto_tall_tocontents"	"1"
+					"proportionaltoparent" "1"
+					"fgcolor_override"		"VCR_White_B"
+
+					"pin_to_sibling"	"VCR_WinnerR"
+				}
+				
 				"RedPlayerListParent"
 				{
 					"ControlName"		"EditablePanel"
 					"fieldName"		"RedPlayerListParent"
-					"xpos"			"r12-p.193"
-					"ypos"			"137"
+					"xpos"			"0"
+					"ypos"			"60"
 					"zpos"			"1"
-					"wide"			"p.193"
-					"tall"			"215"
+					"wide"			"p0.95"
+					"tall"			"195"
 					"visible"		"1"
 					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"77"
-						"tall"			"340"
-					}
 			
 					"RedPlayerList"
 					{
@@ -723,15 +805,17 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"1"
-						"wide"			"p.465"
-						"tall"			"205"
+						"wide"			"f0"
+						"tall"			"f0"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
 						"linespacing"	"26"
 						"linegap"		"4"
+						"proportionaltoparent"	"1"
 						//"show_columns"	"1"
+						"paintBackground"	"0"
 
 						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
@@ -741,36 +825,21 @@
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
 						"horiz_inset"	"5"
-
-						if_large
-						{
-							"tall"			"340"
-							"linegap"		"1"
-						}
 					}
 				}
-				"RedPlayerListBG"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"RedPlayerListBG"
-					"xpos"			"r9-p.2"
-					"ypos"			"117"
-					"zpos"			"0"
-					"wide"			"p.2"
-					"tall"			"225"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"border"		"TFFatLineBorderClearBG"
 
-					if_large
-					{
-						"ypos"			"57"
-						"tall"			"360"
-					}
-				}
+				"RedTeamScore"				{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedTeamScoreDropshadow"	{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedTeamWinner"				{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedTeamWinnerDropshadow"	{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedTeamImage"				{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedTeamLabel"				{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedLeaderAvatar"			{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedLeaderAvatarBG"			{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedPlayerListBG"			{"visible" "0" "xpos" "r0" "wide" "0"}
+				"RedTeamScoreBG"			{"visible" "0" "xpos" "r0" "wide" "0"}
 			}
+
 			"BlueMedals"
 			{
 	 			"ControlName"		"EditablePanel"

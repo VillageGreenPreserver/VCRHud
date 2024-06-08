@@ -446,6 +446,7 @@
 				"paintBorder"					"0"
 				"ignorescheme"					"1"
 				"border_default"				"VCR_WhiteLineBorder"
+				"FgColor"						"blank"
 				"defaultFgColor_override"		"blank"
 				"armedFgColor_override"			"200 200 220 255"
 				"depressedFgColor_override"		"blank"

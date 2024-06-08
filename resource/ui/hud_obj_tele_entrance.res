@@ -14,6 +14,32 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	"Static"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"1"
+		"ypos"					"0"
+		"wide"					"f1"
+		"tall"					"f0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"		"0 255 0 0"
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"-4-p0.95+1+92+1"
+			"ypos"					"p-0.95+1+p0.05+p0.05"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+		}
+	}
 	
 	"Background"
 	{
@@ -41,11 +67,19 @@
 		"bgcolor_override"	"VCR_Blue"
 		"proportionaltoparent" "1"
 	}
+	"border"
+	{
+		"ControlName"	"Panel"
+		"tall"			"f0"
+		"wide"			"1"
+		"bgcolor_override"	"200 200 220 255"
+		"proportionaltoparent"	"1"
+	}
 	
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"Icon"
+		"fieldName"		"Icon_Teleport_Entrance"
 		"xpos"			"12"
 		"ypos"			"0"
 		"wide"			"o1"
@@ -83,7 +117,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_enter_not_built_360"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -254,7 +288,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -291,7 +325,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"border"		"VCR_WhiteLineBorder"
@@ -352,7 +386,7 @@
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"Left"
+					"textAlignment"	"west"
 					"dulltext"		"0"
 					"brighttext"	"0"
 					"border"		"VCR_WhiteLineBorder"
@@ -427,7 +461,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"border"		"VCR_WhiteLineBorder"

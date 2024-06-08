@@ -7,7 +7,7 @@
 		"enabled"				"1"
 		"xpos"					"rs1-p0.05"
 		"ypos"					"0"
-		"zpos"					"1001"
+		"zpos"					"-1000"
 		"wide"					"o1"
 		"tall"					"20"
 		"proportionaltoparent"	"0"

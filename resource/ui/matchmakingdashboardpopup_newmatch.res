@@ -74,9 +74,9 @@
 
 				"fonts"
 				{
-					"0"		"VCR12"
-					"1"		"VCR10"
-					"2"		"VCR8"
+					"0"		"ocra12"
+					"1"		"ocra10"
+					"2"		"ocra8"
 				}
 			}
 
@@ -91,7 +91,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"VCR12"
+				"font"			"ocra12"
 				"fgcolor_override"	"VCR_White"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
@@ -233,7 +233,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"VCR12"
+				"font"			"ocra12"
 				"fgcolor_override"	"VCR_White"
 				"textAlignment"	"center"
 				"labelText"		"Joining"

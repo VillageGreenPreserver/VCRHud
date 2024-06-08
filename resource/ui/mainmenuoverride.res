@@ -121,7 +121,7 @@
 				"zpos"			"9"
 			}
 		}
-	}	
+	}
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -423,6 +423,8 @@
 		"pin_to_sibling_corner"	"2"
 	}
 
+	
+
 	"VCR_MoreButton2"
 	{
 		"ControlName"	"CMatchHistoryEntryPanel"
@@ -598,13 +600,6 @@
 		}
 	}
 
-
-
-	"TEST"
-	{
-		"ControlName"	"CRotationSlider"
-		"zpos"			"0"
-	}
 
 	"CallVoteButton"
 	{
