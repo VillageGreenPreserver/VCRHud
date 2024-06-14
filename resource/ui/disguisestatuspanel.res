@@ -66,6 +66,35 @@
 		"pin_to_sibling"				"SpectatorGUIHealth"
 		"pin_corner_to_sibling"			"1"
 	}
+
+	"Static"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"proportionaltoparent"	"1"
+		"autoResize"			"3"
+		"bgcolor_override"		"0 0 100 0"
+		"pin_to_sibling"		"DisguiseNameLabel"
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"-4"
+			"ypos"					"0"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+		}
+	}
 	"TitleBG"
 	{
 		"ControlName"					"Label"
@@ -95,7 +124,7 @@
 		"xpos"							"0"
 		"ypos"							"0"
 		"zpos"							"1"
-		"wide"							"24"
+		"wide"							"28"
 		"tall"							"6"
 		"visible"						"1"
 		"enabled"						"1"
@@ -110,7 +139,7 @@
 		"ypos"							"0"
 		"zpos"							"1"
 		"wide"							"1"
-		"tall"							"30"
+		"tall"							"60"
 		"visible"						"1"
 		"enabled"						"1"
 		"bgcolor_override"				"200 200 220 255"
@@ -162,7 +191,7 @@
 		"fieldName"						"SpectatorGUIHealth"
 		"xpos"							"rs1-p0.05-1"
 		"ypos"							"rs1-p0.05-1"
-		"wide"							"24"
+		"wide"							"28"
 		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"

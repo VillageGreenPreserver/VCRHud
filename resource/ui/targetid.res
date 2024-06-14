@@ -26,6 +26,45 @@
 		"draw_corner_height" 	"4"	
 	}
 
+	"Static"
+	{
+		"ControlName"			"EditablePanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"zpos"					"99"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+		"proportionaltoparent"	"1"
+		"autoResize"			"3"
+		"bgcolor_override"		"0 0 100 0"
+
+		"pin"
+		{
+			"ControlName"	"Panel"
+			"wide"			"0"
+			"tall"			"0"
+			"xpos"			"c0"
+			"ypos"			"0"
+		}
+
+		"VCR"
+		{
+			"ControlName"			"ImagePanel"
+			"wide"					"f-30"
+			"tall"					"f0"
+			"xpos"					"s-0.5"
+			"ypos"					"s-0.5"
+			"zpos"					"10"
+			"alpha"					"20"
+			"image"					"replay/thumbnails/hud/vcr"
+			"scaleImage"			"1"
+			"pin_to_sibling"		"pin"
+			"pin_to_sibling_corner"	"3"
+		}
+	}
+
 	"BG"
 	{
 		"ControlName"	"Panel"

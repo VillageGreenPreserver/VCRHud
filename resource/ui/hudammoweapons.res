@@ -1,45 +1,8 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"4"
-		"xpos_minmode"	"28"
-		"ypos"			"0"
-		"ypos_minmode"	"7"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
-	}
-	"HudWeaponLowAmmoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"r0"
-		"xpos_minmode"	"28"
-		"ypos"			"0"
-		"ypos_minmode"	"7"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
-	}
+	"HudWeaponAmmoBG"{ "visible" "0" "xpos" "r0" "wide" "0"}
+	"HudWeaponLowAmmoImage"{ "visible" "0" "xpos" "r0" "wide" "0"}
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
@@ -208,43 +171,6 @@
 		"proportionaltoparent"	"1"
 		"alpha"	"100"
 	}
-	"XHAIR_RG"
-	{
-		"ControlName"			"CExLabel"
-		"xpos"					"1"
-		"ypos"					"1"
-		"zpos"					"2"
-		"wide"					"o1"
-		"tall"					"48"
-		"visible"				"0"
-		"enabled"				"1"
-		"fgcolor_override"		"VCR_White_G"
-		"labelText"				"  >"
-		"textAlignment"			"center"
-		"proportionaltoparent"	"1"
-		"font"					"VCR12"
-		
-		"pin_to_sibling"	"XHAIR_R"
-	}
-	
-	"XHAIR_RB"
-	{
-		"ControlName"			"CExLabel"
-		"xpos"					"-1"
-		"ypos"					"1"
-		"zpos"					"2"
-		"wide"					"o1"
-		"tall"					"48"
-		"visible"				"0"
-		"enabled"				"1"
-		"fgcolor_override"		"VCR_White_B"
-		"labelText"				"  >"
-		"textAlignment"			"center"
-		"proportionaltoparent"	"1"
-		"font"					"VCR20"
-		
-		"pin_to_sibling"	"XHAIR_R"
-	}
 	
 	"AmmoPin"
 	{
@@ -278,8 +204,9 @@
 		
 		"fonts"
 		{
-			"0"		"VCR10"
-			"1"		"VCR8"
+			"0"		"VCR14"
+			"1"		"VCR12"
+			"2"		"VCR10"
 		}
 	}
 	
@@ -303,8 +230,9 @@
 		
 		"fonts"
 		{
-			"0"		"VCR10"
-			"1"		"VCR8"
+			"0"		"VCR14"
+			"1"		"VCR12"
+			"2"		"VCR10"
 		}
 	}
 	
@@ -328,8 +256,9 @@
 		
 		"fonts"
 		{
-			"0"		"VCR10"
-			"1"		"VCR8"
+			"0"		"VCR14"
+			"1"		"VCR12"
+			"2"		"VCR10"
 		}
 	}
 	

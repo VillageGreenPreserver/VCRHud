@@ -25,7 +25,7 @@
 		"xpos"					"rs1-p0.05-1"
 		"ypos"					"rs1-p0.05-1"
 		"wide"					"91"
-		"tall"					"180"
+		"tall"					"199"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"		"0 255 0 0"
 
@@ -35,7 +35,7 @@
 			"wide"					"f-30"
 			"tall"					"f0"
 			"xpos"					"-4-p0.95+1+91"
-			"ypos"					"p-0.95+1+180"
+			"ypos"					"p-0.95+1+199"
 			"zpos"					"10"
 			"alpha"					"20"
 			"image"					"replay/thumbnails/hud/vcr"

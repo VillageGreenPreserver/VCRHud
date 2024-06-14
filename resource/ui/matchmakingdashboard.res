@@ -9,10 +9,10 @@
 		"ypos"						"0"
 		"zpos"						"1004"
 		"wide"						"f0"
-		"tall"						"404"
+		"tall"						"480"
 		"keyboardinputenabled"		"0"
 		"collapsed_height"			"0"
-		"expanded_height"			"404"
+		"expanded_height"			"480"
 		"resize_time"				"0.0"
 	}
 	"TopBar"
@@ -75,15 +75,16 @@
 			"border"					"OuterShadowBorder"
 			"proportionaltoparent"		"1"
 		}
+
 		"ToggleChatButton"
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"ToggleChatButton"
-			"xpos"						"0"
+			"xpos"						"c-300"
 			"ypos"						"0"
 			"zpos"						"100"
-			"wide"						"40"
-			"tall"						"f6"
+			"wide"						"21"
+			"tall"						"21"
 			"autoResize"				"0"
 			"pinCorner"					"3"
 			"visible"					"0"
@@ -722,6 +723,7 @@
 				"drawcolor_override"		"TanLight"
 			}
 		}
+
 		"FindAGameButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -775,41 +777,5 @@
 				"drawcolor_override"		"TanLight"
 			}
 		}
-	}
-	"VCR_FindGame"
-	{
-		"ControlName"					"CExButton"
-		"xpos"							"cs-0.5"
-		"ypos"							"100"
-		"zpos"							"0"
-		"wide"							"600"
-		"tall"							"22"
-		"autoResize"					"0"
-		"pinCorner"						"3"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"font"							"VCR28-NA"
-		"auto_tall_tocontents"			"0"
-		"textAlignment"					"west"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"Command"						"find_game"
-		"proportionaltoparent"			"1"
-		"labeltext"						"FIND_GAME"
-		"mouseinputenabled"				"1"
-		"keyboardinputenabled"			"0"
-		"actionsignallevel"				"2"
-		"roundedcorners"				"0"
-		"textinsety"					"0"
-		"textinsetx"					"0"
-		"use_proportional_insets"		"1"
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				""
-		"sound_armed"					"UI/buttonrollover.wav"
-		"armedBgColor_override"			"200 200 220 255"
-		"defaultBgColor_override"		"blank"
-		"defaultFgColor_override"		"blank"
-		"armedFgColor_override"			"VCR_Blue"
 	}
 }

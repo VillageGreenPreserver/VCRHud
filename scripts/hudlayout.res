@@ -52,33 +52,7 @@
 		"bgcolor_override"		"0 0 100 255"
 	}
 	
-	"test"
-	{
-		"ControlName"			"EditablePanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"zpos"					"99"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"p0.95"
-		"tall"					"480"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"		"0 255 0 0"
-
-		"VCR"
-		{
-			"ControlName"			"ImagePanel"
-			"wide"					"f-30"
-			"tall"					"f0"
-			"xpos"					"-4"
-			"ypos"					"0"
-			"zpos"					"10"
-			"alpha"					"255"
-			"image"					"replay/thumbnails/return"
-			"scaleImage"			"1"
-		}
-	}
-	"Static"
+	"RightBarStatic"
 	{
 		"ControlName"			"EditablePanel"
 		"visible"				"1"
@@ -341,6 +315,7 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
 		"TextFont"		"TargetID"
@@ -424,9 +399,8 @@
 
 	"MMDashBoardPopupContainer"
 	{
-		"ypos"						"-394"
-		"zpos"						"999999"
-		"bgcolor_override"			"0 255 0 0"
+		"ypos"						"-470"
+		"mouseinputenabled"	"1"
 	}
 
 	"MatchmakingContainer"
@@ -437,8 +411,10 @@
 	"Engineer_pinner"
 	{
 		"ControlName"		"Panel"
-		"xpos"				"s-1+rp0.05-1-92"
-		"ypos"				"s-1+rp0.05-1-p0.2375-9"
+		"wide"				"0"
+		"tall"				"0"
+		"xpos"				"rp0.05-1-92"
+		"ypos"				"rp0.05-1-p0.2375-9"
 	}
 	"BuildingStatus_Engineer"
 	{
@@ -969,6 +945,7 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"200"
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -1069,7 +1046,7 @@
 		"enabled"					"1"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"-100"
+		"zpos"						"-101"
 		"wide"						"f0"
 		"tall"						"500"
 		"PaintBackgroundType"		"0"
@@ -1404,12 +1381,10 @@
 		"fieldName"					"HudMenuTauntSelection"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-235"
-		"ypos"						"c-52"
-		"ypos_hidef"				"c-42"
-		"ypos_lodef"				"c-42"
-		"wide"						"470"
-		"tall"						"200"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"p0.95"
+		"tall"						"p0.95"
 		"PaintBackgroundType"		"0"
 	}
 	"ItemAttributeTracker"
