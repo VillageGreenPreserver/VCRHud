@@ -18,8 +18,6 @@ startupmenu
 
 sv_unlockedchapters 99
 
-exec credits.cfg
-
 alias scope_fix "voice_menu_1; slot10"
 
 tf_dashboard_slide_time 0
@@ -32,3 +30,9 @@ tf_hud_target_id_alpha 255
 alias dimmer_clicked ""
 alias cancel ""
 alias back ""
+
+//reload menu
+vgui_cache_res_files 0
+toggle mat_aaquality
+
+exec credits.cfg

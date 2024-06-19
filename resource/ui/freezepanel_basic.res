@@ -165,6 +165,15 @@
 		}	
 	}
 
+	"item_pin"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"p-0.95"
+		"ypos"			"p-0.95"
+		"wide"			"0"
+		"tall"			"0"
+	}
+
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -192,6 +201,9 @@
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
+
+		"pin_to_sibling"	"item_pin"
+		"pin_to_sibling_corner"	"3"
 		
 		"itemmodelpanel"
 		{

@@ -312,6 +312,23 @@
 			"proportionaltoparent"		"1"
 			"labelText"		"0:00"
 		}
+		
+		"TimePanelValue2"
+		{
+			"ControlName"		"CExLabel"
+			"font"			"ocra18"
+			"fgcolor"		"200 200 200 255"
+			"xpos"			"rs1"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"900"
+			"tall"			"p0.5"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"east"
+			"proportionaltoparent"		"1"
+			"labelText"		"#TF_timeleft"
+		}
 	}
 	"TeamStatus"
 	{

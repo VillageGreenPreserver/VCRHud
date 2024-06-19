@@ -82,7 +82,7 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"0"
+		"tabheight"		"3"
 		"transition_time" "0"
 		"yoffset"	"0"
 		

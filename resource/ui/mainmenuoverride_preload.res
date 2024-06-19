@@ -214,12 +214,12 @@
 		}
 		"cp_cap_blu"
 		{
-			"ControlName"	"CBitmapImagePanel"
+			"ControlName"	"ImagePanel"
 			"image"		"../sprites/obj_icons/icon_obj_cap_blu"
 		}
 		"cp_cap_red"
 		{
-			"ControlName"	"CBitmapImagePanel"
+			"ControlName"	"ImagePanel"
 			"image"		"../sprites/obj_icons/icon_obj_cap_red"
 		}
 		

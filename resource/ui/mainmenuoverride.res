@@ -222,6 +222,15 @@
 		"pin_corner_to_sibling"	"0"
 	}
 
+	"reload"
+	{
+		"ControlName"	"Button"
+		"zpos"			"2001"
+		"xpos"			"rs1"
+		"ypos"			"rs1"
+		"command"		"engine hud"
+	}
+
 	"MMDashboard"
 	{
 		"pin_to_sibling"	"dash_pin"
@@ -446,7 +455,7 @@
 
 			"toggle"
 			{
-				"ControlName"					"CExButton"
+				"ControlName"					"ToggleButton"
 				"xpos"							"0"
 				"ypos"							"0"
 				"zpos"							"1005"
@@ -464,13 +473,21 @@
 				"paintbackgroundtype"			"0"
 				"roundedcorners"				"0"
 				"stay_armed_on_click"			"1"
+				"selected"	"0"
+
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				""
 				"sound_armed"					"UI/buttonrollover.wav"
+
 				"armedBgColor_override"			"200 200 220 255"
+				"depressedBgColor_override"		"200 200 220 255"
+
 				"defaultBgColor_override"		"blank"
 				"defaultFgColor_override"		"200 200 220 255"
+
 				"armedFgColor_override"			"VCR_Blue"
+				"depressedFgColor_override"		"VCR_Blue"
+				"selectedFgColor_override"		"VCR_Blue"
 			}
 
 			"Contents"

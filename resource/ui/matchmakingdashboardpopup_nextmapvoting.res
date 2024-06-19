@@ -13,6 +13,7 @@
 		"proportionaltoparent"	"0"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
+		"eatmouseinput"	"0"
 
 		"collapsed_height"	"0"
 		"expanded_height"	"54"
