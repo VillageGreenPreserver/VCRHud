@@ -108,7 +108,7 @@
 		"textinsetx"			"4"
 		"bgcolor_override"	"100 100 110 0"
 		"border"	"VCR_WhiteLineBorder"
-		"disabledfgcolor2_override"	"200 200 220 255"
+		"disabledfgcolor2_override"	"VCR_White_Tint"
 	}
 				
 	"CPTimerBG"

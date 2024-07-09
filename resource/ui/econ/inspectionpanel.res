@@ -45,10 +45,10 @@
 		"actionsignallevel"		"4"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -71,16 +71,18 @@
 		"tabPosition"	"0"
 		"labelText"		"LOADOUT/"
 
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"VCR28-NA"
 		"Command"		"back"
 		"actionsignallevel"		"4"
 		"roundedcorners"	"0"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -113,11 +115,13 @@
 		"tabPosition"	"0"
 		"labelText"		"LOADOUT/"
 
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"VCR28-NA"
 		"roundedcorners"	"0"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 
-		"FgColor_override"	"200 200 220 255"
+		"FgColor_override"	"VCR_White_Tint"
 		
 		"pin_to_sibling"	"CancelButton"
 		"pin_corner_to_sibling"	"0"
@@ -147,7 +151,7 @@
 		"font"			"VCR28-NA"
 		"roundedcorners"	"0"
 
-		"FgColor_override"	"200 200 220 255"
+		"FgColor_override"	"VCR_White_Tint"
 		
 		"pin_to_sibling"	"BackButton"
 		"pin_corner_to_sibling"	"0"
@@ -313,7 +317,7 @@
 			"font"				"ocra12-NA"
 			
 			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 			"depressedFgColor_override" "TanDark"
 			
@@ -324,7 +328,7 @@
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 0"
-			"armedBgColor_Override"	"200 200 220 255"
+			"armedBgColor_Override"	"VCR_White_Tint"
 			
 			"paintborder"		"1"
 			"border_default"	"VCR_WhiteLineBorder"
@@ -444,10 +448,10 @@
 			"actionsignallevel"		"5"
 			"roundedcorners"	"0"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"0 0 0 0"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -476,10 +480,10 @@
 			"actionsignallevel"		"5"
 			"roundedcorners"	"0"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"0 0 0 0"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -509,7 +513,7 @@
 			"font"			"VCR28-NA"
 			"roundedcorners"	"0"
 
-			"FgColor_override"	"200 200 220 255"
+			"FgColor_override"	"VCR_White_Tint"
 			
 			"pin_to_sibling"	"BackButton"
 			"pin_corner_to_sibling"	"0"
@@ -599,12 +603,12 @@
 			"pin_to_sibling"	"PaintkitLabel"
 			"pin_to_sibling_corner"	"1"
 		
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"bgcolor_override"	"0 0 0 0"
 			"disabledFgColor_override" "TanDark"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "200 200 220 255"
+			"selectionTextColor_override" "VCR_White_Tint"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -671,12 +675,12 @@
 
 			"proportionaltoparent"	"1"
 		
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"bgcolor_override"	"0 0 0 0"
 			"disabledFgColor_override" "TanDark"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "200 200 220 255"
+			"selectionTextColor_override" "VCR_White_Tint"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -823,11 +827,11 @@
 			"border_armed"	"VCR_WhiteLineBorder"
 			"border"	"VCR_WhiteLineBorder"
 
-			"defaultfgcolor_override"	"200 200 220 255"
+			"defaultfgcolor_override"	"VCR_White_Tint"
 			"armedfgcolor_override"		"0 0 100 255"
 
 			"defaultbgcolor_override"	"0 0 100 255"
-			"armedbgcolor_override"		"200 200 220 255"
+			"armedbgcolor_override"		"VCR_White_Tint"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -877,11 +881,11 @@
 			"border_armed"	"VCR_WhiteLineBorder"
 			"border"	"VCR_WhiteLineBorder"
 
-			"defaultfgcolor_override"	"200 200 220 255"
+			"defaultfgcolor_override"	"VCR_White_Tint"
 			"armedfgcolor_override"		"0 0 100 255"
 
 			"defaultbgcolor_override"	"0 0 100 255"
-			"armedbgcolor_override"		"200 200 220 255"
+			"armedbgcolor_override"		"VCR_White_Tint"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -919,7 +923,7 @@
 			"default"		"1"
 			"NumericInputOnly"	"1"
 			"bgcolor_override"	"0 0 80 255"
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"selectedtextcolor_override"	"0 0 100 255"
 			"font"		"ocra10-NA"
 			"border"	"VCR_WhiteLineBorder"
@@ -964,13 +968,13 @@
 			"actionsignallevel" "2"
 			"RoundedCorners"	"0"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"0 0 100 255"
 
 			"border_default"	"VCR_WhiteLineBorder"
 
 			"defaultBgColor_override"	"0 0 100 255"
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1003,13 +1007,13 @@
 			"actionsignallevel" "2"
 			"RoundedCorners"	"0"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"0 0 100 255"
 
 			"border_default"	"VCR_WhiteLineBorder"
 
 			"defaultBgColor_override"	"0 0 100 255"
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

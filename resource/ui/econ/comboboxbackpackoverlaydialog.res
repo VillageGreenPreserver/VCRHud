@@ -87,12 +87,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"200 200 220 255"
+		"fgcolor_override"	"VCR_White_Tint"
 		"bgcolor_override"	"251 235 202 0"
 		"disabledFgColor_override" "117 107 94 0"
 		"disabledBgColor_override" "251 235 202 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "200 200 220 255"
+		"selectionTextColor_override" "VCR_White_Tint"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 	}
 		
@@ -121,12 +121,12 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"VCR_WhiteLineBorder"
 		"border_armed"				"VCR_WhiteLineBorder"
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		"depressedBgColor_override"	"VCR_Blue"
-		"depressedFgColor_override"	"200 200 220 255"
+		"depressedFgColor_override"	"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 	}
 	
 	"OkButton"
@@ -154,11 +154,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"VCR_WhiteLineBorder"
 		"border_armed"				"VCR_WhiteLineBorder"
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		"depressedBgColor_override"	"VCR_Blue"
-		"depressedFgColor_override"	"200 200 220 255"
+		"depressedFgColor_override"	"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 	}
 }

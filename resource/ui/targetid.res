@@ -138,7 +138,7 @@
 		"proportionaltoparent"	"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"West"
-		"fgcolor"		"200 200 220 255"
+		"fgcolor"		"VCR_White_Tint"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -201,7 +201,7 @@
 			"labelText"		"%Health%"
 			"textAlignment"	"center"	
 			"font"			"ocra16-NA"
-			"fgcolor"		"200 200 220 255"
+			"fgcolor"		"VCR_White_Tint"
 		}
 	}	
 	
@@ -254,10 +254,10 @@
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"-3"
 		"wide"			"30"
 		"tall"			"36"
-		"bgcolor_override"	"200 200 220 255"
+		"bgcolor_override"	"VCR_White_Tint"
 		"visible"		"1"
 		"enabled"		"1"	
 
@@ -358,7 +358,7 @@
 			"textAlignment"		"center"
 			"auto_wide_tocontents"	"0"
 			"proportionaltoparent"	"1"
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"use_proportional_insets"	"1"
 			"textinsety"		"-10"
 		}	
@@ -379,7 +379,7 @@
 			"textAlignment"		"center"
 			"auto_wide_tocontents"	"0"
 			"proportionaltoparent"	"1"
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"use_proportional_insets"	"1"
 			"textinsety"		"10"
 		}	

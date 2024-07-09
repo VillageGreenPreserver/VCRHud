@@ -468,7 +468,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"1"
@@ -479,7 +479,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -490,7 +490,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"1"
@@ -501,7 +501,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -512,7 +512,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"1"
@@ -523,7 +523,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -534,7 +534,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"1"
@@ -545,7 +545,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -556,7 +556,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"1"
@@ -567,7 +567,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -578,7 +578,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"13"
 				"weight"		"500"
 				"additive"		"1"
@@ -589,7 +589,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"13"
 				"weight"		"500"
 				"additive"		"0"
@@ -601,7 +601,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"1"
@@ -612,7 +612,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -623,7 +623,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"1"
@@ -634,7 +634,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -645,7 +645,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"1"
@@ -656,7 +656,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -667,7 +667,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"18"
 				"weight"		"501"
 				"additive"		"1"
@@ -679,7 +679,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"20"
 				"weight"		"500"
 				"additive"		"1"
@@ -690,7 +690,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
@@ -701,7 +701,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"1"
@@ -712,7 +712,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
@@ -723,7 +723,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"1"
@@ -734,7 +734,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -745,7 +745,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"26"
 				"weight"		"500"
 				"additive"		"1"
@@ -756,7 +756,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"28"
 				"weight"		"500"
 				"additive"		"1"
@@ -767,7 +767,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"28"
 				"weight"		"500"
 				"additive"		"0"
@@ -778,7 +778,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"1"
@@ -789,7 +789,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"1"
@@ -799,7 +799,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"42"
 				"weight"		"500"
 				"additive"		"1"
@@ -809,7 +809,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"42"
 				"weight"		"501"
 				"additive"		"1"
@@ -821,7 +821,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"46"
 				"weight"		"500"
 				"additive"		"1"
@@ -832,7 +832,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"50"
 				"weight"		"500"
 				"additive"		"1"
@@ -842,7 +842,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"50"
 				"weight"		"501"
 				"additive"		"1"
@@ -853,7 +853,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"50"
 				"weight"		"500"
 				"additive"		"0"
@@ -863,7 +863,7 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"50"
 				"weight"		"501"
 				"additive"		"0"
@@ -874,10 +874,254 @@
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"ocra custom"
 				"tall"			"56"
 				"weight"		"500"
 				"additive"		"1"
+			}
+		}
+		"Icons6"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"6"
+				"antialias"	"1"
+			}
+		}
+		"Icons8"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"8"
+				"antialias"	"1"
+			}
+		}
+		"Icons10"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"10"
+				"antialias"	"1"
+			}
+		}
+		"Icons12"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"12"
+				"antialias"	"1"
+			}
+		}
+		"Icons14"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"14"
+				"antialias"	"1"
+			}
+		}
+		"Icons16"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"16"
+				"antialias"	"1"
+			}
+		}
+		"Icons18"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"18"
+				"antialias"	"1"
+			}
+		}
+		"Icons20"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"20"
+				"antialias"	"1"
+			}
+		}
+		"Icons22"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"22"
+				"antialias"	"1"
+			}
+		}
+		"Icons24"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"24"
+				"antialias"	"1"
+			}
+		}
+		"Icons26"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"26"
+				"antialias"	"1"
+			}
+		}
+		"Icons28"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"28"
+				"antialias"	"1"
+			}
+		}
+		"Icons30"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"30"
+				"antialias"	"1"
+			}
+		}
+		"Icons32"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"32"
+				"antialias"	"1"
+			}
+		}
+		"Icons34"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"34"
+				"antialias"	"1"
+			}
+		}
+		"Icons36"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"36"
+				"antialias"	"1"
+			}
+		}
+		"Icons38"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"38"
+				"antialias"	"1"
+			}
+		}
+		"Icons40"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"40"
+				"antialias"	"1"
+			}
+		}
+		"Icons42"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"42"
+				"antialias"	"1"
+			}
+		}
+		"Icons44"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"44"
+				"antialias"	"1"
+			}
+		}
+		"Icons46"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"46"
+				"antialias"	"1"
+			}
+		}
+		"Icons48"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"48"
+				"antialias"	"1"
+			}
+		}
+		"Icons50"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"50"
+				"antialias"	"1"
+			}
+		}
+		"Icons52"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"52"
+				"antialias"	"1"
+			}
+		}
+		"Icons54"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"54"
+				"antialias"	"1"
+			}
+		}
+		"Icons56"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"56"
+				"antialias"	"1"
+			}
+		}
+		"Icons56-Italic"
+		{
+			"1"
+			{
+				"name"	"TF2 Icons"
+				"tall"	"56"
+				"italic"	"1"
+				"antialias"	"1"
 			}
 		}
 	}

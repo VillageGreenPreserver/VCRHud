@@ -94,7 +94,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"
-		"textinsetx"	"4"
+		"textinsetx"	"0"
 		"use_proportional_insets" "1"
 		"font"			"VCR28-NA"
 		"textAlignment"	"west"
@@ -114,13 +114,13 @@
 		"sound_released"	""
 		"sound_armed"		"UI/buttonrollover.wav"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		"depressedFgColor_override" "VCR_Blue"
 
 		"defaultbgColor_override"	"VCR_Blue"
-		"armedbgColor_override"		"200 200 220 255"
-		"depressedbgColor_override" "200 200 220 255"
+		"armedbgColor_override"		"VCR_White_Tint"
+		"depressedbgColor_override" "VCR_White_Tint"
 	}	
 
 	"MatchmakingBanPanel"

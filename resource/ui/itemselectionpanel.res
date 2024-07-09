@@ -122,10 +122,10 @@
 		"actionsignallevel"		"5"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -150,6 +150,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"auto_wide_tocontents"	"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 
 		"FgColor_override"	"200 200 200 255"
 		
@@ -351,11 +353,13 @@
 		"Command"		"vguicancel"
 		"roundedcorners"	"0"
 		"auto_wide_tocontents"	"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -412,10 +416,10 @@
 		"roundedcorners"	"0"
 		"border_default"	"VCR_WhiteLineBorder"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -451,10 +455,10 @@
 		"roundedcorners"	"0"
 		"border_default"	"VCR_WhiteLineBorder"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -489,10 +493,10 @@
 		"roundedcorners"	"0"
 		"border_default"	"VCR_WhiteLineBorder"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"disabledFgColor2_override"	"100 100 110 255"
 		"armedFgColor_override"		"VCR_Blue"
 		
@@ -551,10 +555,10 @@
 		"roundedcorners"	"0"
 		"border_default"	"VCR_WhiteLineBorder"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"disabledFgColor2_override"	"100 100 110 255"
 		"armedFgColor_override"		"VCR_Blue"
 		

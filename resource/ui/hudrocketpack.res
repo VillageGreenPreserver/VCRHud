@@ -118,7 +118,7 @@
 		"enabled"				"1"
 		"image"			"replay/thumbnails/hud/modulate"
 		"scaleimage"				"1"
-		"drawcolor"				"200 200 220 255"
+		"drawcolor"				"VCR_White_Tint"
 		"proportionaltoparent"	"1"
 		"border"	"noborder"
 		

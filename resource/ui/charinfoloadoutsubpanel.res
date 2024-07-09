@@ -51,6 +51,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"auto_wide_tocontents"	"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		
 		"pin_to_sibling"	"CancelButton"
 		"pin_corner_to_sibling"	"0"
@@ -79,10 +81,10 @@
 		"actionsignallevel"		"3"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -145,7 +147,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 				"ButtonBorder"		"NoBorder"
 				"ignorescheme"		"1"
 			}
@@ -168,7 +170,7 @@
 			"xpos"			"10"
 			"ypos"			"10"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -187,10 +189,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -200,7 +202,7 @@
 			"xpos"			"10"
 			"ypos"			"42"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -219,10 +221,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -232,7 +234,7 @@
 			"xpos"			"10"
 			"ypos"			"74"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -251,10 +253,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -264,7 +266,7 @@
 			"xpos"			"10"
 			"ypos"			"106"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -283,10 +285,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -296,7 +298,7 @@
 			"xpos"			"10"
 			"ypos"			"138"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -315,10 +317,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -328,7 +330,7 @@
 			"xpos"			"10"
 			"ypos"			"170"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -347,10 +349,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -360,7 +362,7 @@
 			"xpos"			"10"
 			"ypos"			"202"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -379,10 +381,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -392,7 +394,7 @@
 			"xpos"			"10"
 			"ypos"			"234"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -411,10 +413,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -424,7 +426,7 @@
 			"xpos"			"10"
 			"ypos"			"266"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -443,10 +445,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -456,7 +458,7 @@
 			"xpos"			"10"
 			"ypos"			"298"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -475,10 +477,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -488,7 +490,7 @@
 			"xpos"			"10"
 			"ypos"			"330"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -507,10 +509,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -520,7 +522,7 @@
 			"xpos"			"10"
 			"ypos"			"364"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"570"
 			"tall"			"22"
 			"visible"		"1"
 			"font"			"VCR28-NA"
@@ -539,10 +541,10 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"blank"
 
-			"defaultFgColor_override" "200 200 220 255"
+			"defaultFgColor_override" "VCR_White_Tint"
 			"armedFgColor_override" "VCR_Blue"
 		}
 
@@ -583,10 +585,10 @@
 		"sound_released"	""
 		"sound_armed"		"UI/buttonrollover.wav"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"blank"
 
-		"defaultFgColor_override" "200 200 220 255"
+		"defaultFgColor_override" "VCR_White_Tint"
 		"armedFgColor_override" "VCR_Blue"
 		
 		"pin_to_sibling"	"VCR_List"

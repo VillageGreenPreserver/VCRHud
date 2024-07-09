@@ -38,22 +38,22 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"200 200 220 255"
+		Button.TextColor				"VCR_White_Tint"
 		Button.BgColor					"VCR_BLUE"
 		Button.ArmedTextColor			"vcr_blue"
-		Button.ArmedBgColor				"200 200 220 255"
+		Button.ArmedBgColor				"VCR_White_Tint"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"TFOrange"
 
-		CheckButton.TextColor			"200 200 220 255"
-		CheckButton.SelectedTextColor	"200 200 220 255"
+		CheckButton.TextColor			"VCR_White_Tint"
+		CheckButton.SelectedTextColor	"VCR_White_Tint"
 		CheckButton.BgColor				"0 0 0 0"
-		CheckButton.Border1  			"200 200 220 255" 		// the left checkbutton border
-		CheckButton.Border2  			"200 200 220 255"		// the right checkbutton border
-		CheckButton.Check				"200 200 220 255"		// color of the check itself
-		CheckButton.HighlightFgColor	"200 200 220 255"
+		CheckButton.Border1  			"VCR_White_Tint" 		// the left checkbutton border
+		CheckButton.Border2  			"VCR_White_Tint"		// the right checkbutton border
+		CheckButton.Check				"VCR_White_Tint"		// color of the check itself
+		CheckButton.HighlightFgColor	"VCR_White_Tint"
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"
@@ -101,10 +101,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"200 200 220 255"
+		Menu.TextColor					"VCR_White_Tint"
 		Menu.BgColor					"0 0 100 255"
 		Menu.ArmedTextColor				"0 0 100 255"
-		Menu.ArmedBgColor				"200 200 220 255"
+		Menu.ArmedBgColor				"VCR_White_Tint"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"

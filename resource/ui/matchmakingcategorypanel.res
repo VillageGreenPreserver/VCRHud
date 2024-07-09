@@ -83,7 +83,7 @@
 			"defaultBgColor_override"	"blank"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"200 200 220 255"
+			"armedBgColor_override"	"VCR_White_Tint"
 			"selectedBGColor_override" "Orange"
 
 			"sound_armed"		""

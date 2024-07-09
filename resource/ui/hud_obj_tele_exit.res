@@ -74,7 +74,7 @@
 		"ControlName"	"Panel"
 		"tall"			"f0"
 		"wide"			"1"
-		"bgcolor_override"	"200 200 220 255"
+		"bgcolor_override"	"VCR_White_Tint"
 		"proportionaltoparent"	"1"
 	}
 	"Icon_Teleport_Exit"
@@ -148,7 +148,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"200 200 220 255"
+			"iconColor"		"VCR_White_Tint"
 		}
 
 		"Icon_Upgrade_2"
@@ -164,7 +164,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"200 200 220 255"
+			"iconColor"		"VCR_White_Tint"
 		}
 
 		"Icon_Upgrade_3"
@@ -180,7 +180,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"200 200 220 255"
+			"iconColor"		"VCR_White_Tint"
 		}
 
 		"AlertTray"

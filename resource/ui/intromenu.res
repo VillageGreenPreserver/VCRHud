@@ -64,7 +64,7 @@
 		"visible"			"1"
 		"labelText"			"WATCH_MOVIE"
 		"font"				"VCR28-NA"
-		"fgcolor_override"	"200 200 220 255"
+		"fgcolor_override"	"VCR_White_Tint"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"pin_to_sibling"	"Back"
@@ -88,10 +88,10 @@
 		"font"			"VCR28-NA"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -147,10 +147,10 @@
 		"paintBackgroundstyle"	"0"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"

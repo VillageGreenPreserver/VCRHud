@@ -51,11 +51,11 @@
 		"paintbackground"	"1"
 
 		"border_default"				"VCR_WhiteLineBorder"
-		"defaultFgColor_override"		"200 200 220 255"
+		"defaultFgColor_override"		"VCR_White_Tint"
 		"armedFgColor_override"			"VCR_Blue"
 		"depressedFgColor_override"		"VCR_Blue"
 		"defaultbgColor_override"		"VCR_Blue"
-		"armedbgColor_override"			"200 200 220 255"
+		"armedbgColor_override"			"VCR_White_Tint"
 		"depressedbgColor_override"		"VCR_White"
 
 		"image_drawcolor"	"238 54 36 255"
@@ -108,11 +108,11 @@
 		"paintbackground"	"1"
 
 		"border_default"				"VCR_WhiteLineBorder"
-		"defaultFgColor_override"		"200 200 220 255"
+		"defaultFgColor_override"		"VCR_White_Tint"
 		"armedFgColor_override"			"VCR_Blue"
 		"depressedFgColor_override"		"VCR_Blue"
 		"defaultbgColor_override"		"VCR_Blue"
-		"armedbgColor_override"			"200 200 220 255"
+		"armedbgColor_override"			"VCR_White_Tint"
 		"depressedbgColor_override"		"VCR_White"
 
 		"image_drawcolor"	"200 200 220 255"

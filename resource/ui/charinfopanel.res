@@ -78,11 +78,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"zpos"			"1005"
+		"zpos"			"1006"
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"3"
+		"tabheight"		"0"
 		"transition_time" "0"
 		"yoffset"	"0"
 		
@@ -107,11 +107,12 @@
 			"font"				"VCR28-NA"
 			"tall"				"10"
 			"roundedcorners"	"0"
-			"selectedcolor"		"200 200 220 255"
-			"unselectedcolor"	"200 200 220 255"	
+			"selectedcolor"		"VCR_White_Tint"
+			"unselectedcolor"	"VCR_White_Tint"	
 			"defaultBgColor_override"	"VCR_Blue"
-			"selectedBgColor_override"	"200 200 220 255"
+			"selectedBgColor_override"	"VCR_White_Tint"
 			"paintbackground"	"1"
+			
 			"activeborder_override"	"VCR_WhiteLineBorder_S"
 			"normalborder_override" "NoBorder"
 		}
@@ -151,10 +152,10 @@
 		"Command"		"back"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"

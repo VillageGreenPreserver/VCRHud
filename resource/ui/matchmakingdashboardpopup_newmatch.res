@@ -129,11 +129,11 @@
 				
 				"border_default"	"VCR_WhiteLineBorder"
 
-				"armedBgColor_override"		"200 200 220 255"
+				"armedBgColor_override"		"VCR_White_Tint"
 				"defaultBgColor_override"	"VCR_Blue"
 
 				"armedfgColor_override"		"VCR_Blue"
-				"defaultfgColor_override"	"200 200 220 255"
+				"defaultfgColor_override"	"VCR_White_Tint"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -174,7 +174,7 @@
 				
 				"border_default"	"VCR_WhiteLineBorder"
 
-				"armedBgColor_override"		"200 200 220 255"
+				"armedBgColor_override"		"VCR_White_Tint"
 				"defaultBgColor_override"	"VCR_Blue"
 
 				"armedfgColor_override"		"VCR_Blue"
@@ -212,7 +212,7 @@
 				
 				"border_default"	"VCR_WhiteLineBorder"
 
-				"armedBgColor_override"		"200 200 220 255"
+				"armedBgColor_override"		"VCR_White_Tint"
 				"defaultBgColor_override"	"VCR_Blue"
 
 				"armedfgColor_override"		"VCR_Blue"
@@ -258,7 +258,7 @@
 
 				"radius"		"8"
 				"velocity"		"250"
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 			}
 		}
 	}

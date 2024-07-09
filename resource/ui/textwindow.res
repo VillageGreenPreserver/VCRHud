@@ -129,19 +129,19 @@
 
 		"UpArrow"
 		{
-			"image_drawcolor"	"200 200 220 255"
+			"image_drawcolor"	"VCR_White_Tint"
 		}
 
 		"Box"
 		{
-			"drawcolor"	"200 200 220 255"
+			"drawcolor"	"VCR_White_Tint"
 			"scaleImage"	"1"
 			"ypos"	"0"
 		}
 		
 		"DownArrow"
 		{
-			"image_drawcolor"	"200 200 220 255"
+			"image_drawcolor"	"VCR_White_Tint"
 
 			"SubImage"
 			{
@@ -197,10 +197,10 @@
 		"font"			"VCR28-NA"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"

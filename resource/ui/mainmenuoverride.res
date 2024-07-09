@@ -193,11 +193,681 @@
 		"alpha"					"20"
 	}
 
+	"VCR_LOGOButton"
+	{
+		"ControlName"					"CExButton"
+		"xpos"							"0"
+		"ypos"							"1"
+		"zpos"							"1005"
+		"wide"							"450"
+		"tall"							"41"
+		"textalignment"					"center"
+		"auto_wide_tocontents"			"0"
+		"textinsetx"					"0"
+		"labeltext"						"TEAM FORTRESS 2"
+		"font"							"VCR50-NAS"
+		"roundedcorners"				"0"
+		"paintborder"					"1"
+		"paintbackground"				"1"
+		"eatmouseinput"					"1"
+		"mouseinputenabled"				"1"
+		"actionsignallevel"				"0"
+		"command"						"engine exec credits"
+		"defaultfgcolor_override"		"200 255 255 0"
+		"defaultbgcolor_override"		"0 0 100 0"
+		"armedfgcolor_override"			"VCR_White_Tint"
+		"armedbgcolor_override"			"0 0 100 255"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				""
+		"sound_armed"					"UI/buttonrollover.wav"
+		"border_default"				"noborder"
+		"border_armed"					"VCR_WhiteLineBorder"
+		"pin_to_sibling"				"VCR_LOGOR"
+		"pin_corner_to_sibling"			"4"
+		"pin_to_sibling_corner"			"4"
+	}
+
+	"VCR_LOGOR"
+	{
+		"ControlName"				"Label"
+		"xpos"						"cs-0.5"
+		"ypos"						"32"
+		"zpos"						"1003"
+		"wide"						"f0"
+		"tall"						"40"
+		"textalignment"				"center"
+		"auto_wide_tocontents"		"0"
+		"textinsetx"				"0"
+		"labeltext"					"TEAM FORTRESS 2"
+		"font"						"VCR50-IS"
+		"fgcolor_override"			"VCR_White_R"
+		"bgcolor_override"			"0 0 0 0"
+	}
+
+	"VCR_LOGOG"
+	{
+		"ControlName"				"Label"
+		"xpos"						"1"
+		"ypos"						"1"
+		"zpos"						"1003"
+		"wide"						"f0"
+		"tall"						"40"
+		"textalignment"				"center"
+		"auto_wide_tocontents"		"0"
+		"textinsetx"				"0"
+		"labeltext"					"TEAM FORTRESS 2"
+		"font"						"VCR50-IS"
+		"fgcolor_override"			"VCR_White_G"
+		"bgcolor_override"			"blank"
+		"pin_to_sibling"			"VCR_LOGOR"
+	}
+
+	"VCR_LOGOB"
+	{
+		"ControlName"				"Label"
+		"xpos"						"-1"
+		"ypos"						"1"
+		"zpos"						"1003"
+		"wide"						"f0"
+		"tall"						"40"
+		"textalignment"				"center"
+		"auto_wide_tocontents"		"0"
+		"textinsetx"				"0"
+		"labeltext"					"TEAM FORTRESS 2"
+		"font"						"VCR50-IS"
+		"fgcolor_override"			"VCR_White_B"
+		"bgcolor_override"			"blank"
+		"pin_to_sibling"			"VCR_LOGOR"
+	}
+
+	"VCR_SettingsButton"
+	{
+		"ControlName"					"CExButton"
+		"xpos"							"cs-0.5"
+		"ypos"							"100+22+10"
+		"zpos"							"1005"
+		"wide"							"600"
+		"tall"							"22"
+		"visible"						"1"
+		"font"							"VCR28-NA"
+		"textAlignment"					"west"
+		"Command"						"OpenOptionsDialog"
+		"proportionaltoparent"			"1"
+		"labeltext"						"OPTIONS"
+		"textinsety"					"0"
+		"textinsetx"					"0"
+		"actionsignallevel"				"0"
+		"use_proportional_insets"		"1"
+		"paintbackgroundtype"			"0"
+		"roundedcorners"				"0"
+		"stay_armed_on_click"			"1"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				""
+		"sound_armed"					"UI/buttonrollover.wav"
+		"armedBgColor_override"			"VCR_White_Tint"
+		"defaultBgColor_override"		"blank"
+		"defaultFgColor_override"		"VCR_White_Tint"
+		"armedFgColor_override"			"VCR_Blue"
+	}
+
+	"VCR_LoadoutButton"
+	{
+		"ControlName"					"CExButton"
+		"xpos"							"0"
+		"ypos"							"10"
+		"zpos"							"1005"
+		"wide"							"600"
+		"tall"							"22"
+		"visible"						"1"
+		"font"							"VCR28-NA"
+		"textAlignment"					"west"
+		"Command"						"engine open_charinfo"
+		"proportionaltoparent"			"1"
+		"labeltext"						"LOADOUT"
+		"textinsety"					"0"
+		"textinsetx"					"0"
+		"actionsignallevel"				"0"
+		"use_proportional_insets"		"1"
+		"paintbackgroundtype"			"0"
+		"roundedcorners"				"0"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				""
+		"sound_armed"					"UI/buttonrollover.wav"
+		"armedBgColor_override"			"VCR_White_Tint"
+		"defaultBgColor_override"		"blank"
+		"defaultFgColor_override"		"VCR_White_Tint"
+		"armedFgColor_override"			"VCR_Blue"
+		"pin_to_sibling"				"VCR_SettingsButton"
+		"pin_corner_to_sibling"			"0"
+		"pin_to_sibling_corner"			"2"
+	}
+
+	"VCR_MoreButton"
+	{
+		"ControlName"				"CMatchHistoryEntryPanel"
+		"xpos"						"0"
+		"ypos"						"10"
+		"zpos"						"1005"
+		"wide"						"600"
+		"tall"						"159"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+
+		"ignorescheme"				"1"
+
+		"collapsed_height"			"22"
+		"expanded_height"			"159"
+		"resize_time"				"0.2"
+
+		"pin_to_sibling"			"VCR_LoadoutButton"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+
+		"container"
+		{
+			"visible"		"0"
+		}
+
+		"BottomStats"
+		{
+			"visible"		"0"
+		}
+
+		"toggle"
+		{
+			"ControlName"					"ToggleButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1005"
+			"wide"							"600"
+			"tall"							"22"
+			"visible"						"1"
+			"font"							"VCR28-NA"
+			"textAlignment"					"west"
+			"Command"						"toggle_collapse"
+			"proportionaltoparent"			"1"
+			"labeltext"						"MORE"
+			"textinsety"					"0"
+			"textinsetx"					"0"
+			"use_proportional_insets"		"1"
+			"paintbackgroundtype"			"0"
+			"roundedcorners"				"0"
+			"stay_armed_on_click"			"1"
+			"selected"	"0"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				""
+			"sound_armed"					"UI/buttonrollover.wav"
+
+			"armedBgColor_override"			"VCR_White_Tint"
+			"depressedBgColor_override"		"VCR_White_Tint"
+
+			"defaultBgColor_override"		"blank"
+			"defaultFgColor_override"		"VCR_White_Tint"
+
+			"armedFgColor_override"			"VCR_Blue"
+			"depressedFgColor_override"		"VCR_Blue"
+			"selectedFgColor_override"		"VCR_Blue"
+		}
+
+		"Contents"
+		{
+			"ControlName"				"EditablePanel"
+			"xpos"						"0"
+			"ypos"						"32"
+			"wide"						"f0"
+			"tall"						"f32"
+			"proportionaltoparent"		"1"
+			"autoResize"				"2"
+			"border"					"VCR_WhiteLineBorder"
+
+
+			"PartySlot0"
+			{
+				"ControlName"				"CDashboardPartyMember"
+				"xpos"						"rs1-1"
+				"ypos"						"1"
+				"zpos"						"100"
+				"wide"						"21"
+				"tall"						"21"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"proportionaltoparent"		"1"
+				"mouseinputenabled"			"1"
+				"keyboardinputenabled"		"0"
+				"party_slot"				"0"
+			}
+
+			"PartySlot1"
+			{
+				"ControlName"				"CDashboardPartyMember"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"100"
+				"wide"						"21"
+				"tall"						"21"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"proportionaltoparent"		"1"
+				"mouseinputenabled"			"1"
+				"keyboardinputenabled"		"0"
+				"party_slot"				"1"
+				"pin_to_sibling"			"PartySlot0"
+				"pin_to_sibling_corner"		"2"
+			}
+
+			"PartySlot2"
+			{
+				"ControlName"				"CDashboardPartyMember"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"100"
+				"wide"						"21"
+				"tall"						"21"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"proportionaltoparent"		"1"
+				"mouseinputenabled"			"1"
+				"keyboardinputenabled"		"0"
+				"party_slot"				"2"
+				"pin_to_sibling"			"PartySlot1"
+				"pin_to_sibling_corner"		"2"
+			}
+
+			"PartySlot3"
+			{
+				"ControlName"				"CDashboardPartyMember"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"100"
+				"wide"						"21"
+				"tall"						"21"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"proportionaltoparent"		"1"
+				"mouseinputenabled"			"1"
+				"keyboardinputenabled"		"0"
+				"party_slot"				"3"
+				"pin_to_sibling"			"PartySlot2"
+				"pin_to_sibling_corner"		"2"
+			}
+
+			"PartySlot4"
+			{
+				"ControlName"				"CDashboardPartyMember"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"100"
+				"wide"						"21"
+				"tall"						"21"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"proportionaltoparent"		"1"
+				"mouseinputenabled"			"1"
+				"keyboardinputenabled"		"0"
+				"party_slot"				"4"
+				"pin_to_sibling"			"PartySlot3"
+				"pin_to_sibling_corner"		"2"
+			}
+
+			"PartySlot5"
+			{
+				"ControlName"				"CDashboardPartyMember"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"100"
+				"wide"						"21"
+				"tall"						"21"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"proportionaltoparent"		"1"
+				"mouseinputenabled"			"1"
+				"keyboardinputenabled"		"0"
+				"party_slot"				"5"
+				"pin_to_sibling"			"PartySlot4"
+				"pin_to_sibling_corner"		"2"
+			}
+
+			"PartyBorder"
+			{
+				"ControlName"				"Panel"
+				"proportionaltoparent"		"1"
+				"xpos"						"rs1"
+				"ypos"						"0"
+				"wide"						"23"
+				"tall"						"f0"
+				"border"					"VCR_WhiteLineBorder"
+			}
+
+			"SafeModeCheck"
+			{
+				"ControlName"	"CvarToggleCheckButton"
+				"xpos"			"122"
+				"ypos"			"1"
+				"wide"			"22"
+				"tall"			"22"
+				"zpos"			"1"
+
+				"cvar_name"		"cl_mainmenu_safemode"
+			}
+
+			"SafeModeButton"
+			{
+				"ControlName"				"Button"
+				"xpos"						"122"
+				"ypos"						"1"
+				"wide"						"160"
+				"tall"						"22"
+				"zpos"						"2"
+				"labelText"					"Hide Chat Button"
+				"font"						"ocra12"
+				"paintBackground"			"0"
+				"actionsignallevel"			"3"
+				"use_proportional_insets"	"1"
+				"textinsetx"				"26"
+
+				"command"					"engine toggle cl_mainmenu_safemode"
+
+				"defaultfgcolor_override"	"VCR_White"
+				"armedfgcolor_override"		"VCR_White"
+			}
+			"StatButton"
+			{
+				"ControlName"				"Button"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"160"
+				"tall"						"22"
+				"zpos"						"2"
+				"labelText"					"Stats"
+				"font"						"ocra12"
+				"paintBackground"			"0"
+				"actionsignallevel"			"3"
+				"use_proportional_insets"	"1"
+				"textinsetx"				"26"
+
+				"command"					"engine showstatsdlg"
+
+				"defaultfgcolor_override"	"VCR_White"
+				"armedfgcolor_override"		"VCR_White"
+
+				"pin_to_sibling"			"SafeModeButton"
+				"pin_to_sibling_corner"		"2"
+			}
+
+			"FriendsBorder"
+			{
+				"ControlName"				"Panel"
+				"proportionaltoparent"		"1"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"122"
+				"tall"						"f0"
+				"mouseinputenabled"			"0"
+				"border"					"VCR_WhiteLineBorder"
+			}
+
+			"FriendsBorder2"
+			{
+				"ControlName"				"Panel"
+				"proportionaltoparent"		"1"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"117"
+				"tall"						"f0"
+				"mouseinputenabled"			"0"
+				"border"					"VCR_WhiteLineBorder"
+			}
+
+			"SteamFriendsList"
+			{
+				"ControlName"				"CSteamFriendsListPanel"
+				"fieldname"					"SteamFriendsList"
+				"xpos"						"1"
+				"ypos"						"1"
+				"zpos"						"0"
+				"wide"						"122"
+				"tall"						"f2"
+				"visible"					"1"
+				"proportionaltoparent"		"1"
+				"autoResize"				"0"
+				"paintborder"				"0"
+				"columns_count"				"1"
+				"inset_x"					"0"
+				"inset_y"					"0"
+				"row_gap"					"0"
+				"column_gap"				"10"
+				"restrict_width"			"0"
+
+				"friendpanel_kv"
+				{
+					"wide"		"115"
+					"tall"		"21"
+				}
+
+				"ScrollBar"
+				{
+					"ControlName"				"ScrollBar"
+					"FieldName"					"ScrollBar"
+					"xpos"						"rs1-1"
+					"ypos"						"0"
+					"tall"						"f0"
+					"wide"						"5"	// This gets slammed from client schme.  GG.
+					"zpos"						"1000"
+					"nobuttons"					"1"
+					"proportionaltoparent"		"1"
+
+					"Slider"
+					{
+						"fgcolor_override"		"VCR_White_Tint"
+					}
+
+					"UpButton"
+					{
+						"ControlName"		"Button"
+						"FieldName"			"UpButton"
+						"visible"			"0"
+					}
+
+					"DownButton"
+					{
+						"ControlName"		"Button"
+						"FieldName"			"DownButton"
+						"visible"			"0"
+					}
+				}
+			}
+		}
+	}
+
+	"VCR_QuitButton"
+	{
+		"ControlName"				"EditablePanel"
+		"xpos"						"0"
+		"ypos"						"10"
+		"zpos"						"1005"
+		"wide"						"600"
+		"tall"						"22"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"pin_to_sibling"			"VCR_MoreButton"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1"
+			"wide"							"f0"
+			"tall"							"f0"
+			"visible"						"1"
+			"font"							"VCR28-NA"
+			"textAlignment"					"west"
+			"Command"						"quit"
+			"proportionaltoparent"			"1"
+			"labeltext"						"QUIT"
+			"textinsety"					"0"
+			"textinsetx"					"0"
+			"use_proportional_insets"		"1"
+			"paintbackgroundtype"			"0"
+			"roundedcorners"				"0"
+			"actionsignallevel"				"0"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				""
+			"sound_armed"					"UI/buttonrollover.wav"
+			"armedBgColor_override"			"VCR_White_Tint"
+			"defaultBgColor_override"		"blank"
+			"defaultFgColor_override"		"VCR_White_Tint"
+			"armedFgColor_override"			"VCR_Blue"
+		}
+	}
+
+	"VCR_DisconnectButton"
+	{
+		"ControlName"				"EditablePanel"
+		"xpos"						"0"
+		"ypos"						"10"
+		"zpos"						"1005"
+		"wide"						"600"
+		"tall"						"22"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"pin_to_sibling"			"VCR_MoreButton"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1"
+			"wide"							"f0"
+			"tall"							"f0"
+			"visible"						"1"
+			"font"							"VCR28-NA"
+			"textAlignment"					"west"
+			"Command"						"quit"
+			"proportionaltoparent"			"1"
+			"labeltext"						"QUIT"
+			"textinsety"					"0"
+			"textinsetx"					"0"
+			"use_proportional_insets"		"1"
+			"paintbackgroundtype"			"0"
+			"roundedcorners"				"0"
+			"actionsignallevel"				"0"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				""
+			"sound_armed"					"UI/buttonrollover.wav"
+			"armedBgColor_override"			"VCR_White_Tint"
+			"defaultBgColor_override"		"blank"
+			"defaultFgColor_override"		"VCR_White_Tint"
+			"armedFgColor_override"			"VCR_Blue"
+		}
+	}
+
+	"CallVoteButton"
+	{
+		"ControlName"				"EditablePanel"
+		"xpos"						"0"
+		"ypos"						"10"
+		"zpos"						"1005"
+		"wide"						"600"
+		"tall"						"22"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"pin_to_sibling"			"MutePlayersButton"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1"
+			"wide"							"f0"
+			"tall"							"f0"
+			"visible"						"1"
+			"font"							"VCR28-NA"
+			"textAlignment"					"west"
+			"Command"						"quit"
+			"proportionaltoparent"			"1"
+			"labeltext"						"QUIT"
+			"textinsety"					"0"
+			"textinsetx"					"0"
+			"use_proportional_insets"		"1"
+			"paintbackgroundtype"			"0"
+			"roundedcorners"				"0"
+			"actionsignallevel"				"0"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				""
+			"sound_armed"					"UI/buttonrollover.wav"
+			"armedBgColor_override"			"VCR_White_Tint"
+			"defaultBgColor_override"		"blank"
+			"defaultFgColor_override"		"VCR_White_Tint"
+			"armedFgColor_override"			"VCR_Blue"
+		}
+	}
+
+	"MutePlayersButton"
+	{
+		"ControlName"				"EditablePanel"
+		"xpos"						"0"
+		"ypos"						"10"
+		"zpos"						"1005"
+		"wide"						"600"
+		"tall"						"22"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"pin_to_sibling"			"VCR_DisconnectButton"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1"
+			"wide"							"f0"
+			"tall"							"f0"
+			"visible"						"1"
+			"font"							"VCR28-NA"
+			"textAlignment"					"west"
+			"Command"						"quit"
+			"proportionaltoparent"			"1"
+			"labeltext"						"QUIT"
+			"textinsety"					"0"
+			"textinsetx"					"0"
+			"use_proportional_insets"		"1"
+			"paintbackgroundtype"			"0"
+			"roundedcorners"				"0"
+			"actionsignallevel"				"0"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				""
+			"sound_armed"					"UI/buttonrollover.wav"
+			"armedBgColor_override"			"VCR_White_Tint"
+			"defaultBgColor_override"		"blank"
+			"defaultFgColor_override"		"VCR_White_Tint"
+			"armedFgColor_override"			"VCR_Blue"
+		}
+	}
+
+
 	"chat_pin"
 	{
 		"ControlName"	"Panel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"r4"
 		"wide"			"0"
 		"tall"			"0"
 	}
@@ -205,20 +875,7 @@
 	"partychat"
 	{
 		"pin_to_sibling"		"chat_pin"
-		"pin_to_sibling_corner"	"3"
-		"pin_corner_to_sibling"	"2"
-	}
-	
-	"dash_pin"
-	{
-		"ControlName"	"Panel"
-		"xpos"			"c100"
-		"ypos"			"470"
-		"wide"			"0"
-		"tall"			"0"
-
-		"pin_to_sibling"		"partychat"
-		"pin_to_sibling_corner"	"0"
+		"pin_to_sibling_corner"	"1"
 		"pin_corner_to_sibling"	"0"
 	}
 
@@ -233,700 +890,6 @@
 
 	"MMDashboard"
 	{
-		"pin_to_sibling"	"dash_pin"
-		"pin_to_sibling_corner"	"3"
-
-		"VCR_LOGOButton"
-		{
-			"ControlName"					"CExButton"
-			"xpos"							"0"
-			"ypos"							"1"
-			"zpos"							"1005"
-			"wide"							"450"
-			"tall"							"41"
-			"textalignment"					"center"
-			"auto_wide_tocontents"			"0"
-			"textinsetx"					"0"
-			"labeltext"						"TEAM FORTRESS 2"
-			"font"							"VCR50-NAS"
-			"roundedcorners"				"0"
-			"paintborder"					"1"
-			"paintbackground"				"1"
-			"eatmouseinput"					"1"
-			"mouseinputenabled"				"1"
-			"actionsignallevel"				"2"
-			"command"						"engine exec credits"
-			"defaultfgcolor_override"		"200 255 255 0"
-			"defaultbgcolor_override"		"0 0 100 0"
-			"armedfgcolor_override"			"200 200 220 255"
-			"armedbgcolor_override"			"0 0 100 255"
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				""
-			"sound_armed"					"UI/buttonrollover.wav"
-			"border_default"				"noborder"
-			"border_armed"					"VCR_WhiteLineBorder"
-			"pin_to_sibling"				"VCR_LOGOR"
-			"pin_corner_to_sibling"			"4"
-			"pin_to_sibling_corner"			"4"
-		}
-
-		"VCR_LOGOR"
-		{
-			"ControlName"				"Label"
-			"xpos"						"cs-0.5"
-			"ypos"						"32"
-			"zpos"						"1003"
-			"wide"						"f0"
-			"tall"						"40"
-			"textalignment"				"center"
-			"auto_wide_tocontents"		"0"
-			"textinsetx"				"0"
-			"labeltext"					"TEAM FORTRESS 2"
-			"font"						"VCR50-IS"
-			"fgcolor_override"			"VCR_White_R"
-			"bgcolor_override"			"0 0 0 0"
-		}
-
-		"VCR_LOGOG"
-		{
-			"ControlName"				"Label"
-			"xpos"						"1"
-			"ypos"						"1"
-			"zpos"						"1003"
-			"wide"						"f0"
-			"tall"						"40"
-			"textalignment"				"center"
-			"auto_wide_tocontents"		"0"
-			"textinsetx"				"0"
-			"labeltext"					"TEAM FORTRESS 2"
-			"font"						"VCR50-IS"
-			"fgcolor_override"			"VCR_White_G"
-			"bgcolor_override"			"blank"
-			"pin_to_sibling"			"VCR_LOGOR"
-		}
-
-		"VCR_LOGOB"
-		{
-			"ControlName"				"Label"
-			"xpos"						"-1"
-			"ypos"						"1"
-			"zpos"						"1003"
-			"wide"						"f0"
-			"tall"						"40"
-			"textalignment"				"center"
-			"auto_wide_tocontents"		"0"
-			"textinsetx"				"0"
-			"labeltext"					"TEAM FORTRESS 2"
-			"font"						"VCR50-IS"
-			"fgcolor_override"			"VCR_White_B"
-			"bgcolor_override"			"blank"
-			"pin_to_sibling"			"VCR_LOGOR"
-		}
-
-		"VCR_FindGame"
-		{
-			"ControlName"					"CExButton"
-			"xpos"							"cs-0.5"
-			"ypos"							"100"
-			"zpos"							"0"
-			"wide"							"600"
-			"tall"							"22"
-			"autoResize"					"0"
-			"pinCorner"						"3"
-			"visible"						"1"
-			"enabled"						"1"
-			"tabPosition"					"0"
-			"font"							"VCR28-NA"
-			"auto_tall_tocontents"			"0"
-			"textAlignment"					"west"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"Command"						"find_game"
-			"proportionaltoparent"			"1"
-			"labeltext"						"FIND_GAME"
-			"mouseinputenabled"				"1"
-			"keyboardinputenabled"			"0"
-			"actionsignallevel"				"2"
-			"roundedcorners"				"0"
-			"textinsety"					"0"
-			"textinsetx"					"0"
-			"use_proportional_insets"		"1"
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				""
-			"sound_armed"					"UI/buttonrollover.wav"
-			"armedBgColor_override"			"200 200 220 255"
-			"defaultBgColor_override"		"blank"
-			"defaultFgColor_override"		"200 200 220 255"
-			"armedFgColor_override"			"VCR_Blue"
-		}
-
-		"VCR_SettingsButton"
-		{
-			"ControlName"					"CExButton"
-			"xpos"							"0"
-			"ypos"							"10"
-			"zpos"							"1005"
-			"wide"							"600"
-			"tall"							"22"
-			"visible"						"1"
-			"font"							"VCR28-NA"
-			"textAlignment"					"west"
-			"Command"						"OpenOptionsDialog"
-			"proportionaltoparent"			"1"
-			"labeltext"						"OPTIONS"
-			"textinsety"					"0"
-			"textinsetx"					"0"
-			"actionsignallevel"				"2"
-			"use_proportional_insets"		"1"
-			"paintbackgroundtype"			"0"
-			"roundedcorners"				"0"
-			"stay_armed_on_click"			"1"
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				""
-			"sound_armed"					"UI/buttonrollover.wav"
-			"armedBgColor_override"			"200 200 220 255"
-			"defaultBgColor_override"		"blank"
-			"defaultFgColor_override"		"200 200 220 255"
-			"armedFgColor_override"			"VCR_Blue"
-			"pin_to_sibling"				"VCR_FindGame"
-			"pin_corner_to_sibling"			"0"
-			"pin_to_sibling_corner"			"2"
-		}
-
-		"VCR_LoadoutButton"
-		{
-			"ControlName"					"CExButton"
-			"xpos"							"0"
-			"ypos"							"10"
-			"zpos"							"1005"
-			"wide"							"600"
-			"tall"							"22"
-			"visible"						"1"
-			"font"							"VCR28-NA"
-			"textAlignment"					"west"
-			"Command"						"engine open_charinfo"
-			"proportionaltoparent"			"1"
-			"labeltext"						"LOADOUT"
-			"textinsety"					"0"
-			"textinsetx"					"0"
-			"actionsignallevel"				"2"
-			"use_proportional_insets"		"1"
-			"paintbackgroundtype"			"0"
-			"roundedcorners"				"0"
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				""
-			"sound_armed"					"UI/buttonrollover.wav"
-			"armedBgColor_override"			"200 200 220 255"
-			"defaultBgColor_override"		"blank"
-			"defaultFgColor_override"		"200 200 220 255"
-			"armedFgColor_override"			"VCR_Blue"
-			"pin_to_sibling"				"VCR_SettingsButton"
-			"pin_corner_to_sibling"			"0"
-			"pin_to_sibling_corner"			"2"
-		}
-
-		"VCR_MoreButton"
-		{
-			"ControlName"				"CMatchHistoryEntryPanel"
-			"xpos"						"0"
-			"ypos"						"10"
-			"zpos"						"1005"
-			"wide"						"600"
-			"tall"						"181"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"collapsed_height"			"22"
-			"expanded_height"			"181"
-			"resize_time"				"0.2"
-			"ignorescheme"				"1"
-			"pin_to_sibling"			"VCR_LoadoutButton"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-
-			"container"
-			{
-				"visible"		"0"
-			}
-
-			"BottomStats"
-			{
-				"visible"		"0"
-			}
-
-			"toggle"
-			{
-				"ControlName"					"ToggleButton"
-				"xpos"							"0"
-				"ypos"							"0"
-				"zpos"							"1005"
-				"wide"							"600"
-				"tall"							"22"
-				"visible"						"1"
-				"font"							"VCR28-NA"
-				"textAlignment"					"west"
-				"Command"						"toggle_collapse"
-				"proportionaltoparent"			"1"
-				"labeltext"						"MORE"
-				"textinsety"					"0"
-				"textinsetx"					"0"
-				"use_proportional_insets"		"1"
-				"paintbackgroundtype"			"0"
-				"roundedcorners"				"0"
-				"stay_armed_on_click"			"1"
-				"selected"	"0"
-
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				""
-				"sound_armed"					"UI/buttonrollover.wav"
-
-				"armedBgColor_override"			"200 200 220 255"
-				"depressedBgColor_override"		"200 200 220 255"
-
-				"defaultBgColor_override"		"blank"
-				"defaultFgColor_override"		"200 200 220 255"
-
-				"armedFgColor_override"			"VCR_Blue"
-				"depressedFgColor_override"		"VCR_Blue"
-				"selectedFgColor_override"		"VCR_Blue"
-			}
-
-			"Contents"
-			{
-				"ControlName"				"EditablePanel"
-				"xpos"						"0"
-				"ypos"						"32"
-				"wide"						"f0"
-				"tall"						"f32"
-				"proportionaltoparent"		"1"
-				"autoResize"				"2"
-				"border"					"VCR_WhiteLineBorder"
-
-				"PartySlot0"
-				{
-					"ControlName"				"CDashboardPartyMember"
-					"xpos"						"rs1-1"
-					"ypos"						"1"
-					"zpos"						"100"
-					"wide"						"21"
-					"tall"						"21"
-					"autoResize"				"0"
-					"pinCorner"					"0"
-					"visible"					"1"
-					"proportionaltoparent"		"1"
-					"mouseinputenabled"			"1"
-					"keyboardinputenabled"		"0"
-					"party_slot"				"0"
-				}
-
-				"PartySlot1"
-				{
-					"ControlName"				"CDashboardPartyMember"
-					"xpos"						"0"
-					"ypos"						"0"
-					"zpos"						"100"
-					"wide"						"21"
-					"tall"						"21"
-					"autoResize"				"0"
-					"pinCorner"					"0"
-					"visible"					"1"
-					"proportionaltoparent"		"1"
-					"mouseinputenabled"			"1"
-					"keyboardinputenabled"		"0"
-					"party_slot"				"1"
-					"pin_to_sibling"			"PartySlot0"
-					"pin_to_sibling_corner"		"2"
-				}
-
-				"PartySlot2"
-				{
-					"ControlName"				"CDashboardPartyMember"
-					"xpos"						"0"
-					"ypos"						"0"
-					"zpos"						"100"
-					"wide"						"21"
-					"tall"						"21"
-					"autoResize"				"0"
-					"pinCorner"					"0"
-					"visible"					"1"
-					"proportionaltoparent"		"1"
-					"mouseinputenabled"			"1"
-					"keyboardinputenabled"		"0"
-					"party_slot"				"2"
-					"pin_to_sibling"			"PartySlot1"
-					"pin_to_sibling_corner"		"2"
-				}
-
-				"PartySlot3"
-				{
-					"ControlName"				"CDashboardPartyMember"
-					"xpos"						"0"
-					"ypos"						"0"
-					"zpos"						"100"
-					"wide"						"21"
-					"tall"						"21"
-					"autoResize"				"0"
-					"pinCorner"					"0"
-					"visible"					"1"
-					"proportionaltoparent"		"1"
-					"mouseinputenabled"			"1"
-					"keyboardinputenabled"		"0"
-					"party_slot"				"3"
-					"pin_to_sibling"			"PartySlot2"
-					"pin_to_sibling_corner"		"2"
-				}
-
-				"PartySlot4"
-				{
-					"ControlName"				"CDashboardPartyMember"
-					"xpos"						"0"
-					"ypos"						"0"
-					"zpos"						"100"
-					"wide"						"21"
-					"tall"						"21"
-					"autoResize"				"0"
-					"pinCorner"					"0"
-					"visible"					"1"
-					"proportionaltoparent"		"1"
-					"mouseinputenabled"			"1"
-					"keyboardinputenabled"		"0"
-					"party_slot"				"4"
-					"pin_to_sibling"			"PartySlot3"
-					"pin_to_sibling_corner"		"2"
-				}
-
-				"PartySlot5"
-				{
-					"ControlName"				"CDashboardPartyMember"
-					"xpos"						"0"
-					"ypos"						"0"
-					"zpos"						"100"
-					"wide"						"21"
-					"tall"						"21"
-					"autoResize"				"0"
-					"pinCorner"					"0"
-					"visible"					"1"
-					"proportionaltoparent"		"1"
-					"mouseinputenabled"			"1"
-					"keyboardinputenabled"		"0"
-					"party_slot"				"5"
-					"pin_to_sibling"			"PartySlot4"
-					"pin_to_sibling_corner"		"2"
-				}
-
-				"Chat"
-				{
-					"ControlName"				"CExImageButton"
-					"xpos"						"rs1-1"
-					"ypos"						"rs1-1"
-					"zpos"						"100"
-					"wide"						"21"
-					"tall"						"21"
-					"autoResize"				"0"
-					"pinCorner"					"0"
-					"visible"					"1"
-					"enabled"					"1"
-					"tabPosition"				"0"
-					"font"						"HudFontSmallestBold"
-					"textAlignment"				"center"
-					"dulltext"					"0"
-					"brighttext"				"0"
-					"actionsignallevel"			"3"
-					"Command"					"toggle_chat"
-					"proportionaltoparent"		"1"
-					"labeltext"					""
-					"mouseinputenabled"			"1"
-					"keyboardinputenabled"		"0"
-					"image_drawcolor"			"200 200 220 255"
-					"image_armedcolor"			"0 0 100 255"
-
-					"SubImage"
-					{
-						"ControlName"				"ImagePanel"
-						"fieldName"					"SubImage"
-						"xpos"						"cs-0.5"
-						"ypos"						"cs-0.5"
-						"zpos"						"1"
-						"wide"						"19"
-						"tall"						"19"
-						"visible"					"1"
-						"enabled"					"1"
-						"scaleImage"				"1"
-						"proportionaltoparent"		"1"
-						"image"						"glyph_chat"
-					}
-				}
-
-				"PartyBorder"
-				{
-					"ControlName"				"Panel"
-					"proportionaltoparent"		"1"
-					"xpos"						"rs1"
-					"ypos"						"0"
-					"wide"						"23"
-					"tall"						"f0"
-					"border"					"VCR_WhiteLineBorder"
-				}
-
-				"FriendsBorder"
-				{
-					"ControlName"				"Panel"
-					"proportionaltoparent"		"1"
-					"xpos"						"0"
-					"ypos"						"0"
-					"wide"						"122"
-					"tall"						"f0"
-					"mouseinputenabled"			"0"
-					"border"					"VCR_WhiteLineBorder"
-				}
-
-				"FriendsBorder2"
-				{
-					"ControlName"				"Panel"
-					"proportionaltoparent"		"1"
-					"xpos"						"0"
-					"ypos"						"0"
-					"wide"						"117"
-					"tall"						"f0"
-					"mouseinputenabled"			"0"
-					"border"					"VCR_WhiteLineBorder"
-				}
-
-				"SteamFriendsList"
-				{
-					"ControlName"				"CSteamFriendsListPanel"
-					"fieldname"					"SteamFriendsList"
-					"xpos"						"1"
-					"ypos"						"1"
-					"zpos"						"0"
-					"wide"						"122"
-					"tall"						"f2"
-					"visible"					"1"
-					"proportionaltoparent"		"1"
-					"autoResize"				"0"
-					"paintborder"				"0"
-					"columns_count"				"1"
-					"inset_x"					"0"
-					"inset_y"					"0"
-					"row_gap"					"0"
-					"column_gap"				"10"
-					"restrict_width"			"0"
-
-					"friendpanel_kv"
-					{
-						"wide"		"115"
-						"tall"		"21"
-					}
-
-					"ScrollBar"
-					{
-						"ControlName"				"ScrollBar"
-						"FieldName"					"ScrollBar"
-						"xpos"						"rs1-1"
-						"ypos"						"0"
-						"tall"						"f0"
-						"wide"						"5"	// This gets slammed from client schme.  GG.
-						"zpos"						"1000"
-						"nobuttons"					"1"
-						"proportionaltoparent"		"1"
-
-						"Slider"
-						{
-							"fgcolor_override"		"200 200 220 255"
-						}
-
-						"UpButton"
-						{
-							"ControlName"		"Button"
-							"FieldName"			"UpButton"
-							"visible"			"0"
-						}
-
-						"DownButton"
-						{
-							"ControlName"		"Button"
-							"FieldName"			"DownButton"
-							"visible"			"0"
-						}
-					}
-				}
-			}
-		}
-
-		"VCR_QuitButton"
-		{
-			"ControlName"				"EditablePanel"
-			"xpos"						"0"
-			"ypos"						"10"
-			"zpos"						"1005"
-			"wide"						"600"
-			"tall"						"22"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"pin_to_sibling"			"VCR_MoreButton"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-
-			"SubButton"
-			{
-				"ControlName"					"CExImageButton"
-				"xpos"							"0"
-				"ypos"							"0"
-				"zpos"							"1"
-				"wide"							"f0"
-				"tall"							"f0"
-				"visible"						"1"
-				"font"							"VCR28-NA"
-				"textAlignment"					"west"
-				"Command"						"quit"
-				"proportionaltoparent"			"1"
-				"labeltext"						"QUIT"
-				"textinsety"					"0"
-				"textinsetx"					"0"
-				"use_proportional_insets"		"1"
-				"paintbackgroundtype"			"0"
-				"roundedcorners"				"0"
-				"actionsignallevel"				"3"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				""
-				"sound_armed"					"UI/buttonrollover.wav"
-				"armedBgColor_override"			"200 200 220 255"
-				"defaultBgColor_override"		"blank"
-				"defaultFgColor_override"		"200 200 220 255"
-				"armedFgColor_override"			"VCR_Blue"
-			}
-		}
-
-		"VCR_DisconnectButton"
-		{
-			"ControlName"				"EditablePanel"
-			"xpos"						"0"
-			"ypos"						"10"
-			"zpos"						"1005"
-			"wide"						"600"
-			"tall"						"22"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"pin_to_sibling"			"VCR_MoreButton"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-
-			"SubButton"
-			{
-				"ControlName"					"CExImageButton"
-				"xpos"							"0"
-				"ypos"							"0"
-				"zpos"							"1"
-				"wide"							"f0"
-				"tall"							"f0"
-				"visible"						"1"
-				"font"							"VCR28-NA"
-				"textAlignment"					"west"
-				"Command"						"quit"
-				"proportionaltoparent"			"1"
-				"labeltext"						"QUIT"
-				"textinsety"					"0"
-				"textinsetx"					"0"
-				"use_proportional_insets"		"1"
-				"paintbackgroundtype"			"0"
-				"roundedcorners"				"0"
-				"actionsignallevel"				"3"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				""
-				"sound_armed"					"UI/buttonrollover.wav"
-				"armedBgColor_override"			"200 200 220 255"
-				"defaultBgColor_override"		"blank"
-				"defaultFgColor_override"		"200 200 220 255"
-				"armedFgColor_override"			"VCR_Blue"
-			}
-		}
-
-		"CallVoteButton"
-		{
-			"ControlName"				"EditablePanel"
-			"xpos"						"0"
-			"ypos"						"10"
-			"zpos"						"1005"
-			"wide"						"600"
-			"tall"						"22"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"pin_to_sibling"			"MutePlayersButton"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-
-			"SubButton"
-			{
-				"ControlName"					"CExImageButton"
-				"xpos"							"0"
-				"ypos"							"0"
-				"zpos"							"1"
-				"wide"							"f0"
-				"tall"							"f0"
-				"visible"						"1"
-				"font"							"VCR28-NA"
-				"textAlignment"					"west"
-				"Command"						"quit"
-				"proportionaltoparent"			"1"
-				"labeltext"						"QUIT"
-				"textinsety"					"0"
-				"textinsetx"					"0"
-				"use_proportional_insets"		"1"
-				"paintbackgroundtype"			"0"
-				"roundedcorners"				"0"
-				"actionsignallevel"				"3"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				""
-				"sound_armed"					"UI/buttonrollover.wav"
-				"armedBgColor_override"			"200 200 220 255"
-				"defaultBgColor_override"		"blank"
-				"defaultFgColor_override"		"200 200 220 255"
-				"armedFgColor_override"			"VCR_Blue"
-			}
-		}
-
-		"MutePlayersButton"
-		{
-			"ControlName"				"EditablePanel"
-			"xpos"						"0"
-			"ypos"						"10"
-			"zpos"						"1005"
-			"wide"						"600"
-			"tall"						"22"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"pin_to_sibling"			"VCR_DisconnectButton"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-
-			"SubButton"
-			{
-				"ControlName"					"CExImageButton"
-				"xpos"							"0"
-				"ypos"							"0"
-				"zpos"							"1"
-				"wide"							"f0"
-				"tall"							"f0"
-				"visible"						"1"
-				"font"							"VCR28-NA"
-				"textAlignment"					"west"
-				"Command"						"quit"
-				"proportionaltoparent"			"1"
-				"labeltext"						"QUIT"
-				"textinsety"					"0"
-				"textinsetx"					"0"
-				"use_proportional_insets"		"1"
-				"paintbackgroundtype"			"0"
-				"roundedcorners"				"0"
-				"actionsignallevel"				"3"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				""
-				"sound_armed"					"UI/buttonrollover.wav"
-				"armedBgColor_override"			"200 200 220 255"
-				"defaultBgColor_override"		"blank"
-				"defaultFgColor_override"		"200 200 220 255"
-				"armedFgColor_override"			"VCR_Blue"
-			}
-		}
 	}
 
 	"Background"
@@ -1315,9 +1278,9 @@
 			"paintborder"					"1"
 			"image_drawcolor"				"235 226 202 255"
 			"image_armedcolor"				"255 255 255 255"
-			"armedBgColor_override"			"200 200 220 255"
+			"armedBgColor_override"			"VCR_White_Tint"
 			"defaultBgColor_override"		"blank"
-			"defaultFgColor_override"		"200 200 220 255"
+			"defaultFgColor_override"		"VCR_White_Tint"
 			"armedFgColor_override"			"VCR_Blue"
 			"border_default"				"noborder"
 			"border_armed"					"VCR_WhiteLineBorder"
@@ -1587,11 +1550,11 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"paintbackground"				"1"
 			"border_default"				"VCR_WhiteLineBorder"
-			"defaultFgColor_override"		"200 200 220 255"
+			"defaultFgColor_override"		"VCR_White_Tint"
 			"armedFgColor_override"			"VCR_Blue"
 			"depressedFgColor_override"		"VCR_Blue"
 			"defaultbgColor_override"		"VCR_Blue"
-			"armedbgColor_override"			"200 200 220 255"
+			"armedbgColor_override"			"VCR_White_Tint"
 			"depressedbgColor_override"		"VCR_White"
 			"image_drawcolor"				"117 107 94 255"
 			"image_armedcolor"				"200 80 60 255"
@@ -1754,714 +1717,38 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"FriendsContainer"
-		"xpos"				"r0"
-		"ypos"				"260"
-		"zpos"				"5"
-		"wide"				"260"
-		"tall"				"150"
-		"visible"			"1"
-		"border"			"MainMenuBGBorder"
-
-		"TitleLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"TitleLabel"
-			"font"					"HudFontSmallBold"
-			"labelText"				"#TF_Competitive_Friends"
-			"textAlignment"			"west"
-			"xpos"					"12"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"textinsetx"			"0"
-			"fgcolor_override"		"235 227 203 255"
-		}
-
-		"InnerShadow"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldname"					"InnerShadow"
-			"xpos"						"cs-0.5"
-			"ypos"						"rs1-10"
-			"zpos"						"501"
-			"wide"						"f10"
-			"tall"						"110"
-			"visible"					"1"
-			"PaintBackgroundType"		"0"
-			"proportionaltoparent"		"1"
-			"mouseinputenabled"			"0"
-			"paintborder"				"1"
-			"border"					"InnerShadowBorder"
-		}
-
-		"SteamFriendsList"
-		{
-			"ControlName"				"CSteamFriendsListPanel"
-			"fieldname"					"SteamFriendsList"
-			"xpos"						"cs-0.5"
-			"ypos"						"rs1-10"
-			"zpos"						"500"
-			"wide"						"f10"
-			"tall"						"110"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"columns_count"				"2"
-			"inset_x"					"10"
-			"inset_y"					"5"
-			"row_gap"					"5"
-			"column_gap"				"10"
-			"restrict_width"			"0"
-
-			"friendpanel_kv"
-			{
-				"wide"		"110"
-				"tall"		"20"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"				"ScrollBar"
-				"FieldName"					"ScrollBar"
-				"xpos"						"rs1-1"
-				"ypos"						"0"
-				"tall"						"f0"
-				"wide"						"5"	// This gets slammed from client schme.  GG.
-				"zpos"						"1000"
-				"nobuttons"					"1"
-				"proportionaltoparent"		"1"
-
-				"Slider"
-				{
-					"fgcolor_override"		"TanDark"
-				}
-
-				"UpButton"
-				{
-					"ControlName"		"Button"
-					"FieldName"			"UpButton"
-					"visible"			"0"
-				}
-
-				"DownButton"
-				{
-					"ControlName"		"Button"
-					"FieldName"			"DownButton"
-					"visible"			"0"
-				}
-			}
-		}
-
-		"BelowDarken"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldname"					"BelowDarken"
-			"xpos"						"cs-0.5"
-			"ypos"						"rs1-10"
-			"zpos"						"499"
-			"wide"						"f10"
-			"tall"						"110"
-			"visible"					"1"
-			"PaintBackgroundType"		"0"
-			"proportionaltoparent"		"1"
-			"mouseinputenabled"			"0"
-			"bgcolor_override"			"0 0 0 100"
-		}
+		"visible"			"0"
 	}
 
 	"EventPromo"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"EventPromo"
-		"xpos"				"r0"
-		"ypos"				"160"
-		"zpos"				"-50"
-		"wide"				"270"
-		"tall"				"96"
+		"wide"				"0"
+		"tall"				"0"
 		"visible"			"0"
-
-		"Background"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldname"					"Background"
-			"xpos"						"0"
-			"ypos"						"0"
-			"zpos"						"0"
-			"wide"						"260"
-			// "tall"			"120"
-			"tall"						"96"
-			"visible"					"1"
-			"PaintBackgroundType"		"0"
-			"proportionaltoparent"		"1"
-			"paintborder"				"1"
-			"border"					"MainMenuBGBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"			"CExLabel"
-				"fieldName"				"TitleLabel"
-				"font"					"HudFontSmallBold"
-				"labelText"				"#MMenu_Update"
-				"textAlignment"			"west"
-				"xpos"					"12"
-				"ypos"					"0"
-				"wide"					"f0"
-				"tall"					"30"
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textinsetx"			"0"
-				"fgcolor_override"		"235 227 203 255"
-			}
-			// "ViewDetailsGlow"
-			// {
-			// "ControlName"	"Panel"
-			// "fieldName"		"ViewDetailsGlow"
-			// "xpos"			"p0.02"
-			// "ypos"			"27"
-			// "zpos"			"100"
-			// "wide"			"p0.48"
-			// "tall"			"26"
-			// "visible"		"1"
-			// "proportionaltoparent"	"1"
-			// "paintborder"	"0"
-			// "border"	"MainMenuButtonGlow"
-			// "paintbackground"		"3"
-			// "bgcolor_override"	"238 103 17 255"
-			// }
-			//
-			// "ViewDetailsButton"
-			// {
-			// "ControlName"	"EditablePanel"
-			// "fieldname"		"ViewDetailsButton"
-			// "xpos"			"p0.02"
-			// "ypos"			"27"
-			// "zpos"			"11"
-			// "wide"			"p0.48"
-			// "tall"			"26"
-			// "visible"		"1"
-			// "PaintBackgroundType"	"0"
-			// "proportionaltoparent"	"1"
-			//
-			// "SubButton"
-			// {
-			// "ControlName"	"CExImageButton"
-			// "fieldName"		"SubButton"
-			// "xpos"			"cs-0.5"
-			// "ypos"			"0"
-			// "wide"			"f0"
-			// "tall"			"f0"
-			// "autoResize"	"0"
-			// "pinCorner"		"3"
-			// "visible"		"1"
-			// "enabled"		"1"
-			// "tabPosition"	"0"
-			// "use_proportional_insets" "1"
-			// "font"			"HudFontSmallBold"
-			// "textAlignment"	"center"
-			// "dulltext"		"0"
-			// "brighttext"	"0"
-			// "default"		"1"
-			// "sound_depressed"	"UI/buttonclick.wav"
-			// "sound_released"	"UI/buttonclickrelease.wav"
-			// "labeltext"		"#MMenu_ViewUpdateDetails"
-			// "proportionaltoparent"	"1"
-			// "command"		"view_update_page"
-			// "actionsignallevel"	"4"
-			//
-			// "border_default"	"MainMenuButtonDefault"
-			// "border_armed"		"MainMenuButtonArmed"
-			// "paintbackground"	"0"
-			//
-			// "defaultFgColor_override" "46 43 42 255"
-			// "armedFgColor_override" "235 226 202 255"
-			// "depressedFgColor_override" "46 43 42 255"
-			//
-			// "image_drawcolor"	"117 107 94 255"
-			// "image_armedcolor"	"235 226 202 255"
-			// }
-			// }
-			//
-			// "ViewWarButtonGlow"
-			// {
-			// "ControlName"	"Panel"
-			// "fieldName"		"ViewWarButtonGlow"
-			// "xpos"			"p0.5"
-			// "ypos"			"27"
-			// "zpos"			"10"
-			// "wide"			"124"
-			// "tall"			"26"
-			// "visible"		"0"
-			// "proportionaltoparent"	"1"
-			//
-			// "paintborder"	"0"
-			// "border"	"MainMenuButtonGlow"
-			// "paintbackground"		"3"
-			// "bgcolor_override"	"238 103 17 255"
-			// }
-			//
-			// "ViewWarButton"
-			// {
-			// "ControlName"	"EditablePanel"
-			// "fieldname"		"ViewWarButton"
-			// "xpos"			"p0.5"
-			// "ypos"			"27"
-			// "zpos"			"11"
-			// "wide"			"p0.48"
-			// "tall"			"26"
-			// "visible"		"1"
-			// "PaintBackgroundType"	"0"
-			// "proportionaltoparent"	"1"
-			//
-			// "SubButton"
-			// {
-			// "ControlName"	"CExImageButton"
-			// "fieldName"		"SubButton"
-			// "xpos"			"cs-0.5"
-			// "ypos"			"0"
-			// "wide"			"f0"
-			// "tall"			"f0"
-			// "autoResize"	"0"
-			// "pinCorner"		"3"
-			// "visible"		"1"
-			// "enabled"		"1"
-			// "tabPosition"	"0"
-			// "use_proportional_insets" "1"
-			// "font"			"HudFontSmallBold"
-			// "textAlignment"	"center"
-			// "dulltext"		"0"
-			// "brighttext"	"0"
-			// "default"		"1"
-			// "sound_depressed"	"UI/buttonclick.wav"
-			// "sound_released"	"UI/buttonclickrelease.wav"
-			// "labeltext"		"#MMenu_ViewWar"
-			// "proportionaltoparent"	"1"
-			// "command"		"view_war"
-			// "actionsignallevel"	"4"
-			//
-			// "border_default"	"MainMenuButtonDefault"
-			// "border_armed"		"MainMenuButtonArmed"
-			// "paintbackground"	"0"
-			//
-			// "defaultFgColor_override" "46 43 42 255"
-			// "armedFgColor_override" "235 226 202 255"
-			// "depressedFgColor_override" "46 43 42 255"
-			//
-			// "image_drawcolor"	"117 107 94 255"
-			// "image_armedcolor"	"235 226 202 255"
-			// }
-			// }
-
-			"CyclingAd"
-			{
-				"ControlName"				"CCyclingAdContainerPanel"
-				"fieldName"					"CyclingAd"
-				"xpos"						"5"
-				// "ypos"					"p0.47"
-				"ypos"						"27"
-				"zpos"						"100"
-				"wide"						"f10"
-				// "tall"					"p0.5"
-				"tall"						"60"
-				"visible"					"1"
-				"enabled"					"1"
-				"scaleImage"				"1"
-				"proportionaltoparent"		"1"
-				"bgcolor_override"			"0 0 0 255"
-
-				"items"
-				{
-					"0"
-					{
-						"item"				"Summer 2023 Cosmetic Key"
-						"show_market"		"0"
-					}
-
-					"1"
-					{
-						"item"				"Summer 2023 Cosmetic Case"
-						"show_market"		"1"
-					}
-
-					"2"
-					{
-						"item"				"Summer 2023 War Paint Key"
-						"show_market"		"0"
-					}
-
-					"3"
-					{
-						"item"				"Summer 2023 War Paint Case"
-						"show_market"		"1"
-					}
-
-					"4"
-					{
-						"item"				"Taunt: Star-Spangled Strategy"
-						"show_market"		"0"
-					}
-
-					"5"
-					{
-						"item"				"Taunt: Killer Joke"
-						"show_market"		"0"
-					}
-
-					"6"
-					{
-						"item"				"Taunt: The Head Doctor"
-						"show_market"		"0"
-					}
-
-					"7"
-					{
-						"item"				"Taunt: Tuefort Tango"
-						"show_market"		"0"
-					}
-
-					"8"
-					{
-						"item"				"Taunt: The Road Rager"
-						"show_market"		"0"
-					}
-
-					"9"
-					{
-						"item"				"Taunt: The Killer Signature"
-						"show_market"		"0"
-					}
-
-					"10"
-					{
-						"item"				"Map Token Sharkbay"
-						"show_market"		"0"
-					}
-
-					"11"
-					{
-						"item"				"Map Token Rotunda"
-						"show_market"		"0"
-					}
-
-					"12"
-					{
-						"item"				"Map Token Phoenix"
-						"show_market"		"0"
-					}
-
-					"13"
-					{
-						"item"				"Map Token Cashworks"
-						"show_market"		"0"
-					}
-
-					"14"
-					{
-						"item"				"Map Token Venice"
-						"show_market"		"0"
-					}
-
-					"15"
-					{
-						"item"				"Map Token Reckoner"
-						"show_market"		"0"
-					}
-
-					"16"
-					{
-						"item"				"Map Token Sulfur"
-						"show_market"		"0"
-					}
-
-					"17"
-					{
-						"item"				"Map Token Hardwood"
-						"show_market"		"0"
-					}
-
-					"18"
-					{
-						"item"				"Map Token Pelican Peak"
-						"show_market"		"0"
-					}
-
-					"19"
-					{
-						"item"				"Map Token Selbyen"
-						"show_market"		"0"
-					}
-
-					"20"
-					{
-						"item"				"Map Token VSH Tiny Rock"
-						"show_market"		"0"
-					}
-
-					"21"
-					{
-						"item"				"Map Token VSH Distillery"
-						"show_market"		"0"
-					}
-
-					"22"
-					{
-						"item"				"Map Token VSH Skirmish"
-						"show_market"		"0"
-					}
-
-					"23"
-					{
-						"item"				"Map Token VSH Nucleus"
-						"show_market"		"0"
-					}
-
-					"24"
-					{
-						"item"				"Strange Filter: Sharkbay (Community)"
-						"show_market"		"0"
-					}
-
-					"25"
-					{
-						"item"				"Strange Filter: Rotunda (Community)"
-						"show_market"		"0"
-					}
-
-					"26"
-					{
-						"item"				"Strange Filter: Phoenix (Community)"
-						"show_market"		"0"
-					}
-
-					"27"
-					{
-						"item"				"Strange Filter: Cashworks (Community)"
-						"show_market"		"0"
-					}
-
-					"28"
-					{
-						"item"				"Strange Filter: Venice (Community)"
-						"show_market"		"0"
-					}
-
-					"29"
-					{
-						"item"				"Strange Filter: Reckoner (Community)"
-						"show_market"		"0"
-					}
-
-					"30"
-					{
-						"item"				"Strange Filter: Sulfur (Community)"
-						"show_market"		"0"
-					}
-
-					"31"
-					{
-						"item"				"Strange Filter: Hardwood (Community)"
-						"show_market"		"0"
-					}
-
-					"32"
-					{
-						"item"				"Strange Filter: Pelican Peak (Community)"
-						"show_market"		"0"
-					}
-
-					"33"
-					{
-						"item"				"Strange Filter: Selbyen (Community)"
-						"show_market"		"0"
-					}
-
-					"34"
-					{
-						"item"				"Strange Filter: VSH Tiny Rock (Community)"
-						"show_market"		"0"
-					}
-
-					"35"
-					{
-						"item"				"Strange Filter: VSH Distillery (Community)"
-						"show_market"		"0"
-					}
-
-					"36"
-					{
-						"item"				"Strange Filter: VSH Skirmish (Community)"
-						"show_market"		"0"
-					}
-
-					"37"
-					{
-						"item"				"Strange Filter: VSH Nucleus (Community)"
-						"show_market"		"0"
-					}
-				}
-			}
-		}
-		// Background
 	}
-	// EventPromo
 
 	"SafeMode"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"SafeMode"
-		"xpos"				"c-290"
-		"ypos"				"210"
-		"zpos"				"-50"
-		"wide"				"270"
-		"tall"				"190"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1006"
+		"wide"				"22"
+		"tall"				"22"
 		"visible"			"0"
 
-		"Background"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldname"					"Background"
-			"xpos"						"0"
-			"ypos"						"20"
-			"zpos"						"0"
-			"wide"						"260"
-			"tall"						"p0.88"
-			"visible"					"1"
-			"PaintBackgroundType"		"0"
-			"proportionaltoparent"		"1"
-			"paintborder"				"1"
-			"border"					"MainMenuBGBorder"
+		"pin_to_sibling"		"partychat"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 
-			"TitleLabel"
-			{
-				"ControlName"			"CExLabel"
-				"fieldName"				"TitleLabel"
-				"font"					"HudFontSmallBold"
-				"labelText"				"#MMenu_SafeMode_Title"
-				"textAlignment"			"west"
-				"xpos"					"0"
-				"ypos"					"0"
-				"wide"					"f0"
-				"tall"					"30"
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textinsetx"			"20"
-				"fgcolor_override"		"235 227 203 255"
-			}
+		"bgcolor_override"	"vcr_blue"
 
-			"SaveSettingsButton"
-			{
-				"ControlName"					"CExButton"
-				"fieldName"						"SaveSettingsButton"
-				"xpos"							"p0.02"
-				"ypos"							"rs1-30"
-				"zpos"							"11"
-				"wide"							"250"
-				"tall"							"26"
-				"autoResize"					"0"
-				"pinCorner"						"3"
-				"visible"						"1"
-				"enabled"						"1"
-				"tabPosition"					"0"
-				"use_proportional_insets"		"1"
-				"font"							"HudFontSmallBold"
-				"textAlignment"					"west"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"1"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
-				"labeltext"						"#MMenu_SafeMode_SaveSettings"
-				"proportionaltoparent"			"1"
-				"command"						"safemode_save_settings"
-				"actionsignallevel"				"3"
-				"border_default"				"MainMenuButtonDefault"
-				"border_armed"					"MainMenuButtonArmed"
-				"paintbackground"				"0"
-				"defaultFgColor_override"		"46 43 42 255"
-				"armedFgColor_override"			"235 226 202 255"
-				"depressedFgColor_override"		"46 43 42 255"
-			}
-
-			"LeaveSafeModeButton"
-			{
-				"ControlName"					"CExButton"
-				"fieldName"						"SubButton"
-				"xpos"							"p0.02"
-				"ypos"							"rs1-5"
-				"zpos"							"11"
-				"wide"							"250"
-				"tall"							"26"
-				"autoResize"					"0"
-				"pinCorner"						"3"
-				"visible"						"1"
-				"enabled"						"1"
-				"tabPosition"					"0"
-				"use_proportional_insets"		"1"
-				"font"							"HudFontSmallBold"
-				"textAlignment"					"west"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"1"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
-				"labeltext"						"#MMenu_SafeMode_LeaveSafeMode"
-				"proportionaltoparent"			"1"
-				"command"						"safemode_leave"
-				"actionsignallevel"				"3"
-				"border_default"				"MainMenuButtonDefault"
-				"border_armed"					"MainMenuButtonArmed"
-				"paintbackground"				"0"
-				"defaultFgColor_override"		"46 43 42 255"
-				"armedFgColor_override"			"235 226 202 255"
-				"depressedFgColor_override"		"46 43 42 255"
-			}
-
-			"Explanation"
-			{
-				"ControlName"				"Label"
-				"fieldName"					"Explanation"
-				"xpos"						"cs-0.5"
-				"ypos"						"30"
-				"zpos"						"100"
-				"wide"						"p0.92"
-				"tall"						"p0.5"
-				"textAlignment"				"north-west"
-				"visible"					"1"
-				"enabled"					"1"
-				"scaleImage"				"1"
-				"proportionaltoparent"		"1"
-				"wrap"						"1"
-				"labelText"					"#MMenu_SafeMode_Explanation"
-				"proportionaltoparent"		"1"
-				"font"						"HudFontSmallest"
-			}
-		}
-		// Background
-
-		"InfoImage"
-		{
-			"ControlName"				"ImagePanel"
-			"fieldName"					"InfoImage"
-			"xpos"						"rs1-5"
-			"ypos"						"5"
-			"zpos"						"100"
-			"wide"						"40"
-			"tall"						"o1"
-			"visible"					"1"
-			"enabled"					"1"
-			"image"						"info"
-			"scaleImage"				"1"
-			"proportionaltoparent"		"1"
-			"mouseinputenabled"			"0"
-		}
+		"Background"	{"visible" "0"}
+		"InfoImage"		{"visible" "0"}
 	}
-	// SafeMode
 
 	"ShowPromoCodesButton"
 	{

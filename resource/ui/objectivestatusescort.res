@@ -188,7 +188,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"200 200 220 255"
+			"bgcolor_override"	"VCR_White_Tint"
 
 			"if_multiple_trains_red"
 			{
@@ -284,7 +284,7 @@
 			"labelText"		""
 			"image"			"replay/thumbnails/obj_icons/pl/arrow_left"
 			"scaleImage"	"1"	
-			"drawcolor"		"200 200 220 255"	
+			"drawcolor"		"VCR_White_Tint"	
 			
 			"if_multiple_trains"
 			{
@@ -335,14 +335,14 @@
 			"dulltext"		"0"
 			"use_proportional_insets"	"1"
 			"proportionaltoparent"	"1"
-			"disabledfgcolor2_override"	"200 200 220 255"
+			"disabledfgcolor2_override"	"VCR_White_Tint"
 			
 			"if_multiple_trains"
 			{
 				"ypos"			"c0"
 				"xpos"			"cs-1-1"
 				"textinsety"	"-1"
-				"disabledfgcolor2_override"	"200 200 220 255"
+				"disabledfgcolor2_override"	"VCR_White_Tint"
 			}		
 
 			"if_multiple_trains_blue"
@@ -367,7 +367,7 @@
 			"proportionaltoparent"	"1"
 			"labelText"		""
 			"image"			"replay/thumbnails/obj_icons/pl/blocked"
-			"drawcolor"		"200 200 220 255"	
+			"drawcolor"		"VCR_White_Tint"	
 			"scaleImage"	"1"	
 			
 			"if_multiple_trains"

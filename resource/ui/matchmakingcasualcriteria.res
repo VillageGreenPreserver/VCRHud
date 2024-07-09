@@ -168,13 +168,13 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			"depressedFgColor_override" "VCR_Blue"
 
 			"defaultbgColor_override"	"VCR_Blue"
-			"armedbgColor_override"		"200 200 220 255"
-			"depressedbgColor_override" "200 200 220 255"
+			"armedbgColor_override"		"VCR_White_Tint"
+			"depressedbgColor_override" "VCR_White_Tint"
 		}
 
 		"Divider"
@@ -193,7 +193,7 @@
 			"labeltext"		"/"
 			"auto_wide_tocontents"	"1"
 
-			"FgColor_override"	"200 200 220 255"
+			"FgColor_override"	"VCR_White_Tint"
 			
 			"pin_to_sibling"	"SaveButton"
 			"pin_corner_to_sibling"	"0"
@@ -230,13 +230,13 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			"depressedFgColor_override" "VCR_Blue"
 
 			"defaultbgColor_override"	"VCR_Blue"
-			"armedbgColor_override"		"200 200 220 255"
-			"depressedbgColor_override" "200 200 220 255"
+			"armedbgColor_override"		"VCR_White_Tint"
+			"depressedbgColor_override" "VCR_White_Tint"
 			
 			"pin_to_sibling"	"Divider"
 			"pin_corner_to_sibling"	"0"
@@ -259,7 +259,7 @@
 			"labeltext"		" SELECTION"
 			"auto_wide_tocontents"	"1"
 
-			"FgColor_override"	"200 200 220 255"
+			"FgColor_override"	"VCR_White_Tint"
 			
 			"pin_to_sibling"	"LoadButton"
 			"pin_corner_to_sibling"	"0"
@@ -410,7 +410,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"200 200 220 255"
+					"fgcolor_override"	"VCR_White_Tint"
 				}
 		
 				"UpButton"

@@ -36,9 +36,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"0"
-		"defaultfgcolor_override"	"200 200 220 255"	
-		"armedfgcolor_override"		"200 200 220 255"	
-		"selectedfgcolor_override"	"200 200 220 255"	
+		"defaultfgcolor_override"	"VCR_White_Tint"	
+		"armedfgcolor_override"		"VCR_White_Tint"	
+		"selectedfgcolor_override"	"VCR_White_Tint"	
 		"allcaps"	"1"	
 		"font"		"VCR24-NA"
 

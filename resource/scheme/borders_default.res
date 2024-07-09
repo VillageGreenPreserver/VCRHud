@@ -1889,7 +1889,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "200 200 220 255"
+					"color" "VCR_White_Tint"
 					"offset" "0 1"
 				}
 			}
@@ -1898,7 +1898,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "200 200 220 255"
+					"color" "VCR_White_Tint"
 					"offset" "1 0"
 				}
 			}
@@ -1907,7 +1907,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "200 200 220 255"
+					"color" "VCR_White_Tint"
 					"offset" "0 0"
 				}
 			}
@@ -1916,7 +1916,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "200 200 220 255"
+					"color" "VCR_White_Tint"
 					"offset" "0 0"
 				}
 			}

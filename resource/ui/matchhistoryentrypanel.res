@@ -98,7 +98,7 @@
 			
 			"labeltext"			"%match_date%"
 			"font"				"HudFontSmallestBold"
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"textAlignment"		"west"
 		}
 
@@ -116,7 +116,7 @@
 			
 			"labeltext"			"%map_name%"
 			"font"				"HudFontSmallestBold"
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"textAlignment"		"west"
 		}
 
@@ -134,7 +134,7 @@
 			
 			"labeltext"			"%kd_ratio%"
 			"font"				"HudFontSmallestBold"
-			"fgcolor_override"	"200 200 220 255"
+			"fgcolor_override"	"VCR_White_Tint"
 			"textAlignment"		"west"
 		}
 	}
@@ -234,7 +234,7 @@
 			
 				"labeltext"			"%stat_kills%"
 				"font"				"ocra10"
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 				"textAlignment"		"west"
 			}
 
@@ -252,7 +252,7 @@
 			
 				"labeltext"			"%stat_deaths%"
 				"font"				"ocra10"
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 				"textAlignment"		"west"
 			}
 
@@ -283,7 +283,7 @@
 			
 				"labeltext"			"%stat_damage%"
 				"font"				"ocra10"
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 				"textAlignment"		"west"
 			}
 
@@ -315,7 +315,7 @@
 			
 				"labeltext"			"%stat_healing%"
 				"font"				"ocra10"
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 				"textAlignment"		"west"
 			}
 
@@ -346,7 +346,7 @@
 			
 				"labeltext"			"%stat_support%"
 				"font"				"ocra10"
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 				"textAlignment"		"west"
 			}
 
@@ -379,7 +379,7 @@
 			
 				"labeltext"			"%stat_score%"
 				"font"				"ocra10"
-				"fgcolor_override"	"200 200 220 255"
+				"fgcolor_override"	"VCR_White_Tint"
 				"textAlignment"		"west"
 			}
 

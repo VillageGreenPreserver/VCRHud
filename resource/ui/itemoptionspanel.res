@@ -90,10 +90,10 @@
 			"roundedcorners"	"0"
 			"border_default"	"VCR_WhiteLineBorder"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"0 0 0 0"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 		}
 	}

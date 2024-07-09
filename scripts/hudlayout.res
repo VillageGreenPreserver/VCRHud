@@ -85,7 +85,7 @@
 		"wide"						"1"
 		"zpos"						"99"
 		"tall"						"p0.95"
-		"bgcolor_override"			"200 200 220 255"
+		"bgcolor_override"			"VCR_White_Tint"
 		"border"					"noborder"
 		"pin_to_sibling"			"RightBar"
 		"pin_corner_to_sibling"		"1"
@@ -98,7 +98,7 @@
 		"wide"						"p0.95"
 		"zpos"						"99"
 		"tall"						"1"
-		"bgcolor_override"			"200 200 220 255"
+		"bgcolor_override"			"VCR_White_Tint"
 		"border"					"noborder"
 		"pin_to_sibling"			"BottomBar"
 		"pin_corner_to_sibling"		"2"
@@ -342,20 +342,33 @@
 		"pin_to_sibling"			"target_pinner"
 		"pin_to_sibling_corner"		"3"
 	}
+
+	"spec_pin"
+	{
+		"ControlName"	"Panel"
+		"wide"			"0"
+		"tall"			"0"
+		"xpos"			"0"
+		"ypos"			"p-0.05"
+	}
+
 	"CSpectatorTargetID"
 	{
 		"fieldName"				"CSpectatorTargetID"
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-126"
-		"ypos"					"250"
+		"ypos"					"0"
 		"wide"					"252"
 		"tall"					"35"
 		"tall_minmode"			"28"
 		"priority"				"40"
 		"priority_lodef"		"35"
-		"x_offset"				"20"
-		"y_offset"				"20"
+		"x_offset"				"0"
+		"y_offset"				"0"
+
+		"pin_to_sibling"		"spec_pin"
+		"pin_to_sibling_corner"	"3"
 	}
 	"CSecondaryTargetID"
 	{

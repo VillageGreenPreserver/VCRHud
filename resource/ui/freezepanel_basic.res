@@ -168,8 +168,8 @@
 	"item_pin"
 	{
 		"ControlName"	"Panel"
-		"xpos"			"p-0.95"
-		"ypos"			"p-0.95"
+		"xpos"			"r180"
+		"ypos"			"r120"
 		"wide"			"0"
 		"tall"			"0"
 	}
@@ -203,7 +203,8 @@
 		"text_forcesize"	"2"
 
 		"pin_to_sibling"	"item_pin"
-		"pin_to_sibling_corner"	"3"
+		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"0"
 		
 		"itemmodelpanel"
 		{
@@ -328,7 +329,7 @@
 			"wide"						"1"
 			"zpos"						"99"
 			"tall"						"p0.9"
-			"bgcolor_override"			"200 200 220 255"
+			"bgcolor_override"			"VCR_White_Tint"
 			"border"					"noborder"
 			"pin_to_sibling"			"RightBar"
 			"pin_corner_to_sibling"		"1"
@@ -341,7 +342,7 @@
 			"wide"						"p0.9"
 			"zpos"						"99"
 			"tall"						"1"
-			"bgcolor_override"			"200 200 220 255"
+			"bgcolor_override"			"VCR_White_Tint"
 			"border"					"noborder"
 			"pin_to_sibling"			"BottomBar"
 			"pin_corner_to_sibling"		"2"
@@ -599,7 +600,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
-		"xpos"			"c-83"
+		"xpos"			"r0"
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"166"

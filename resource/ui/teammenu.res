@@ -199,9 +199,9 @@
 		"associated_model"	""
 		"font"			"VCR28-NA"
 		"roundedcorners"	"0"
-		"defaultfgcolor_override"		"200 200 220 255"
+		"defaultfgcolor_override"		"VCR_White_Tint"
 		"armedfgcolor_override"		"VCR_Blue"
-		"armedbgcolor_override"		"200 200 220 255"
+		"armedbgcolor_override"		"VCR_White_Tint"
 	}
 	
 	"teambutton3"
@@ -227,9 +227,9 @@
 		"associated_model"	""
 		"font"			"VCR28-NA"
 		"roundedcorners"	"0"
-		"defaultfgcolor_override"		"200 200 220 255"
+		"defaultfgcolor_override"		"VCR_White_Tint"
 		"armedfgcolor_override"		"VCR_Blue"
-		"armedbgcolor_override"		"200 200 220 255"
+		"armedbgcolor_override"		"VCR_White_Tint"
 	}
 
 	"SoldierB"
@@ -413,10 +413,10 @@
 		"paintBackgroundstyle"	"0"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -444,10 +444,10 @@
 		"paintBackgroundstyle"	"0"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"

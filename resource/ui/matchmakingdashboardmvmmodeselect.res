@@ -64,7 +64,7 @@
 		"defaultfgcolor_override"	"200 200 220 0"
 		"armedfgcolor_override"	"VCR_Blue"
 
-		"armedBgColor_override"	"200 200 220 255"
+		"armedBgColor_override"	"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 		
 		"pin_to_sibling"	"Title"
@@ -183,15 +183,15 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			"depressedFgColor_override" "VCR_Blue"
 			"disabledFgColor2_override" "100 100 110 255"
 
 			"defaultbgColor_override"	"VCR_Blue"
-			"armedbgColor_override"		"200 200 220 255"
-			"depressedbgColor_override" "200 200 220 255"
-			"disabledbgColor2_override" "200 200 220 255"
+			"armedbgColor_override"		"VCR_White_Tint"
+			"depressedbgColor_override" "VCR_White_Tint"
+			"disabledbgColor2_override" "VCR_White_Tint"
 		}
 
 		"PlayForBraggingRightsExplanation"
@@ -309,15 +309,15 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			"depressedFgColor_override" "VCR_Blue"
 			"disabledFgColor2_override" "100 100 110 255"
 
 			"defaultbgColor_override"	"VCR_Blue"
-			"armedbgColor_override"		"200 200 220 255"
-			"depressedbgColor_override" "200 200 220 255"
-			"disabledbgColor2_override" "200 200 220 255"
+			"armedbgColor_override"		"VCR_White_Tint"
+			"depressedbgColor_override" "VCR_White_Tint"
+			"disabledbgColor2_override" "VCR_White_Tint"
 		}
 
 		"PlayOnCommunityServerExplanation"

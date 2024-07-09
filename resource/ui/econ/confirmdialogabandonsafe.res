@@ -83,12 +83,12 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"border_default"			"VCR_WhiteLineBorder"
 		"border_armed"				"VCR_WhiteLineBorder"
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		"depressedBgColor_override"	"VCR_Blue"
-		"depressedFgColor_override"	"200 200 220 255"
+		"depressedFgColor_override"	"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 	}
 	
 	"CancelButtonHintIcon"
@@ -131,12 +131,12 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"VCR_WhiteLineBorder"
 		"border_armed"				"VCR_WhiteLineBorder"
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		"depressedBgColor_override"	"VCR_Blue"
-		"depressedFgColor_override"	"200 200 220 255"
+		"depressedFgColor_override"	"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 	}
 	
 	"ConfirmButtonHintIcon"

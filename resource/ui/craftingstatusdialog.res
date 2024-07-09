@@ -119,9 +119,9 @@
 		"border_default"	"VCR_WhiteLineBorder"
 
 		"defaultBgColor_override"	"0 0 100 255"
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"0 0 100 255"
 	}
 }

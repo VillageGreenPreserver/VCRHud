@@ -75,15 +75,15 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			"depressedFgColor_override" "VCR_Blue"
 			"disabledFgColor2_override" "100 100 110 255"
 
 			"defaultbgColor_override"	"VCR_Blue"
-			"armedbgColor_override"		"200 200 220 255"
-			"depressedbgColor_override" "200 200 220 255"
-			"disabledbgColor2_override" "200 200 220 255"
+			"armedbgColor_override"		"VCR_White_Tint"
+			"depressedbgColor_override" "VCR_White_Tint"
+			"disabledbgColor2_override" "VCR_White_Tint"
 		}
 
 		"ShowMatchHistoryButton"
@@ -108,15 +108,15 @@
 			"sound_released"	""
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			"depressedFgColor_override" "VCR_Blue"
 			"disabledFgColor2_override" "100 100 110 255"
 
 			"defaultbgColor_override"	"VCR_Blue"
-			"armedbgColor_override"		"200 200 220 255"
-			"depressedbgColor_override" "200 200 220 255"
-			"disabledbgColor2_override" "200 200 220 255"
+			"armedbgColor_override"		"VCR_White_Tint"
+			"depressedbgColor_override" "VCR_White_Tint"
+			"disabledbgColor2_override" "VCR_White_Tint"
 		}
 
 		"PlaylistBGPanel"
@@ -223,12 +223,12 @@
 					"textinsetx"		"15"
 
 					"defaultFgColor_override" "100 100 110 255"
-					"armedFgColor_override"	"200 200 220 255"
+					"armedFgColor_override"	"VCR_White_Tint"
 					"selectedFgColor_override" "0 0 100 255"
 
 					"defaultbgColor_override" "0 0 100 255"
 					"armedbgColor_override"	"0 0 100 255"
-					"selectedbgColor_override" "200 200 220 255"
+					"selectedbgColor_override" "VCR_White_Tint"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -261,12 +261,12 @@
 					"textinsetx"		"15"
 
 					"defaultFgColor_override" "100 100 110 255"
-					"armedFgColor_override"	"200 200 220 255"
+					"armedFgColor_override"	"VCR_White_Tint"
 					"selectedFgColor_override" "0 0 100 255"
 
 					"defaultbgColor_override" "0 0 100 255"
 					"armedbgColor_override"	"0 0 100 255"
-					"selectedbgColor_override" "200 200 220 255"
+					"selectedbgColor_override" "VCR_White_Tint"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -299,12 +299,12 @@
 					"textinsetx"		"15"
 
 					"defaultFgColor_override" "100 100 110 255"
-					"armedFgColor_override"	"200 200 220 255"
+					"armedFgColor_override"	"VCR_White_Tint"
 					"selectedFgColor_override" "0 0 100 255"
 
 					"defaultbgColor_override" "0 0 100 255"
 					"armedbgColor_override"	"0 0 100 255"
-					"selectedbgColor_override" "200 200 220 255"
+					"selectedbgColor_override" "VCR_White_Tint"
 
 					"image_selectedcolor"	"255 255 255 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -337,12 +337,12 @@
 					"textinsetx"		"15"
 
 					"defaultFgColor_override" "100 100 110 255"
-					"armedFgColor_override"	"200 200 220 255"
+					"armedFgColor_override"	"VCR_White_Tint"
 					"selectedFgColor_override" "0 0 100 255"
 
 					"defaultbgColor_override" "0 0 100 255"
 					"armedbgColor_override"	"0 0 100 255"
-					"selectedbgColor_override" "200 200 220 255"
+					"selectedbgColor_override" "VCR_White_Tint"
 
 					"image_selectedcolor"	"0 0 100 255"
 					"image_armedcolor"		"0 0 0 0"
@@ -383,7 +383,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"200 200 220 255"
+						"fgcolor_override"	"VCR_White_Tint"
 					}
 		
 					"UpButton"

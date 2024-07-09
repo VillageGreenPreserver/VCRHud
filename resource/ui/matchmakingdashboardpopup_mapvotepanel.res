@@ -56,15 +56,15 @@
 		"roundedcorners"	"0"
 		"stay_armed_on_click"	"1"
 		
-		"defaultfgcolor_override"	"200 200 220 255"
+		"defaultfgcolor_override"	"VCR_White_Tint"
 		"armedfgcolor_override"		"VCR_Blue"
 		"selectedfgcolor_override"	"VCR_Blue"
-		"disabledfgcolor_override"	"200 200 220 255"
-		"disabledfgcolor2_override"	"200 200 220 255"
+		"disabledfgcolor_override"	"VCR_White_Tint"
+		"disabledfgcolor2_override"	"VCR_White_Tint"
 		
 		"defaultbgcolor_override"	"VCR_Blue"
-		"armedbgcolor_override"		"200 200 220 255"
-		"selectedbgcolor_override"	"200 200 220 255"
+		"armedbgcolor_override"		"VCR_White_Tint"
+		"selectedbgcolor_override"	"VCR_White_Tint"
 		"disabledbgcolor_override"	"VCR_Blue"
 		"disabledbgcolor2_override"	"VCR_Blue"
 

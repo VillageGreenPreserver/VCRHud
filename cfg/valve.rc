@@ -25,6 +25,7 @@ tf_mm_dashboard_slide_panel_step 0
 mat_viewportscale 0.95
 mat_viewportupscale 0
 tf_hud_target_id_alpha 255
+cl_mainmenu_safemode 1
 
 //removes annoying console spam
 alias dimmer_clicked ""

@@ -210,6 +210,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"1"
 			}
 
 			"MapChoice1"
@@ -224,6 +225,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"1"
 			}
 
 			"MapChoice2"
@@ -238,6 +240,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"1"
 			}
 		}
 	}

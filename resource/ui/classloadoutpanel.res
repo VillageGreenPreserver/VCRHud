@@ -90,10 +90,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"0 0 0 0"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 		}
 	}
@@ -118,10 +118,10 @@
 		"actionsignallevel"		"4"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -136,7 +136,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"22"
 		"auto_wide_tocontents"	"1"
 		"visible"		"1"
@@ -144,16 +144,18 @@
 		"tabPosition"	"0"
 		"labelText"		"LOADOUT/"
 
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"VCR28-NA"
 		"Command"		"back"
 		"actionsignallevel"		"4"
 		"roundedcorners"	"0"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -192,6 +194,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"auto_wide_tocontents"	"1"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"2"
 		
 		"pin_to_sibling"	"BackButton"
 		"pin_corner_to_sibling"	"0"
@@ -454,10 +458,10 @@
 		"border_default"	"VCR_WhiteLineBorder"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 	}
 		
@@ -477,10 +481,10 @@
 		"border_default"	"VCR_WhiteLineBorder"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"pin_to_sibling"	"ITEMS"
@@ -504,10 +508,10 @@
 		"border_default"	"VCR_WhiteLineBorder"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"pin_to_sibling"	"Taunts"
@@ -531,10 +535,10 @@
 		"border_default"	"VCR_WhiteLineBorder"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 		
 		"pin_to_sibling"	"Red"
@@ -745,10 +749,10 @@
 		"border_default"	"VCR_WhiteLineBorder"
 		"roundedcorners"	"0"
 
-		"armedBgColor_override"		"200 200 220 255"
+		"armedBgColor_override"		"VCR_White_Tint"
 		"defaultBgColor_override"	"VCR_Blue"
 
-		"defaultFgColor_override"	"200 200 220 255"
+		"defaultFgColor_override"	"VCR_White_Tint"
 		"armedFgColor_override"		"VCR_Blue"
 
 		"SubImage"

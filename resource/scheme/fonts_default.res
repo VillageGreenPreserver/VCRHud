@@ -1085,26 +1085,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"ocra custom"
+				"tall"			"12"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"ScoreboardSmall"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"ocra custom"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"ScoreboardMediumSmall"
@@ -2606,64 +2602,8 @@ Scheme
 		}			
 		"7"
 		{
-			"font"	"resource/ocra.ttf"
-			"name" "ocra"
-			"turkish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x007E"
-			}
+			"font"	"resource/fonts/ocra.ttf"
+			"name" "ocra custom"
 		}		
 		"8"
 		{
@@ -2674,6 +2614,11 @@ Scheme
 		{
 			"font"	"resource/fonts/VCROSDMonoInverted.ttf"
 			"name" "VCR OSD Mono Inverted"
+		}		
+		"10"
+		{
+			"font"	"resource/fonts/TF2 Icons.ttf"
+			"name" "TF2 Icons"
 		}	
 	}
 }

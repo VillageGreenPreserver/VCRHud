@@ -42,10 +42,10 @@
 			"border_default"	"VCR_WhiteLineBorder"
 			"roundedcorners"	"0"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"VCR_Blue"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
         }
 		
@@ -65,10 +65,10 @@
 			"border_default"	"VCR_WhiteLineBorder"
 			"roundedcorners"	"0"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"VCR_Blue"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			
 			"pin_to_sibling"	"A"
@@ -92,10 +92,10 @@
 			"border_default"	"VCR_WhiteLineBorder"
 			"roundedcorners"	"0"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"VCR_Blue"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			
 			"pin_to_sibling"	"B"
@@ -119,10 +119,10 @@
 			"border_default"	"VCR_WhiteLineBorder"
 			"roundedcorners"	"0"
 
-			"armedBgColor_override"		"200 200 220 255"
+			"armedBgColor_override"		"VCR_White_Tint"
 			"defaultBgColor_override"	"VCR_Blue"
 
-			"defaultFgColor_override"	"200 200 220 255"
+			"defaultFgColor_override"	"VCR_White_Tint"
 			"armedFgColor_override"		"VCR_Blue"
 			
 			"pin_to_sibling"	"C"

@@ -171,7 +171,7 @@
 			"textAlignment"	"center"
 			"texinsetx"		"0"
 			"texinsety"		"0"
-			"disabledfgcolor2_override"		"200 200 220 255"
+			"disabledfgcolor2_override"		"VCR_White_Tint"
 			"bgcolor_override"		"0 0 50 0"
 			"PaintBackgroundType"	"0"
 			"border"	"noborder"

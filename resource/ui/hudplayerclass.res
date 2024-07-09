@@ -25,7 +25,7 @@
 		"tall"					"20"
 		"visible"				"0"
 		"enabled"				"1"
-		"drawcolor"				"200 200 220 255"
+		"drawcolor"				"VCR_White_Tint"
 		"image"					"replay/thumbnails/hud/xhairc"
 		"scaleimage"			"1"
 		"proportionaltoparent"	"1"
@@ -150,7 +150,7 @@
 		"tall"					"6"
 		"xpos"					"0"
 		"ypos"					"rs1-p0.05-1-100"
-		"bgcolor_override"		"200 200 220 255"
+		"bgcolor_override"		"VCR_White_Tint"
 	}
 	"modelborder2"
 	{
@@ -159,7 +159,7 @@
 		"tall"					"100"
 		"xpos"					"100"
 		"ypos"					"rs1-p0.05-1"
-		"bgcolor_override"		"200 200 220 255"
+		"bgcolor_override"		"VCR_White_Tint"
 	}
 
 	"Name"

@@ -164,7 +164,7 @@
 		"tall"					"26"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"				"200 200 220 255"
+		"fgcolor_override"				"VCR_White_Tint"
 		"labeltext"					"%ammo%"
 		"font"					"ocra12"
 		"textalignment"			"west"

@@ -87,6 +87,31 @@
 		}
 	}
 
+	"McomEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"xpos"			"0"
+		"ypos"			"10"
+		"tall"			"22"
+		"wide"			"600"
+		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"	"MvMEntry"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
+
+		"image_name"		"main_menu/main_menu_button_mvm"
+		"button_token"		"#MMenu_PlayList_Mcon_Button"
+		"button_command"	"url https://comfig.app/quickplay/"
+		"desc_token"		"#MMenu_PlayList_MvM_Desc"
+		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
+
+		if_event
+		{
+			"ypos"			"153"
+		}
+	}
+
 	"ServerBrowserEntry"
 	{
 		"ControlName"	"CPlayListEntry"
@@ -97,7 +122,7 @@
 		"wide"			"600"
 		"proportionaltoparent"	"1"
 		
-		"pin_to_sibling"	"MvMEntry"
+		"pin_to_sibling"	"McomEntry"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 

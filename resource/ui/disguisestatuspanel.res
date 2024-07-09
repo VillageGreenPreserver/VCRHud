@@ -113,7 +113,7 @@
 		"textinsety"					"9999"
 		"labelText"						"%disguisename%"
 		"textAlignment"					"center"
-		"bgcolor_override"				"200 200 220 255"
+		"bgcolor_override"				"VCR_White_Tint"
 		"pin_to_sibling"				"SpectatorGUIHealth"
 		"pin_corner_to_sibling"			"3"
 	}
@@ -128,7 +128,7 @@
 		"tall"							"6"
 		"visible"						"1"
 		"enabled"						"1"
-		"bgcolor_override"				"200 200 220 255"
+		"bgcolor_override"				"VCR_White_Tint"
 		"pin_to_sibling"				"SpectatorGUIHealth"
 		"pin_corner_to_sibling"			"2"
 	}
@@ -142,7 +142,7 @@
 		"tall"							"60"
 		"visible"						"1"
 		"enabled"						"1"
-		"bgcolor_override"				"200 200 220 255"
+		"bgcolor_override"				"VCR_White_Tint"
 		"pin_to_sibling"				"TitleBG"
 		"pin_corner_to_sibling"			"1"
 	}

@@ -14,8 +14,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"ocra20-NA"
-		"fgcolor"		"200 200 220 255"
+		"font"			"ocra24-NA"
+		"fgcolor"		"VCR_White_Tint"
 	}
 
 	"PlayerStatusHealthValueKiller2"
@@ -31,7 +31,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"ocra20-NA"
+		"font"			"ocra24-NA"
 		"fgcolor"		"vcr_blue"
 	}
 	"PlayerStatusHealthImage"

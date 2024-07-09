@@ -50,7 +50,7 @@
 			"wide"					"1"
 			"tall"					"f0"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"		"200 200 220 255"
+			"bgcolor_override"		"VCR_White_Tint"
 		}
 	}
 	
@@ -62,7 +62,7 @@
 		"labelText"					"TAUNT_MENU"
 		"textAlignment"				"west"
 		"fgcolor_override"			"VCR_Blue"
-		"bgcolor_override"			"200 200 220 255"
+		"bgcolor_override"			"VCR_White_Tint"
 		"xpos"						"rs1"
 		"ypos"						"rs1-1-160"
 		"zpos"						"1"
