@@ -13,7 +13,6 @@
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
-		// "bgcolor_override"	"0 0 0 240"
 		"update_url"			"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"				"https://www.teamfortress.com/"
 		"button_x_offset"		"-285"
@@ -158,6 +157,7 @@
 		"xpos"				"r0"
 	}
 
+	
 	"VCR_BG"
 	{
 		"ControlName"			"Panel"
@@ -586,19 +586,21 @@
 				"tall"						"22"
 				"zpos"						"2"
 				"labelText"					"Stats"
-				"font"						"ocra12"
-				"paintBackground"			"0"
+				"font"						"ocra14-na"
+				"paintBackground"			"1"
 				"actionsignallevel"			"3"
 				"use_proportional_insets"	"1"
-				"textinsetx"				"26"
+				"textinsetx"				"8"
 
 				"command"					"engine showstatsdlg"
 
-				"defaultfgcolor_override"	"VCR_White"
-				"armedfgcolor_override"		"VCR_White"
+				"defaultfgcolor_override"	"VCR_White_tint"
+				"armedfgcolor_override"		"VCR_Blue"
+				"defaultbgcolor_override"	"blank"
+				"armedbgcolor_override"		"VCR_White_tint"
 
 				"pin_to_sibling"			"SafeModeButton"
-				"pin_to_sibling_corner"		"2"
+				"pin_to_sibling_corner"		"1"
 			}
 
 			"FriendsBorder"
@@ -684,6 +686,17 @@
 				}
 			}
 		}
+	}
+
+	"summary"
+	{
+		"ControlName"	"CTFItemCardPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"wide"			"f0"
+		"tall"			"480"
+		"zpos"			"2000"
+		"visible"		"0"
 	}
 
 	"VCR_QuitButton"
@@ -871,7 +884,6 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-
 	"partychat"
 	{
 		"pin_to_sibling"		"chat_pin"
@@ -883,13 +895,9 @@
 	{
 		"ControlName"	"Button"
 		"zpos"			"2001"
-		"xpos"			"rs1"
+		"xpos"			"0"
 		"ypos"			"rs1"
 		"command"		"engine hud"
-	}
-
-	"MMDashboard"
-	{
 	}
 
 	"Background"
@@ -1707,10 +1715,10 @@
 		"fieldName"			"CompetitiveAccessInfoPanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"cs-0.5"
-		"zpos"				"1000"
+		"zpos"				"2000"
 		"wide"				"f0"
 		"tall"				"f0"
-		"visible"			"0"
+		"visible"			"1"
 	}
 
 	"FriendsContainer"
@@ -1727,6 +1735,14 @@
 		"wide"				"0"
 		"tall"				"0"
 		"visible"			"0"
+	}
+
+	"TEST"
+	{
+		"ControlName"	"QuestItemPanel"
+		"wide"			"500"
+		"tall"			"200"
+		"zpos"			"2000"
 	}
 
 	"SafeMode"

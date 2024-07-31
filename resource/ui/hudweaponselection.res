@@ -1,5 +1,6 @@
 "Resource/UI/HudWeaponSelection.res"
 {
+
 	"modelpanel0"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -10,6 +11,7 @@
 		"name_only"		"1"
 		"model_ypos"	"5"
 		"standard_text_color"	"1"
+		"visible"		"1"
 
 		"itemmodelpanel"
 		{

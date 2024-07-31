@@ -141,15 +141,11 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
-		"xpos"			"0"
+		"xpos"			"99999"
 		"ypos"			"10"
 		"tall"			"22"
 		"wide"			"600"
 		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"	"ServerBrowserEntry"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"2"
 
 		"image_name"		"main_menu/main_menu_button_training"
 		"button_token"		"#MMenu_PlayList_Training_Button"
@@ -172,7 +168,7 @@
 		"wide"			"600"
 		"proportionaltoparent"	"1"
 		
-		"pin_to_sibling"	"TrainingEntry"
+		"pin_to_sibling"	"ServerBrowserEntry"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 

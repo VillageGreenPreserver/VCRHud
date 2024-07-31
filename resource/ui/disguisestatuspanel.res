@@ -201,6 +201,7 @@
 		"HealthDeathWarningColor"		"HUDDeathWarning"
 		"TextColor"						"HudOffWhite"
 		"bgcolor_override"				"VCR_Blue"
+		"ignorescheme"					"1"
 		"PlayerStatusHealthValue"
 		{
 			"xpos"						"0"

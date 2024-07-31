@@ -16,6 +16,7 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+
 	
 	"XHAIR_L"
 	{

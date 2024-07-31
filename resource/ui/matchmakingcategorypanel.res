@@ -244,7 +244,7 @@
 		}
 	}
 
-	"PlayListDropShadow"
+	"PlaylistBGPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"

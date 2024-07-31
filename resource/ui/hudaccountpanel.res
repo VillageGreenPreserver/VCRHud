@@ -115,7 +115,7 @@
 		
 		"pin_to_sibling"	"MetalLabel"
 	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"

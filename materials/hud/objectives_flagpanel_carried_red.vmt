@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/obj_icons/ctf/briefcase"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$additive" 1
+	"$translucent" 1
+}

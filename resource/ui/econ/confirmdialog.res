@@ -15,8 +15,8 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"	"VCR_Blue"
+		"paintbackground"		"0"
+		"bgcolor_override"	"255 0 0 255"
 		"border"			"VCR_WhiteLineBorder"
 	}
 	
@@ -36,6 +36,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		// "fgcolor_override" "255 0 0 255"
 		"fgcolor_override" "VCR_White"
 	}
 	
@@ -57,7 +58,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"VCR14"
+		"font"			"VCR20"
 		"labelText"		"%text%"
 		"textAlignment"	"north-west"
 		"xpos"			"60"
@@ -78,7 +79,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"190"
-		"ypos"			"165"
+		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"

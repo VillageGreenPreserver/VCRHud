@@ -181,6 +181,7 @@
 		}
 	}
 
+
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"

@@ -5,16 +5,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMTourOfDutyGroupBox"
 		"xpos"		"0"
-		"ypos"		"100"
+		"ypos"		"132"
 		"zpos"		"-1"
 		"wide"		"600"
-		"tall"		"342"
+		"tall"		"310"
 		"proportionaltoparent"	"1"
-
-		"NavToRelay"	"TourlistGroupBox"
-		"NavUp"			"MvMSelectChallengeGroupBox"
-		"NavLeft"		"MvMSelectChallengeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
 
 		"ChallengeLabel"
 		{
@@ -209,17 +204,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMEconItemsGroupBox"
 		"xpos"			"0"
-		"ypos"			"rs1-38"
-		"zpos"			"-1"
+		"ypos"			"rs1-38+32"
+		"zpos"			"0"
 		"wide"			"600"
 		"tall"			"120"
 		"bgcolor_override"	"0 0 0 0"
 		"border"		"VCR_WhiteLineBorder"
-
-		"NavToRelay"	"OpenHelpButton"
-		"NavUp"			"MvMTourOfDutyGroupBox"
-		"NavDown"		"MvMPracticeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
 
 		"InventoryTitleLabel"
 		{
@@ -228,7 +218,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_InventoryTitle"
 			"textAlignment"	"north-west"
-			"xpos"			"8"
+			"xpos"			"4"
 			"ypos"			"5"
 			"zpos"			"0"
 			"wide"			"200"
@@ -239,26 +229,61 @@
 		{
 			"ControlName"	"CCyclingAdContainerPanel"
 			"fieldName"		"MannUpTicketAd"
-			"xpos"			"6"
-			"ypos"			"30"
+			"xpos"			"4"
+			"ypos"			"25"
 			"zpos"			"0"
 			"wide"			"70"
-			"tall"			"40"
+			"tall"			"45"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "1"
 			"paintborder"	"0"
+			"ignorescheme"	"1"
 
 			"items"
 			{
 				"0"
 				{
-					"item"		"Tour of Duty Ticket"
-					"show_market"	"0"
-					"show_name"		"0"
+					"item"				"Tour of Duty Ticket"
+					"show_market"		"0"
+					"show_name"			"0"
 					"show_ad_text"		"0"
-					"show_background"		"0"
+					"show_background"	"0"
+
+					"BuyButton"
+					{
+						"xpos"	"0"
+						"ypos"	"rs1"
+						"wide"	"f0"
+						"proportionaltoparent"	"1"
+
+						"defaultfgcolor_override"	"VCR_White_Tint"
+						"defaultbgcolor_override"	"vcr_blue"
+						"armedfgcolor_override"		"vcr_blue"
+						"armedbgcolor_override"		"VCR_White_Tint"
+					}
+					"ItemIcon"
+					{
+						"xpos"	"r0"
+					}
 				}
+			}
+
+			"title"
+			{
+				"ControlName"			"Label"
+				"labelText"				"Tour of Duty Tickets"
+				"wrap"					"1"
+				"tall"					"f10"
+				"wide"					"f0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"0"
+				"textAlignment"			"center"
+			}
+
+			"frame"
+			{
+				"visible"	"0"
 			}
 		}
 
@@ -267,31 +292,37 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"vcr24-na"
 			"labelText"		"%ticket_count%"
-			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"15"
-			"ypos"			"24"
+			"textAlignment"	"east"
+			"fgcolor_override"	"VCR_White_Tint"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"60"
-			"tall"			"30"
+			"wide"			"70"
+			"tall"			"35"
 			"mouseinputenabled" "0"
+
+			"pin_to_sibling"	"MannUpTicketAd"
 		}
 
 		"SquadSurplusTicketAd"
 		{
 			"ControlName"	"CCyclingAdContainerPanel"
 			"fieldName"		"SquadSurplusTicketAd"
-			"xpos"			"73"
-			"ypos"			"30"
+			"xpos"			"8"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"70"
-			"tall"			"40"
+			"tall"			"45"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "1"
 			"paintborder"	"0"
+			"ignorescheme"	"1"
+
+			"pin_to_sibling"	"MannUpTicketAd"
+			"pin_to_sibling_corner"	"1"
 
 			"items"
 			{
@@ -302,7 +333,41 @@
 					"show_name"		"0"
 					"show_ad_text"		"0"
 					"show_background"		"0"
+
+					"BuyButton"
+					{
+						"xpos"	"0"
+						"ypos"	"rs1"
+						"wide"	"f0"
+						"proportionaltoparent"	"1"
+
+						"defaultfgcolor_override"	"VCR_White_Tint"
+						"defaultbgcolor_override"	"vcr_blue"
+						"armedfgcolor_override"		"vcr_blue"
+						"armedbgcolor_override"		"VCR_White_Tint"
+					}
+					"ItemIcon"
+					{
+						"xpos"	"r0"
+					}
 				}
+			}
+
+			"title"
+			{
+				"ControlName"			"Label"
+				"labelText"				"Squad Surplus Vouchers"
+				"wrap"					"1"
+				"tall"					"f10"
+				"wide"					"f0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"0"
+				"textAlignment"			"center"
+			}
+
+			"frame"
+			{
+				"visible"	"0"
 			}
 		}
 
@@ -310,27 +375,29 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"vcr24-na"
 			"labelText"		"%voucher_count%"
-			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"82"
-			"ypos"			"24"
+			"textAlignment"	"east"
+			"fgcolor_override"	"VCR_White_Tint"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"60"
-			"tall"			"30"
+			"wide"			"70"
+			"tall"			"35"
 			"mouseinputenabled" "0"
+
+			"pin_to_sibling"	"SquadSurplusTicketAd"
 		}
 
 		"SquadSurplusCheckButton"
 		{
 			"ControlName"		"CheckButton"
 			"fieldName"		"SquadSurplusCheckButton"
-			"xpos"		"5"
-			"ypos"		"70"
+			"xpos"		"0"
+			"ypos"		"75"
 			"zpos"		"2"
-			"wide"		"25"
-			"tall"		"25"
+			"wide"		"160"
+			"tall"		"20"
 			"font"			"HudFontSmall"
 			"labelText"		""
 		}
@@ -338,27 +405,32 @@
 		"ActivateSquadSurplusLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"SquadSurplusCheckLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"#TF_MvM_ActivateSquadSurplus"
+			"labelText"		"Activate Squad Surplus Voucher"
 			"textAlignment"	"north-west"
 			"wrap"			"1"
-			"xpos"			"33"
-			"ypos"			"70"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"120"
-			"tall"			"60"
+			"wide"			"160"
+			"tall"			"20"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"25"
+			"pin_to_sibling"	"SquadSurplusCheckButton"
 		}
 
 		"Slot0"
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot0"
-			"xpos"			"200"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"28"
 			"tall"			"200"
+
+			"pin_to_sibling"	"Slot1"
+			"pin_corner_to_sibling"	"1"
 
 			"party_slot"	"0"
 		}
@@ -367,11 +439,14 @@
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot1"
-			"xpos"			"200+30"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"28"
 			"tall"			"200"
+
+			"pin_to_sibling"	"Slot2"
+			"pin_corner_to_sibling"	"1"
 
 			"party_slot"	"1"
 		}
@@ -380,11 +455,14 @@
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot2"
-			"xpos"			"200+30+30"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"28"
 			"tall"			"200"
+
+			"pin_to_sibling"	"Slot3"
+			"pin_corner_to_sibling"	"1"
 
 			"party_slot"	"2"
 		}
@@ -393,11 +471,14 @@
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot3"
-			"xpos"			"200+30+30+30"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"28"
 			"tall"			"200"
+
+			"pin_to_sibling"	"Slot4"
+			"pin_corner_to_sibling"	"1"
 
 			"party_slot"	"3"
 		}
@@ -406,11 +487,14 @@
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot4"
-			"xpos"			"200+30+30+30+30"
-			"ypos"			"5"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"28"
 			"tall"			"200"
+
+			"pin_to_sibling"	"Slot5"
+			"pin_corner_to_sibling"	"1"
 
 			"party_slot"	"4"
 		}
@@ -419,11 +503,12 @@
 		{
 			"ControlName"	"CMvMPlayerTicketStatusPanel"
 			"fieldName"		"Slot5"
-			"xpos"			"200+30+30+30+30+30"
+			"xpos"			"rs1-5"
 			"ypos"			"5"
 			"zpos"			"0"
 			"wide"			"28"
 			"tall"			"200"
+			"proportionaltoparent"	"1"
 
 			"party_slot"	"5"
 		}
@@ -432,12 +517,12 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MissingTicketsAlertImage"
-			"xpos"			"195"
-			"ypos"			"r35"
+			"xpos"			"r0"
+			"ypos"			"0"
 			"zpos"			"105"
 			"wide"			"35"
 			"tall"			"35"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"glyph_alert"
 			"scaleImage"	"1"
@@ -450,16 +535,16 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MissingTicketsLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"ocra12"
 			"fgcolor_override"	"TanDark"
 			"labelText"		"#TF_Matchmaking_CantQueue_NoTicket"
-			"textAlignment"	"south-west"
-			"wrap"			"1"
-			"xpos"			"235"
+			"textAlignment"	"south-east"
+			"centerwrap"	"1"
+			"xpos"			"rs1-5"
 			"ypos"			"rs1-5"
 			"zpos"			"0"
-			"wide"			"165"
-			"tall"			"60"
+			"wide"			"193"
+			"tall"			"40"
 			"proportionaltoparent"	"1"
 		}
 	}
@@ -477,11 +562,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
-
-		"NavToRelay"	"MannUpNowButton"
-		"NavUp"			"MvMEconItemsGroupBox"
-		"NavDown"		"<<BackButton"
-		"NavRight"		"PartyActiveGroupBox"
 
 		"NoMannUpImage"
 		{
@@ -579,6 +659,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"22"
+			"auto_wide_tocontents"	"1"
 			"fgcolor_override"	"200 200 200 255"
 		}
 
@@ -589,7 +670,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%complete_heading%"
 			"textAlignment"	"south-west"
-			"xpos"			"264"
+			"xpos"			"r0"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"100"
@@ -601,7 +682,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"TourLevelImage"
-			"xpos"			"342"
+			"xpos"			"r0"
 			"ypos"			"-10"
 			"zpos"			"0"
 			"wide"			"60"
@@ -617,15 +698,18 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"VCR28"
 			"labelText"		"%tour_level%"
-			"textAlignment"	"south"
-			"xpos"			"357"
+			"textAlignment"	"west"
+			"xpos"			"16"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"30"
-			"tall"			"26"
-			"fgcolor_override"	"0 0 0 255"
+			"wide"			"44"
+			"tall"			"22"
+			"fgcolor_override"	"vcr_White"
+
+			"pin_to_sibling"	"ChallengeLabel"
+			"pin_to_sibling_corner"	"1"
 		}
 
 		"ChallengeListGroupBox"
@@ -633,7 +717,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ChallengeListGroupBox"
 			"xpos"			"0"
-			"ypos"			"100"
+			"ypos"			"132"
 			"zpos"			"-1"
 			"wide"			"600"
 			"tall"			"210"

@@ -332,14 +332,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"xpos"			"c-120"
+		"ypos"			"rs1-131"
 		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
-		"visible"		"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
 		"enabled"		"1"
+		"drawcolor"		"VCR_White_Tint"
+		"alpha"			"200"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
 		
@@ -395,19 +396,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
 		
 		"if_hybrid"
 		{
@@ -512,14 +501,17 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"xpos"			"-12+1"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"o1"
+		"tall"			"p0.05"
 		"visible"		"0"
 		"enabled"		"1"
+
+		"pin_to_sibling"	"BlueFlag"
+		"pin_to_sibling_corner"	"3"
+		"pin_corner_to_sibling"	"2"
 		
 		"if_hybrid"
 		{
