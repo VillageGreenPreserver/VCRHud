@@ -91,10 +91,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1"
+		"ypos"			"rs2"
 		"zpos"			"1"
 		"wide"			"f4"
-		"tall"			"p0.5"
+		"tall"			"p0.25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"OVERTIME"
@@ -145,7 +145,7 @@
 		"fgcolor_override"			"VCR_White"
 		"bgcolor_override"			"VCR_Blue"
 		"font"			"ocra8"
-	}					
+	}				
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"

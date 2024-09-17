@@ -14,8 +14,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"ocra24-NA"
-		"fgcolor"		"VCR_White_Tint"
+		"font"			"VCR26-S"
+		"fgcolor"		"VCR_White_R"
 	}
 
 	"PlayerStatusHealthValueKiller2"
@@ -31,8 +31,26 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"ocra24-NA"
-		"fgcolor"		"vcr_blue"
+		"font"			"VCR26-S"
+		"fgcolor"		"VCR_White_G"
+		"pin_to_sibling"	"PlayerStatusHealthValueKiller"
+	}
+	"PlayerStatusHealthValueKiller3"
+	{
+		"ControlName"	"CExLabel"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"4"
+		"wide"			"f0"
+		"tall"			"f0"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"VCR26-S"
+		"fgcolor"		"VCR_White_B"
+		"pin_to_sibling"	"PlayerStatusHealthValueKiller"
 	}
 	"PlayerStatusHealthImage"
 	{

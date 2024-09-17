@@ -46,7 +46,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"vcr_white"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"
@@ -59,14 +59,14 @@
 		"wrap"			"1"
 		"labelText"		"%avatartext%"
 		"textAlignment"	"West"
-		"font"			"TFFontSmall"
+		"font"			"ocra8"
 	}
 
 	"TextLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"vcr_white"
 		"xpos"			"7"
 		"ypos"			"7"
 		"zpos"			"2"
@@ -79,6 +79,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"TFFontSmall"
+		"font"			"ocra8"
 	}
 }

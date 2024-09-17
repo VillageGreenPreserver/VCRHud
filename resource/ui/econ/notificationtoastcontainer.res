@@ -11,7 +11,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"VCR_WhiteLineBorder"
+		"bgcolor_override"	"VCR_Blue"
 	}
 
 

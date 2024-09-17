@@ -3,6 +3,12 @@
 
 "Resource/HudLayout.res"
 {
+
+	// "cbaseviewport"
+	// {
+	// 	"xpos"	"0"
+	// }
+
 	"BottomBar"
 	{
 		"ControlName"			"Panel"
@@ -428,7 +434,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"zpos"				"2000"
-		"visible"			"1"
+		"visible"			"0"
 	}
 
 	"MMDashBoardPopupContainer"
@@ -457,10 +463,10 @@
 		"fieldName"					"BuildingStatus_Engineer"
 		"visible"					"1"
 		"enabled"					"1"
-		"zpos"						"100"
+		"zpos"						"-101"
 		"xpos"						"p-0.0140625"
 		"ypos"						"0"
-		"wide"						"104"
+		"wide"						"200"
 		"tall"						"148"
 		"pin_to_sibling"			"Engineer_pinner"
 		"pin_to_sibling_corner"		"3"
@@ -1023,7 +1029,7 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"200"
+		"zpos"			"20000"
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -1504,9 +1510,9 @@
 		"enabled"					"1"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"101"
+		"zpos"						"-100"
 		"wide"						"p0.95"
-		"tall"						"p0.95"
+		"tall"						"457"
 		"PaintBackgroundType"		"0"
 	}
 

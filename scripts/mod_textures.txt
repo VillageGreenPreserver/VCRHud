@@ -1812,7 +1812,7 @@
 
 		"leaderboard_dominated"
 		{
-			"file"		"hud/leaderboard_dominated"
+			"file"		"vgui/replay/thumbnails/hud/leaderboard_dominated"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"

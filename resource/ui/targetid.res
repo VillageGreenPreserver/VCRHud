@@ -209,7 +209,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"60"
+		"xpos"			"50"
 		"ypos"			"rs1"
 		"zpos"			"12"
 		"wide"			"o1"

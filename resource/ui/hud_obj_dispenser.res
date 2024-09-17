@@ -72,6 +72,7 @@
 		"wide"						"1"
 		"bgcolor_override"			"VCR_White_Tint"
 		"proportionaltoparent"		"1"
+		"zpos"			"-1"
 	}
 	"Icon_Dispenser"
 	{

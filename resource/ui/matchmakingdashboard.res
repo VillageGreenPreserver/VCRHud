@@ -364,7 +364,7 @@
 				"tall"						"f0"
 				"visible"					"1"
 				"proportionaltoparent"		"1"
-				"radius"					"12"
+				"radius"					"10"
 				"velocity"					"100"
 				"fgcolor_override"			"VCR_White_Tint"
 			}
@@ -374,7 +374,7 @@
 				"fieldName"					"QueueText"
 				"xpos"						"rs1"
 				"ypos"						"0"
-				"wide"						"f30"
+				"wide"						"f34"
 				"zpos"						"100"
 				"tall"						"f0"
 				"visible"					"1"

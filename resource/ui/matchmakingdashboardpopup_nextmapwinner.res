@@ -45,7 +45,7 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"-1"
-			"wide"			"f8"
+			"wide"			"f28"
 			"tall"			"f8"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"

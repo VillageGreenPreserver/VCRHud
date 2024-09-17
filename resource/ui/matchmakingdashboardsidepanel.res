@@ -99,12 +99,6 @@
 		"xpos"			"c-320+20"
 		"labelText"		"../"
 
-		if_left
-		{
-			"xpos"		"0"
-			"labelText"		"<"
-		}
-
 		"ypos"			"41"
 		"zpos"			"10000"
 		"wide"			"60"

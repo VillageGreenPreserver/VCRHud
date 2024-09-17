@@ -16,8 +16,8 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
+		"White"				"200 200 220 255"
+		"OffWhite"			"200 200 220 255"
 		"DullWhite"			"142 142 142 255"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
@@ -131,7 +131,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					10
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -140,8 +140,8 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Blank"			// nob color
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.FgColor				"200 200 220 255"			// nob color
+		ScrollBarSlider.BgColor				"blank"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -199,9 +199,9 @@ Scheme
 		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
-		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
+		TFColors.ChatTextYellow		"200 200 220 255"
+		TFColors.ChatTextTeamBlue	"0 220 220 255"
+		TFColors.ChatTextTeamRed	"220 0 0 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -382,6 +382,11 @@ Scheme
 		MenuBorder		RaisedBorder
 		BrowserBorder	DepressedBorder
 		PropertySheetBorder	RaisedBorder
+
+		ScrollBarSliderBorder
+		{
+			"backgroundtype" "0"
+		}
 
 		FrameBorder
 		{

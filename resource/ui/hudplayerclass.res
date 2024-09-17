@@ -7,7 +7,6 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -146,7 +145,7 @@
 	"modelborder1"
 	{
 		"ControlName"			"Panel"
-		"wide"					"101"
+		"wide"					"100"
 		"tall"					"6"
 		"xpos"					"0"
 		"ypos"					"rs1-p0.05-1-100"
@@ -157,15 +156,19 @@
 		"ControlName"			"Panel"
 		"wide"					"1"
 		"tall"					"100"
-		"xpos"					"100"
-		"ypos"					"rs1-p0.05-1"
+		"xpos"					"0"
+		"ypos"					"0"
 		"bgcolor_override"		"VCR_White_Tint"
+
+		"pin_to_sibling"		"modelborder1"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"3"
 	}
 
 	"Name"
 	{
 		"ControlName"	"CMiniPvPRankPanel"
-		"wide"			"101"
+		"wide"			"100"
 		"tall"			"6"
 		"xpos"			"0"
 		"ypos"			"rs1-p0.05-1-100"

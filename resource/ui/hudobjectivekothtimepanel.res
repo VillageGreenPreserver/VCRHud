@@ -24,12 +24,14 @@
 		"delta_item_font"		"ocra12"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"	"0 255 0 0"
+
+		"ignorescheme"		"1"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"ocra16-NA"
+			"font"			"ocra14-NA"
 			"xpos"			"0"
 			"ypos"			"rs1"
 			"zpos"			"3"
@@ -109,13 +111,15 @@
 		"delta_item_font"		"ocra12"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"	"255 0 255 0"
+
+		"ignorescheme"		"1"
 		
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"ocra16-NA"
+			"font"			"ocra14-na"
 			"xpos"			"0"
 			"ypos"			"rs1"
 			"zpos"			"3"
@@ -127,7 +131,7 @@
 			"proportionaltoparent"		"1"
 			"labelText"		"0:00"
 			"bgcolor_override"	"100 0 0 0"
-			"disabledfgcolor2_override"	"VCR_Blue"
+			"disabledfgcolor2_override"	"vcr_blue"
 			"use_proportional_insets"	"1"
 			"textinsety"	"-1"
 		}
@@ -135,6 +139,7 @@
 		"TimerBG"
 		{
 			"ControlName"		"ImagePanel"
+			"fieldName"			"TimerBG"
 			"xpos"				"0"
 			"ypos"				"rs1"
 			"zpos"				"1"
@@ -156,6 +161,7 @@
 		"Modulate"
 		{
 			"ControlName"		"ImagePanel"
+			"fieldName"			"Modulate"
 			"xpos"				"0"
 			"ypos"				"rs1"
 			"zpos"				"2"

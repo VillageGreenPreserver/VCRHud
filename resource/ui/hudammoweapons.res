@@ -162,14 +162,16 @@
 		"zpos"					"2"
 		"wide"					"o1"
 		"tall"					"26"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
-		"fgcolor_override"				"VCR_White_Tint"
-		"labeltext"					"%ammo%"
+		"fgcolor_override"		"VCR_White_Tint"
+		"labeltext"				"%ammo%"
 		"font"					"ocra12"
 		"textalignment"			"west"
 		"proportionaltoparent"	"1"
-		"alpha"	"100"
+		"alpha"					"100"
+
+		"visible_minmode"		"1"
 	}
 	
 	"AmmoPin"
@@ -378,7 +380,7 @@
 		"pin_to_sibling"	"AmmoR"
 		"pin_corner_to_sibling"	"4"
 		"pin_to_sibling_corner"	"6"
-	}	
+	}
 	"AmmoDivider2G"
 	{
 		"ControlName"	"ImagePanel"

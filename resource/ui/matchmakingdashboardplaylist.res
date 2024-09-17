@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"2000"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -51,8 +51,6 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		
-		
 	}
 	
 	"RankPanel"

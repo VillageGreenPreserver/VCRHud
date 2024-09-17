@@ -12,7 +12,6 @@
 		"enabled"		"1"
 	}
 
-	
 	"Static"
 	{
 		"ControlName"			"EditablePanel"

@@ -961,7 +961,7 @@
 		"xpos"			"r0"
 		"ypos"			"r0"
 		"zpos"			"1"
-		"wide"			"40"
+		"wide"			"0"
 		"tall"			"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -986,7 +986,7 @@
 	}
 
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"VCR28"
@@ -1023,7 +1023,7 @@
 		"xpos"			"r0"
 		"ypos"			"r54"
 		"wide"			"40"
-		"tall"			"40"
+		"tall"			"0"
 		"zpos"			"4"
 		"autoResize"		"0"
 		"pinCorner"		"0"

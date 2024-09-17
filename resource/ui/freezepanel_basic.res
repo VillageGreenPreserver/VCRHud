@@ -148,10 +148,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"c-30"
-			"xpos_hidef"		"c35"
 			"ypos"			"253"
-			"ypos_hidef"		"253"
-			"ypos_lodef"		"223"
 			"zpos"			"1"
 			"wide"			"31"
 			"tall"			"31"
@@ -425,7 +422,7 @@
 			"pin_to_sibling"	"FreezeLabelR"
 		}
 		"FreezeKillerR"
-		{	
+		{
 			"ControlName"		"Label"
 			"font"			"VCR26-S"
 			"xpos"			"0"
@@ -442,6 +439,7 @@
 			"fgcolor_override"	"VCR_White_R"
 			"labelText"		"%killername%"
 			"textAlignment"		"West"
+			"auto_wide_tocontents"	"1"
 			"pin_to_sibling"	"AvatarImage"
 			"pin_to_sibling_corner"	"3"
 			"pin_corner_to_sibling"	"2"
@@ -487,23 +485,86 @@
 			"pin_to_sibling"	"FreezeKillerR"
 		}
 		
-		"FreezePanelHealth"		[$WIN32]
+		"DividerR"
 		{
-			"ControlName"	"CTFFreezePanelHealth"
-			"fieldName"		"FreezePanelHealth"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"3"
-			"wide"			"o1"
-			"tall"			"p0.1"
+			"ControlName"	"ImagePanel"
+			"font"			"VCR14"
+			"xpos"			"6"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"3"
+			"tall"			"p0.045"
 			"visible"		"1"
-			"enabled"		"1"	
-			"proportionaltoparent"	"1"
-			"HealthBonusPosAdj"	"0"
-			"HealthDeathWarning"	"0.5"
-			"TFFont"		"HudFontSmall"
+			"enabled"		"1"		
+			"drawcolor"		"200 0 0 255"
+			"proportionaltoparent" "1"
+			
+			"image"	"replay/thumbnails/hud/white"
+			"scaleimage"	"1"
+			
+			"pin_to_sibling"		"FreezeKillerR"
+			"pin_to_sibling_corner"	"5"
+			"pin_corner_to_sibling"	"7"
+		}
+		"DividerG"
+		{
+			"ControlName"	"ImagePanel"
+			"font"			"VCR14"
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"5"
+			"wide"			"3"
+			"tall"			"p0.045"
+			"visible"		"1"
+			"enabled"		"1"		
+			"drawcolor"		"0 200 0 255"
+			"proportionaltoparent" "1"
+			
+			"image"	"replay/thumbnails/hud/white"
+			"scaleimage"	"1"
+			
+			"pin_to_sibling"		"DividerR"
+		}
+		"DividerB"
+		{
+			"ControlName"	"ImagePanel"
+			"font"			"VCR14"
+			"xpos"			"-1"
+			"ypos"			"1"
+			"zpos"			"5"
+			"wide"			"3"
+			"tall"			"p0.045"
+			"visible"		"1"
+			"enabled"		"1"		
+			"drawcolor"		"0 0 200 255"
+			"proportionaltoparent" "1"
+			
+			"image"	"replay/thumbnails/hud/white"
+			"scaleimage"	"1"
+			
+			"pin_to_sibling"		"DividerR"
+		}
+		
+		"FreezePanelHealth"
+		{
+			"ControlName"				"CTFFreezePanelHealth"
+			"fieldName"					"FreezePanelHealth"
+			"xpos"						"13"
+			"ypos"						"0"
+			"zpos"						"3"
+			"wide"						"o2"
+			"tall"						"p0.05"
+			"visible"					"1"
+			"enabled"					"1"	
+			"proportionaltoparent"		"1"
+			"HealthBonusPosAdj"			"0"
+			"HealthDeathWarning"		"0.5"
+			"TFFont"					"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"		"HudOffWhite"
+			"TextColor"					"HudOffWhite"
+
+			"pin_to_sibling"		"FreezeKillerR"
+			"pin_to_sibling_corner"	"1"
 		}
 
 		"FreezeLabelKiller"

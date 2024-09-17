@@ -43,14 +43,16 @@
 		"zpos"					"2"
 		"wide"					"o1"
 		"tall"					"26"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"proportionaltoparent"	"1"
 		"textAlignment"			"east"
-		"alpha"	"100"
-		"font"	"ocra12"
-		"labelText"	"%health%"
-		"fgcolor_override"				"VCR_White_Tint"
+		"alpha"					"100"
+		"font"					"ocra12"
+		"labelText"				"%health%"
+		"fgcolor_override"		"VCR_White_Tint"
+
+		"visible_minmode"		"1"
 	}
 	"PlayerStatusHealthImage"
 	{
@@ -287,9 +289,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"r0"
-		"xpos_minmode"	"0"
-		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"20"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"

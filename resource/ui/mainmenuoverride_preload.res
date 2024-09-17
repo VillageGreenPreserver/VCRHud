@@ -253,5 +253,15 @@
 			"ControlName"	"ImagePanel"
 			"image"		"../sprites/obj_icons/icon_obj_white"
 		}
+		"ctf_blu"
+		{
+			"ControlName"	"ImagePanel"
+			"image"		"../hud/objectives_flagpanel_carried_blue"
+		}
+		"ctf_red"
+		{
+			"ControlName"	"ImagePanel"
+			"image"		"../hud/objectives_flagpanel_carried_red"
+		}
 	}
 }

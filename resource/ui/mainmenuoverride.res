@@ -363,15 +363,8 @@
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
-		"container"
-		{
-			"visible"		"0"
-		}
-
-		"BottomStats"
-		{
-			"visible"		"0"
-		}
+		"Container"		{ "visible"		"0" }
+		"BottomStats"	{ "visible"		"0" }
 
 		"toggle"
 		{
@@ -577,6 +570,45 @@
 				"defaultfgcolor_override"	"VCR_White"
 				"armedfgcolor_override"		"VCR_White"
 			}
+
+			"MinmodeCheck"
+			{
+				"ControlName"			"CvarToggleCheckButton"
+				"xpos"					"0"
+				"ypos"					"1"
+				"wide"					"22"
+				"tall"					"22"
+				"zpos"					"1"
+
+				"cvar_name"				"cl_hud_minmode"
+
+				"pin_to_sibling"		"SafeModeCheck"
+				"pin_to_sibling_corner"	"2"
+			}
+
+			"MinmodeButton"
+			{
+				"ControlName"				"Button"
+				"xpos"						"0"
+				"ypos"						"1"
+				"wide"						"160"
+				"tall"						"22"
+				"zpos"						"2"
+				"labelText"					"Crosshair Values"
+				"font"						"ocra12"
+				"paintBackground"			"0"
+				"actionsignallevel"			"3"
+				"use_proportional_insets"	"1"
+				"textinsetx"				"26"
+
+				"command"					"engine toggle cl_hud_minmode"
+
+				"defaultfgcolor_override"	"VCR_White"
+				"armedfgcolor_override"		"VCR_White"
+
+				"pin_to_sibling"		"SafeModeCheck"
+				"pin_to_sibling_corner"	"2"
+			}
 			"StatButton"
 			{
 				"ControlName"				"Button"
@@ -592,7 +624,7 @@
 				"use_proportional_insets"	"1"
 				"textinsetx"				"8"
 
-				"command"					"engine showstatsdlg"
+				"command"					"engine showstatsdlg; showstatsdlg"
 
 				"defaultfgcolor_override"	"VCR_White_tint"
 				"armedfgcolor_override"		"VCR_Blue"
@@ -889,15 +921,6 @@
 		"pin_to_sibling"		"chat_pin"
 		"pin_to_sibling_corner"	"1"
 		"pin_corner_to_sibling"	"0"
-	}
-
-	"reload"
-	{
-		"ControlName"	"Button"
-		"zpos"			"2001"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"command"		"engine hud"
 	}
 
 	"Background"
@@ -1735,14 +1758,6 @@
 		"wide"				"0"
 		"tall"				"0"
 		"visible"			"0"
-	}
-
-	"TEST"
-	{
-		"ControlName"	"QuestItemPanel"
-		"wide"			"500"
-		"tall"			"200"
-		"zpos"			"2000"
 	}
 
 	"SafeMode"

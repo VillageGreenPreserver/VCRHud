@@ -221,6 +221,7 @@
 		"labeltext"			""
 		"eatmouseinput"	"0"	
 		"button_activation_type"	"1"
+		"proportionaltoparent"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -232,7 +233,7 @@
 		"armedBgColor_override" "0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
 				
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"235 140 140 255"
 		"SubImage"
 		{

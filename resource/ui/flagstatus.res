@@ -1,5 +1,33 @@
 "Resource/UI/FlagStatus.res"
 {	
+	"Brighten"
+	{
+		"ControlName"	"ImagePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/hud/white"
+		"drawcolor"			"vcr_blue"
+		"proportionaltoparent"	"1"
+	}
+	"BG"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"			"0 0 0 255"
+		"proportionaltoparent"	"1"
+	}
 	"Arrow"
 	{
 		"ControlName"	"CTFArrowPanel"

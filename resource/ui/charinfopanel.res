@@ -76,15 +76,15 @@
 	
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"zpos"			"1006"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
-		"tabheight"		"3"
-		"transition_time" "0"
-		"yoffset"	"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"zpos"				"1006"
+		"tabxindent"		"80"
+		"tabxdelta"			"10"
+		"tabwidth"			"240"
+		"tabheight"			"0"
+		"transition_time"	"0"
+		"yoffset"			"0"
 		
 		"HeaderLine"
 		{
@@ -115,6 +115,12 @@
 			
 			"activeborder_override"	"VCR_WhiteLineBorder_S"
 			"normalborder_override" "NoBorder"
+		}
+
+		"CharInfoLoadoutSubPanel"
+		{
+			"ypos"			"100"
+			"ignorescheme"	"1"
 		}
 	}
 	

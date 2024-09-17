@@ -22,9 +22,12 @@ alias scope_fix "voice_menu_1; slot10"
 
 tf_dashboard_slide_time 0
 tf_mm_dashboard_slide_panel_step 0
-mat_viewportscale 0.95
-mat_viewportupscale 0
+
+//mat_viewportscale 0.95
+//mat_viewportupscale 0
+
 tf_hud_target_id_alpha 255
+tf_spectator_target_location 1
 cl_mainmenu_safemode 1
 
 //removes annoying console spam

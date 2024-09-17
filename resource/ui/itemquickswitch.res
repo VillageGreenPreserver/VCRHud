@@ -191,16 +191,6 @@
 		}
 	}
 		
-	"ChalkBoard"
-	{
-		"ControlName"		"CDrawingPanel"
-		"wide"				"200"
-		"tall"				"200"
-		"xpos"				"rs1-p0.05-10"
-		"ypos"				"10"
-		"bgcolor_override"	"VCR_Blue"
-		"linecolor"			"vcr_white_tint"
-	}
 
 	"itemcontainer"
 	{

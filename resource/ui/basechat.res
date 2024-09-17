@@ -7,9 +7,12 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"280"
-		"tall"	 		"360"
+		"ypos"			"-8"
+		"wide"	 		"220"
+		"tall"	 		"60"
+		// "wide"	 		"220"
+		// "tall"	 		"114"
+		"zpos"			"-10000"
 		"PaintBackgroundType"	"1"
 		"paintbackground"	"0"
 		"paintborder"	"0"
@@ -21,48 +24,39 @@
 		"bgcolor_override"	"0 0 0 255"
 	}
 	
-	"Pinner"
+	"InputPin"
 	{
-		"ControlName"	"Panel"
-		"xpos"			"10"
-		"ypos"			"r14"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
+		"ControlName"		"Panel"
+		"wide"				"0"
+		"tall"				"0"
+		"ypos"				"-37"
+		// "ypos"				"-92"
 	}
 
-	"ChatInputLine"
+	ChatInputLine
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName" 		"ChatInputLine"
+		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"
-		"ypos"			"0"
-		"wide"	 		"260"
-		"tall"	 		"50"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"255 0 0 255"
-		"paintbackground"	"0"
-		"pin_to_sibling"	"pinner"
-		
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"wide"	 		"f0"
+		"proportionaltoparent"	"1"
+		"tall"	 		"2"
+		"PaintBackgroundType"	"0"
+		"PaintBackground"	"0"
+
+		"pin_to_sibling"		"InputPin"
+		"pin_to_sibling_corner"	"3"
+
 		"ChatInputPrompt"
 		{
-			"labelText"	"wtf"
-			"paintbackgroundtpe"	"2"
-			"Texture1"		"vgui/tester4"
-			"border"	"BaseBorder"
-			"roundedcorners"	"1"
-			"bgcolor_override"	"255 0 0 255"
-			"font"		"Default"
+			"paintBackground"		"0"
 		}
-		
 		"ChatInput"
 		{
-			"fgcolor_override"	"255 0 0 255"
-			"font"		"Default"
-			"paintbackgroundtpe"	"2"
-			"roundedcorners"	"1"
-			"Texture1"		"vgui/tester4"
+			"paintBackground"		"0"
 		}
 	}
 
@@ -70,7 +64,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ChatFiltersButton"
-		"xpos"			"999" //225
+		"xpos"			"r0"
 		"ypos"			"2"
 		"wide"			"45"
 		"tall"			"15"
@@ -83,26 +77,55 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Default"		"0"		
+		"Default"		"0"	
+		"paintBackground"		"0"	
+	}
+
+	"HistoryPin"
+	{
+		"ControlName"		"Panel"
+		"wide"				"0"
+		"tall"				"0"
+		"ypos"				"18"
 	}
 
 	"HudChatHistory"
 	{
-		"ControlName"		"RichText"
-		"fieldName"		"HudChatHistory"
-		"xpos"			"0" //10
-		"ypos"			"r100"
-		"wide"	 		"260"
-		"tall"			"75"
-		"wrap"			"1"
-		"autoResize"		"1"
-		"pinCorner"		"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
+		"ControlName"			"RichText"
+		"fieldName"				"HudChatHistory"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"	 				"f0"
+		"tall"					"10"
 		"proportionaltoparent"	"1"
-		"textAlignment"		"south-west"
-		"font"			"Default"
-		"maxchars"		"-1"
+		"wrap"					"1"
+		"autoResize"			"1"
+		"pinCorner"				"1"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				""
+		"paintBackground"		"1"
+		"textAlignment"			"south-west"
+		"font"					"ChatFont"
+		"maxchars"				"-1"
+
+		"pin_to_sibling"		"HistoryPin"
+		"pin_to_sibling_corner"	"3"
+
+		"ScrollBar"
+		{
+			"wide"	"5"
+			"nobuttons"	"1"
+			"autohide_buttons"	"1"
+
+			"upbutton"
+			{
+				"wide"	"0"
+			}
+			"downbutton"
+			{
+				"wide"	"0"
+			}
+		}
 	}
 }
