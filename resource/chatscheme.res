@@ -361,7 +361,7 @@ Scheme
 			"1"
 			{
 				"name"		"ocra"
-				"tall"		"18"
+				"tall"		"9"
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}

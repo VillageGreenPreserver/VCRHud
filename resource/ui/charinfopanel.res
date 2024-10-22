@@ -20,9 +20,9 @@
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"-32"
+		"title_font"	"Icons6"
+		"titletextinsetX"	"0"
+		"titletextinsetY"	"-10"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -85,21 +85,7 @@
 		"tabheight"			"0"
 		"transition_time"	"0"
 		"yoffset"			"0"
-		
-		"HeaderLine"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"32"
-			"zpos"			"5"
-			"wide"			"f0"
-			"tall"			"10"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}				
+					
 		
 		"tabskv"
 		{
@@ -117,6 +103,13 @@
 			"normalborder_override" "NoBorder"
 		}
 
+		"HeaderLine"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HeaderLine"
+			"visible"		"0"
+		}	
+		
 		"CharInfoLoadoutSubPanel"
 		{
 			"ypos"			"100"

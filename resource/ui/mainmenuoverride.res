@@ -635,6 +635,32 @@
 				"pin_to_sibling_corner"		"1"
 			}
 
+			"ContractButton"
+			{
+				"ControlName"				"Button"
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"160"
+				"tall"						"22"
+				"zpos"						"2"
+				"labelText"					"Contracts"
+				"font"						"ocra14-na"
+				"paintBackground"			"1"
+				"actionsignallevel"			"3"
+				"use_proportional_insets"	"1"
+				"textinsetx"				"8"
+
+				"command"					"questlog"
+
+				"defaultfgcolor_override"	"VCR_White_tint"
+				"armedfgcolor_override"		"VCR_Blue"
+				"defaultbgcolor_override"	"blank"
+				"armedbgcolor_override"		"VCR_White_tint"
+
+				"pin_to_sibling"			"MinmodeButton"
+				"pin_to_sibling_corner"		"1"
+			}
+
 			"FriendsBorder"
 			{
 				"ControlName"				"Panel"

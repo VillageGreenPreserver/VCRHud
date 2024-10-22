@@ -391,6 +391,17 @@
 				"scanlines"		"0"
 			}
 		}
+		"VCR48-IS"
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono Inverted"
+				"tall"			"46"
+				"weight"		"500"
+				"additive"		"1"
+				"scanlines"		"1"
+			}
+		}
 		"VCR50"
 		{
 			"1"
